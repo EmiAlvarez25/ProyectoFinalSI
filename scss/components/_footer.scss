@@ -5,17 +5,28 @@
         padding: 10px;
         border-bottom: $colortxt 5px;
         margin-top: 200px;
+
+        @media only screen and (max-width: 481px){
+            margin-top: 0px;
+        }
         .footerFlex{
+            
             .insta{
                     display: flex;
                     align-items: center;
                     list-style-type: none;
                     padding: 0px 10px;
                     font-size: 0.9rem;
+                    @media only screen and (max-width: 481px){
+                        display: none;
+                    }
                 .insta-img{
                     width: 3%;
                     height: 3%;
                     padding-right: 10px; 
+                    @media only screen and (max-width: 481px){
+                        width: 10%;
+                    }
                 }
             }
             .wpp{
@@ -24,10 +35,16 @@
                     list-style-type: none;
                     padding: 0px 10px;
                     font-size: 0.9rem;
+                    @media only screen and (max-width: 481px){
+                        display: none;
+                    }
                 .wpp-img{
                     width: 3%;
                     height: 3%;
                     padding-right: 10px; 
+                    @media only screen and (max-width: 481px){
+                        width: 10%;
+                    }
                 }
             }
         }

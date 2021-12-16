@@ -1,12 +1,18 @@
 @import "../base/variables";
 
 main{
+
     .presentacion{  
             @extend %dp-flex;  
             background-image: url(mural8.jpg);
             background-size: 100%;
             padding: 250px 0px; 
             flex-direction: column;
+            @media only screen and (max-width: 481px){
+                background-repeat: no-repeat;
+                padding: 10px;
+
+            }
         .texto{
             display: block;
             color: darken($colortxt, 15%);
@@ -15,6 +21,13 @@ main{
             text-transform: uppercase;
             background-color: $bg-color;
             position: relative;
+
+            @media only screen and (max-width: 481px){
+                font-size: 1rem;
+                background-color: $color-pr;
+                color: $bg-color;
+
+            }
         }
         .text0{
             display: block;
@@ -25,6 +38,12 @@ main{
             position: relative;
             text-transform: uppercase;
             margin-top: 30px;
+            @media only screen and (max-width: 481px){
+                font-size: 0.9rem;
+                background-color: $color-pr;
+                color: $bg-color;
+
+            }
         }
     }
     .principal{
@@ -35,11 +54,18 @@ main{
             flex-wrap: wrap;
             flex-direction: row;
             font-size: 1.5rem;
+            @media only screen and (max-width: 481px){
+                padding: 41px 0px 2px 0px;
+                font-size: 1rem;
+            }
         .ultimos-trabajos{
             .header-divider{
                 border-top: 1px  solid;
                 display: block;
                 width: 100%;
+                @media only screen and (max-width: 481px){
+                    display: none;
+                }
             }
         }
     }
