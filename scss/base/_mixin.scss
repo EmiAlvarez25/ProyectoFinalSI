@@ -1,0 +1,14 @@
+@mixin transforms ($transformaciones) {
+    -webkit-transform: $transformaciones;
+    -o-transform: $transformaciones;
+    -moz-transform: $transformaciones;
+    transform: $transformaciones;
+}
+
+@mixin transitions($transiciones) {
+    -webkit-transition: $transiciones;
+    -o-transition: $transiciones;
+    -moz-transition: $transiciones;
+    transition: $transiciones;
+}
+

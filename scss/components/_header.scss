@@ -1,0 +1,72 @@
+.header-home, .header-home-contacto{
+            color:$colortxt;
+            font-size: 2rem;
+            background-color: $bg-color;
+            list-style-type: none;
+            font-style: normal;
+            font-weight: bold;
+            margin-top: 30px;
+            background-size: 100%; 
+            border-bottom: $bg-color solid 10px;
+            @extend %dp-flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: relative;
+            
+          
+            &:hover{
+                background-color: black;
+                color: blanchedalmond;
+
+            }
+
+
+    .menu-inicio{
+        @extend %dp-flex;
+        color:$colortxt;
+            
+        .menu{
+            @extend %dp-flex;
+            text-decoration: none;
+            list-style-type: none;
+            position: relative;
+            padding: 0px;
+            background-color: $bg-color;
+            color:$colortxt;
+            .inicio, .muralesytatoo, .mas-servicios, .contacto{
+                display: inline-block;
+                color: $colortxt;
+                padding: 5px 50px;
+                text-align: center;
+                text-decoration: none;
+                position:relative;
+            }
+            .submenu {
+                position: absolute;
+                display: none;
+                text-decoration: none;
+                list-style-type: none;
+                background-color: $bg-color;
+                opacity: 90%; 
+                padding-left: 0px;
+                color:$colortxt;
+
+            }
+            
+            .mas-servicios{
+                &:hover{
+                    display:block;
+                }
+
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+

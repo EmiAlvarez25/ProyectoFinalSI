@@ -1,0 +1,47 @@
+@import "../base/variables";
+
+main{
+    .presentacion{  
+            @extend %dp-flex;  
+            background-image: url(mural8.jpg);
+            background-size: 100%;
+            padding: 250px 0px; 
+            flex-direction: column;
+        .texto{
+            display: block;
+            color: darken($colortxt, 15%);
+            font-size: 2rem;
+            text-decoration: underline;
+            text-transform: uppercase;
+            background-color: $bg-color;
+            position: relative;
+        }
+        .text0{
+            display: block;
+            color: darken($colortxt, 15%);
+            text-align: center;
+            font-size: 1.5rem;
+            background-color:$bg-color;
+            position: relative;
+            text-transform: uppercase;
+            margin-top: 30px;
+        }
+    }
+    .principal{
+            @extend %dp-flex;
+            background-color: $bg-color;
+            color: $colortxt;
+            padding: 140px 0px 140px 0px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            font-size: 1.5rem;
+        .ultimos-trabajos{
+            .header-divider{
+                border-top: 1px  solid;
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    
+}

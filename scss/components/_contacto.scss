@@ -1,0 +1,61 @@
+.contactoAboutMe{
+    font-size: 1rem;
+    font-family: 'Zen Kurenaido', sans-serif;
+    
+    .gridContainerEmi{
+        display: grid;
+        grid-template-areas:    "contactoForm contactoForm"  
+                                "aboutMe aboutMe"
+                                "descripcion foto";
+        grid-template-columns: 50% 50%;
+        grid-gap: 10%;
+        margin-top: 10%;
+
+        .contactoForm{
+            .TxtContacto{
+                font-size: 2rem;
+                color: darken($colortxt, 10%);
+                font-weight: bold;
+                margin-left: 15%;
+            }
+            .formEmi{
+                margin-left: 15%;
+            }
+            .bt-enviar{
+                margin-left: 700px;
+            }
+        }
+        .aboutMe{
+            grid-area: aboutMe;
+            display: grid; 
+            margin-bottom: 150px;
+            align-items: center;
+            .title{
+                display: grid;
+                justify-content: start;
+                font-size: 2rem;
+                color: $colortxt;
+                opacity: 70%;
+                font-weight: bold;
+                margin-left: 15%;
+            }
+            .descripcion{
+                grid-area: descripcion;
+                justify-content: start;
+                grid-column: 1/1;
+                margin-left: 15%;
+                color: $color-pr;
+                font-weight: bold;
+                text-align: justify;
+                font-size: 1rem; 
+            }
+            .foto{
+                grid-area: foto;
+                justify-content: end;
+                grid-column: 2/2;
+                width: 50%;
+                padding-left: 25px; 
+            }
+        }
+    }
+}

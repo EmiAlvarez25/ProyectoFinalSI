@@ -1,0 +1,29 @@
+.header-home, .header-home-contacto{
+
+    @media only screen and (max-width:480px){
+                flex-direction: row;
+                justify-content: start;
+                align-items: flex-start;
+                margin-right: 5px;
+                margin-top: 0px;
+                padding:0px;
+                font-size: 0.8rem;
+
+
+
+	.menu{
+        font-size: 0.8rem;
+		flex-direction:row;
+        flex-wrap: wrap;
+		align-items:flex-start;
+        margin: 5px;
+	}
+
+	.inicio, .muralesytatoo, .muralesytatoo, .mas-servicios, .contacto{
+        display: flex;
+		padding: 0px 4px;
+        font-size: 0.8rem;
+    }
+
+}
+}

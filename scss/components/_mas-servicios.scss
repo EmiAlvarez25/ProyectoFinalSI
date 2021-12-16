@@ -1,0 +1,128 @@
+/*Código hecho desde cero en SCSS*/
+
+@import "../base/mixin";
+
+main{
+    .titleRemera{
+        color:$color-serv;
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-bottom: 10%;
+        margin-top: 200px;
+        margin-left: 30px;
+        text-decoration: underline;
+
+    }
+
+    .gridRemeras{
+        display: grid;
+        grid-template-areas: "shirt1 shirt2 shirt3"
+                             "shirt4 shirt5 shirt6";
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        margin-bottom: 20%;
+
+        .remera1{
+            grid-area: shirt1;
+        }
+        .remera2{
+            grid-area: shirt2;
+        }
+        .remera3{
+            grid-area: shirt3;
+        }
+        .remera4{
+            grid-area: shirt4;
+        }
+        .remera5{
+            grid-area: shirt5;
+        }
+        .remera6{
+            grid-area: shirt6;
+        }
+        
+        .remera1, .remera2, .remera3, .remera4, .remera5, .remera6{
+            width: 60%;
+            &:hover{
+                @include transforms(scale(2));
+                @include transitions(cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s);
+            }
+        }
+
+    }
+
+    .gridBuzos{
+        display: grid;
+        grid-template-areas: "hoodie1 hoodie2 hoodie5"
+                             "hoodie3 hoodie4 hoodie6";
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        margin-bottom: 20%;
+
+        .hoodie1{
+            grid-area: hoodie1;
+        }
+        .hoodie2{
+            grid-area: hoodie2;
+        }
+        .hoodie3{
+            grid-area: hoodie3;
+        }
+        .hoodie4{
+            grid-area: hoodie4;
+        }
+        .hoodie5{
+            grid-area: hoodie5;
+        }
+        .hoodie6{
+            grid-area: hoodie6;
+        }
+        
+        .hoodie1, .hoodie2, .hoodie3, .hoodie4, .hoodie5, .hoodie6{
+            width: 100%;
+            &:hover{
+                @include transforms(scale(2));
+                @include transitions(cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s);
+            }
+        }
+    }
+
+    .gridGorras{
+        display: grid;
+        grid-template-areas: "hat1 hat2 hat3"
+                             "hat4 hat5 hat6";
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        margin-bottom: 20%;
+
+        .hat1{
+            grid-area: hat1;
+        }
+        .hat2{
+            grid-area: hat2;
+        }
+        .hat3{
+            grid-area: hat3;
+        }
+        .hat4{
+            grid-area: hat4;
+        }
+        .hat5{
+            grid-area: hat5;
+        }
+        .hat6{
+            grid-area: hat6;
+        }
+        
+        .hat1, .hat2, .hat3, .hat4, .hat5, .hat6{
+            width: 100%;
+            &:hover{
+                @include transforms(scale(2));
+                @include transitions(cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s);
+            }
+        }
+    }
+}
