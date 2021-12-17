@@ -357,6 +357,11 @@ main .foto-galeria8:hover {
   margin-left: 15px;
   text-decoration: none;
 }
+@media only screen and (max-width: 481px) {
+  .navEmi {
+    display: none;
+  }
+}
 
 .tatoo, .murales {
   flex-direction: column;
@@ -501,6 +506,11 @@ main .foto-galeria8:hover {
   text-align: start;
   color: white;
 }
+@media only screen and (max-width: 481px) {
+  .texto-murales {
+    font-size: 0.5rem;
+  }
+}
 
 .bar {
   width: 30%;
@@ -520,6 +530,11 @@ main .foto-galeria8:hover {
   -moz-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
 }
+@media only screen and (max-width: 481px) {
+  .imgMural {
+    margin-left: 97px;
+  }
+}
 
 .fauna {
   position: relative;
@@ -531,7 +546,22 @@ main .foto-galeria8:hover {
   margin-bottom: 10px;
   padding: 20px 10px;
 }
+@media only screen and (max-width: 481px) {
+  .fauna {
+    font-size: 1rem;
+    padding: 0px 0px;
+  }
+}
 
+@media only screen and (max-width: 481px) {
+  .slideEmi {
+    width: 100%;
+  }
+
+  .breadEmi {
+    display: none;
+  }
+}
 .imgMuralPinta {
   width: 43%;
 }
@@ -550,6 +580,11 @@ main .foto-galeria8:hover {
   flex-wrap: wrap;
   flex-direction: row;
   padding-bottom: 100px;
+}
+@media only screen and (max-width: 481px) {
+  .Bottom {
+    padding-bottom: 0px;
+  }
 }
 
 /*Código hecho desde cero en SCSS*/
