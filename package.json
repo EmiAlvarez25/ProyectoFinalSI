@@ -16,5 +16,13 @@
   "dependencies": {
     "sass": "^1.45.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmiAlvarez25/ProyectoFinalSI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EmiAlvarez25/ProyectoFinalSI/issues"
+  },
+  "homepage": "https://github.com/EmiAlvarez25/ProyectoFinalSI#readme",
   "description": ""
 }
