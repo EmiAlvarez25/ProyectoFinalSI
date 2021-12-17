@@ -10,10 +10,8 @@
             margin-top: 0px;
         }
         .footerFlex{
-            
+            @extend %dp-flex;
             .insta{
-                    display: flex;
-                    align-items: center;
                     list-style-type: none;
                     padding: 0px 10px;
                     font-size: 0.9rem;
@@ -21,7 +19,7 @@
                         display: none;
                     }
                 .insta-img{
-                    width: 3%;
+                    width: 10%;
                     height: 3%;
                     padding-right: 10px; 
                     @media only screen and (max-width: 481px){
@@ -30,8 +28,6 @@
                 }
             }
             .wpp{
-                    display: flex;
-                    align-items: center;
                     list-style-type: none;
                     padding: 0px 10px;
                     font-size: 0.9rem;
@@ -39,7 +35,7 @@
                         display: none;
                     }
                 .wpp-img{
-                    width: 3%;
+                    width: 10%;
                     height: 3%;
                     padding-right: 10px; 
                     @media only screen and (max-width: 481px){
