@@ -3,7 +3,10 @@
 main{
 
     .presentacion{  
-            @extend %dp-flex;  
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;  
             background-image: url(mural8.jpg);
             background-size: 100%;
             padding: 250px 0px; 
@@ -11,6 +14,11 @@ main{
             @media only screen and (max-width: 481px){
                 background-repeat: no-repeat;
                 padding: 10px;
+
+            }
+            @media only screen and (max-width:576px){
+                background-repeat: no-repeat;
+                padding: 120px;
 
             }
         .texto{
@@ -26,7 +34,11 @@ main{
                 font-size: 1rem;
                 background-color: $color-pr;
                 color: $bg-color;
-
+            }
+            @media only screen and (max-width:576px){
+                font-size: 1rem;
+                background-color: $color-pr;
+                color: $bg-color;
             }
         }
         .text0{
@@ -42,7 +54,11 @@ main{
                 font-size: 0.9rem;
                 background-color: $color-pr;
                 color: $bg-color;
-
+            }
+            @media only screen and (max-width:576px){
+                font-size: 0.7rem;
+                background-color: $color-pr;
+                color: $bg-color;
             }
         }
     }
@@ -58,12 +74,19 @@ main{
                 padding: 41px 0px 2px 0px;
                 font-size: 1rem;
             }
+            @media only screen and (max-width:576px){
+                padding: 5px 0px 5px 0px;
+                text-decoration: underline;
+            }
         .ultimos-trabajos{
             .header-divider{
                 border-top: 1px  solid;
                 display: block;
                 width: 100%;
                 @media only screen and (max-width: 481px){
+                    display: none;
+                }
+                @media only screen and (max-width: 576px){
                     display: none;
                 }
             }

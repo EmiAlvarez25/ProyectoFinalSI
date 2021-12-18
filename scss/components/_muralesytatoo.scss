@@ -12,6 +12,9 @@
     @media only screen and (max-width:481px){
         display: none;
     }
+    @media only screen and (max-width:576px){
+        display: none;
+    }
 }
 
 
@@ -48,10 +51,10 @@
     font-size: 2rem;
     @media only screen and (max-width:481px){
         font-size: 1rem;
+        padding: 0px 0px;
+        margin: 0px;
     }
 }
-
-
 
 .galeria-tatoo{
     display: grid;
@@ -60,6 +63,14 @@
     justify-content: center;
     align-items: center;
     @media only screen and (max-width:481px){
+        margin: 0px 10px;
+        display: grid;
+        justify-content: center;
+        grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3"
+                             "foto-tatoo4 foto-tatoo5 foto-tatoo6"
+                             "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+    }
+    @media only screen and (max-width:576px){
         margin: 0px 10px;
         display: grid;
         justify-content: center;
@@ -89,6 +100,9 @@
 .foto-tatoo6{
     grid-area: foto-tatoo6;
     padding-top: 20px;
+    @media only screnn and (max-width:576px){
+        padding-top: 0px;
+    }
 }
 .foto-tatoo7{
     grid-area: foto-tatoo7;
@@ -108,6 +122,9 @@
     @media only screen and (max-width:481px){
         display: none;
     }
+    @media only screen and (max-width:576px){
+        display: none;
+    }
 
 }
 .foto-tatoo1, .foto-tatoo2, .foto-tatoo3, .foto-tatoo4, .foto-tatoo5, .foto-tatoo6, .foto-tatoo7, .foto-tatoo8, .foto-tatoo9, .foto-tatoo10{
@@ -121,6 +138,14 @@
 
     @media only screnn and (max-width:481px){
         padding-left: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    @media only screnn and (max-width:576px){
+        padding-left: 0px;
+        align-items: center;
+        justify-content: center;
     }
 
 }

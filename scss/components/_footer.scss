@@ -9,6 +9,9 @@
         @media only screen and (max-width: 481px){
             margin-top: 0px;
         }
+        @media only screen and (max-width: 576px){
+            margin-top: 0px;
+        }
         .footerFlex{
             @extend %dp-flex;
             .insta{

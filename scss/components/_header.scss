@@ -15,12 +15,18 @@
             @media only screen and (max-width: 481px){
                 flex-direction: row;
                 justify-content: start;
-                align-items: flex-start;
                 margin-right: 5px;
                 margin-top: 0px;
                 padding:0px;
                 font-size: 0.8rem;
                 flex-direction: column;
+            }
+            @media only screen and (max-width:321px){
+                flex-direction: column;
+                align-content: flex-start;
+            }
+            @media only screen and (max-width:577){
+                padding:0px;
             }
 
           
@@ -78,6 +84,9 @@
                 position:relative;
                 @media only screen and (max-width: 481px){
                     padding: 0px 4px;
+                }
+                @media only screen and (max-width: 576px){
+                    padding: 5px 13px;
                 }
             }
             .submenu {

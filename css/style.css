@@ -1,8 +1,8 @@
 @charset "UTF-8";
-.Bottom, .tatoo, .murales, .footer .footerFlex, main .principal, main .presentacion, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, .header-home .menu-inicio, .header-home-contacto .menu-inicio, .header-home, .header-home-contacto {
+.Bottom, .tatoo, .murales, .footer .footerFlex, main .principal, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, .header-home .menu-inicio, .header-home-contacto .menu-inicio, .header-home, .header-home-contacto {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -24,12 +24,22 @@
   .header-home, .header-home-contacto {
     flex-direction: row;
     justify-content: start;
-    align-items: flex-start;
     margin-right: 5px;
     margin-top: 0px;
     padding: 0px;
     font-size: 0.8rem;
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .header-home, .header-home-contacto {
+    flex-direction: column;
+    align-content: flex-start;
+  }
+}
+@media only screen and (max-width: 577) {
+  .header-home, .header-home-contacto {
+    padding: 0px;
   }
 }
 .header-home:hover, .header-home-contacto:hover {
@@ -84,6 +94,11 @@
     padding: 0px 4px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
+    padding: 5px 13px;
+  }
+}
 .header-home .menu-inicio .menu .submenu, .header-home-contacto .menu-inicio .menu .submenu {
   position: absolute;
   display: none;
@@ -99,6 +114,10 @@
 }
 
 main .presentacion {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
   background-image: url(mural8.jpg);
   background-size: 100%;
   padding: 250px 0px;
@@ -108,6 +127,12 @@ main .presentacion {
   main .presentacion {
     background-repeat: no-repeat;
     padding: 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  main .presentacion {
+    background-repeat: no-repeat;
+    padding: 120px;
   }
 }
 main .presentacion .texto {
@@ -120,6 +145,13 @@ main .presentacion .texto {
   position: relative;
 }
 @media only screen and (max-width: 481px) {
+  main .presentacion .texto {
+    font-size: 1rem;
+    background-color: #e6dbdb;
+    color: black;
+  }
+}
+@media only screen and (max-width: 576px) {
   main .presentacion .texto {
     font-size: 1rem;
     background-color: #e6dbdb;
@@ -143,6 +175,13 @@ main .presentacion .text0 {
     color: black;
   }
 }
+@media only screen and (max-width: 576px) {
+  main .presentacion .text0 {
+    font-size: 0.7rem;
+    background-color: #e6dbdb;
+    color: black;
+  }
+}
 main .principal {
   background-color: black;
   color: #c600e9;
@@ -157,12 +196,23 @@ main .principal {
     font-size: 1rem;
   }
 }
+@media only screen and (max-width: 576px) {
+  main .principal {
+    padding: 5px 0px 5px 0px;
+    text-decoration: underline;
+  }
+}
 main .principal .ultimos-trabajos .header-divider {
   border-top: 1px solid;
   display: block;
   width: 100%;
 }
 @media only screen and (max-width: 481px) {
+  main .principal .ultimos-trabajos .header-divider {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
   main .principal .ultimos-trabajos .header-divider {
     display: none;
   }
@@ -299,6 +349,11 @@ main .foto-galeria8:hover {
     margin-top: 0px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .footer {
+    margin-top: 0px;
+  }
+}
 .footer .footerFlex .insta {
   list-style-type: none;
   padding: 0px 10px;
@@ -340,10 +395,10 @@ main .foto-galeria8:hover {
   }
 }
 
-.Bottom, .tatoo, .murales, .header-home, .header-home-contacto, .header-home .menu-inicio, .header-home-contacto .menu-inicio, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .presentacion, main .principal, .footer .footerFlex {
+.Bottom, .tatoo, .murales, .header-home, .header-home-contacto, .header-home .menu-inicio, .header-home-contacto .menu-inicio, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .footer .footerFlex {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -358,6 +413,11 @@ main .foto-galeria8:hover {
   text-decoration: none;
 }
 @media only screen and (max-width: 481px) {
+  .navEmi {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
   .navEmi {
     display: none;
   }
@@ -403,6 +463,8 @@ main .foto-galeria8:hover {
 @media only screen and (max-width: 481px) {
   .muralesTxt {
     font-size: 1rem;
+    padding: 0px 0px;
+    margin: 0px;
   }
 }
 
@@ -413,6 +475,14 @@ main .foto-galeria8:hover {
   align-items: center;
 }
 @media only screen and (max-width: 481px) {
+  .galeria-tatoo {
+    margin: 0px 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+  }
+}
+@media only screen and (max-width: 576px) {
   .galeria-tatoo {
     margin: 0px 10px;
     display: grid;
@@ -449,6 +519,11 @@ main .foto-galeria8:hover {
   grid-area: foto-tatoo6;
   padding-top: 20px;
 }
+@media only screnn and (max-width: 576px) {
+  .foto-tatoo6 {
+    padding-top: 0px;
+  }
+}
 
 .foto-tatoo7 {
   grid-area: foto-tatoo7;
@@ -474,6 +549,11 @@ main .foto-galeria8:hover {
     display: none;
   }
 }
+@media only screen and (max-width: 576px) {
+  .foto-tatoo10 {
+    display: none;
+  }
+}
 
 .foto-tatoo1, .foto-tatoo2, .foto-tatoo3, .foto-tatoo4, .foto-tatoo5, .foto-tatoo6, .foto-tatoo7, .foto-tatoo8, .foto-tatoo9, .foto-tatoo10 {
   width: 100%;
@@ -492,6 +572,15 @@ main .foto-galeria8:hover {
 @media only screnn and (max-width: 481px) {
   .foto-tatoo1, .foto-tatoo2, .foto-tatoo3, .foto-tatoo4, .foto-tatoo5, .foto-tatoo6, .foto-tatoo7, .foto-tatoo8, .foto-tatoo9, .foto-tatoo10 {
     padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screnn and (max-width: 576px) {
+  .foto-tatoo1, .foto-tatoo2, .foto-tatoo3, .foto-tatoo4, .foto-tatoo5, .foto-tatoo6, .foto-tatoo7, .foto-tatoo8, .foto-tatoo9, .foto-tatoo10 {
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
