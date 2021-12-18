@@ -473,6 +473,7 @@ main .foto-galeria8:hover {
   grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3 foto-tatoo4 foto-tatoo5" "foto-tatoo6 foto-tatoo7 foto-tatoo8 foto-tatoo9 foto-tatoo10";
   justify-content: center;
   align-items: center;
+  gap: 1%;
 }
 @media only screen and (max-width: 481px) {
   .galeria-tatoo {
@@ -517,12 +518,6 @@ main .foto-galeria8:hover {
 
 .foto-tatoo6 {
   grid-area: foto-tatoo6;
-  padding-top: 20px;
-}
-@media only screnn and (max-width: 576px) {
-  .foto-tatoo6 {
-    padding-top: 0px;
-  }
 }
 
 .foto-tatoo7 {
@@ -532,17 +527,14 @@ main .foto-galeria8:hover {
 
 .foto-tatoo8 {
   grid-area: foto-tatoo8;
-  padding-top: 20px;
 }
 
 .foto-tatoo9 {
   grid-area: foto-tatoo9;
-  padding-top: 20px;
 }
 
 .foto-tatoo10 {
   grid-area: foto-tatoo10;
-  padding-top: 20px;
 }
 @media only screen and (max-width: 481px) {
   .foto-tatoo10 {

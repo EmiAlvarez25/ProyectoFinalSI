@@ -62,6 +62,7 @@
                          "foto-tatoo6 foto-tatoo7 foto-tatoo8 foto-tatoo9 foto-tatoo10";
     justify-content: center;
     align-items: center;
+    gap: 1%;
     @media only screen and (max-width:481px){
         margin: 0px 10px;
         display: grid;
@@ -99,10 +100,6 @@
 }
 .foto-tatoo6{
     grid-area: foto-tatoo6;
-    padding-top: 20px;
-    @media only screnn and (max-width:576px){
-        padding-top: 0px;
-    }
 }
 .foto-tatoo7{
     grid-area: foto-tatoo7;
@@ -110,15 +107,15 @@
 }
 .foto-tatoo8{
     grid-area: foto-tatoo8;
-    padding-top: 20px;
+    
 }
 .foto-tatoo9{
     grid-area: foto-tatoo9;
-    padding-top: 20px;
+    
 }
 .foto-tatoo10{
     grid-area: foto-tatoo10;
-    padding-top: 20px;
+    
     @media only screen and (max-width:481px){
         display: none;
     }
