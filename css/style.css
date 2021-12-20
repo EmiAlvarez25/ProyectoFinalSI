@@ -337,12 +337,8 @@ main .foto-galeria8:hover {
 }
 
 .footer {
-  opacity: 80%;
-  background-size: cover;
   padding: 10px;
-  border-bottom: #c600e9 5px;
-  margin-top: 200px;
-  background-image: url(../bg-footer.jpg);
+  margin-top: 50px;
 }
 @media only screen and (max-width: 481px) {
   .footer {
@@ -674,13 +670,12 @@ main .titleRemera {
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 10%;
-  margin-top: 200px;
   margin-left: 30px;
   text-decoration: underline;
 }
 main .gridRemeras {
   display: grid;
-  grid-template-areas: "shirt1 shirt2 shirt3" "shirt4 shirt5 shirt6";
+  grid-template-areas: "shirt1 shirt2 shirt3" "precio-shirt1 precio-shirt2 precio-shirt3" "shirt4 shirt5 shirt6" "precio-shirt4 precio-shirt5 precio-shirt6";
   align-items: center;
   justify-content: center;
   gap: 5%;
@@ -689,68 +684,113 @@ main .gridRemeras {
 main .gridRemeras .remera1 {
   grid-area: shirt1;
 }
+main .gridRemeras .precio-shirt1 {
+  grid-area: precio-shirt1;
+}
 main .gridRemeras .remera2 {
   grid-area: shirt2;
+}
+main .gridRemeras .precio-shirt2 {
+  grid-area: precio-shirt2;
 }
 main .gridRemeras .remera3 {
   grid-area: shirt3;
 }
+main .gridRemeras .precio-shirt3 {
+  grid-area: precio-shirt3;
+}
 main .gridRemeras .remera4 {
   grid-area: shirt4;
+}
+main .gridRemeras .precio-shirt4 {
+  grid-area: precio-shirt4;
 }
 main .gridRemeras .remera5 {
   grid-area: shirt5;
 }
+main .gridRemeras .precio-shirt5 {
+  grid-area: precio-shirt5;
+}
 main .gridRemeras .remera6 {
   grid-area: shirt6;
 }
+main .gridRemeras .precio-shirt6 {
+  grid-area: precio-shirt6;
+}
 main .gridRemeras .remera1, main .gridRemeras .remera2, main .gridRemeras .remera3, main .gridRemeras .remera4, main .gridRemeras .remera5, main .gridRemeras .remera6 {
-  width: 60%;
+  width: 100%;
 }
 main .gridRemeras .remera1:hover, main .gridRemeras .remera2:hover, main .gridRemeras .remera3:hover, main .gridRemeras .remera4:hover, main .gridRemeras .remera5:hover, main .gridRemeras .remera6:hover {
-  -webkit-transform: scale(2);
-  -o-transform: scale(2);
-  -moz-transform: scale(2);
-  transform: scale(2);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
   -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
 }
+main .precio-shirt {
+  position: relative;
+  display: block;
+  color: #00f100;
+  font-size: 1rem;
+  z-index: -10;
+}
 main .gridBuzos {
   display: grid;
-  grid-template-areas: "hoodie1 hoodie2 hoodie5" "hoodie3 hoodie4 hoodie6";
+  grid-template-areas: "hoodie1 hoodie2 hoodie5" "precio-hoodie1 precio-hoodie2 precio-hoodie3" "hoodie3 hoodie4 hoodie6" "precio-hoodie4 precio-hoodie5 precio-hoodie6";
   align-items: center;
   justify-content: center;
-  gap: 10%;
-  margin-bottom: 20%;
+  gap: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  z-index: 10;
 }
 main .gridBuzos .hoodie1 {
   grid-area: hoodie1;
 }
+main .gridBuzos .precio-hoodie1 {
+  grid-area: precio-hoodie1;
+}
 main .gridBuzos .hoodie2 {
   grid-area: hoodie2;
+}
+main .gridBuzos .precio-hoodie2 {
+  grid-area: precio-hoodie2;
 }
 main .gridBuzos .hoodie3 {
   grid-area: hoodie3;
 }
+main .gridBuzos .precio-hoodie3 {
+  grid-area: precio-hoodie3;
+}
 main .gridBuzos .hoodie4 {
   grid-area: hoodie4;
+}
+main .gridBuzos .precio-hoodie4 {
+  grid-area: precio-hoodie4;
 }
 main .gridBuzos .hoodie5 {
   grid-area: hoodie5;
 }
+main .gridBuzos .precio-hoodie5 {
+  grid-area: precio-hoodie5;
+}
 main .gridBuzos .hoodie6 {
   grid-area: hoodie6;
 }
+main .gridBuzos .precio-hoodie6 {
+  grid-area: precio-hoodie6;
+}
 main .gridBuzos .hoodie1, main .gridBuzos .hoodie2, main .gridBuzos .hoodie3, main .gridBuzos .hoodie4, main .gridBuzos .hoodie5, main .gridBuzos .hoodie6 {
-  width: 100%;
+  width: 70%;
 }
 main .gridBuzos .hoodie1:hover, main .gridBuzos .hoodie2:hover, main .gridBuzos .hoodie3:hover, main .gridBuzos .hoodie4:hover, main .gridBuzos .hoodie5:hover, main .gridBuzos .hoodie6:hover {
-  -webkit-transform: scale(2);
-  -o-transform: scale(2);
-  -moz-transform: scale(2);
-  transform: scale(2);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
   -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;

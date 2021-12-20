@@ -1,6 +1,7 @@
 /*Código hecho desde cero en SCSS*/
 
 @import "../base/mixin";
+@import "../base/variables";
 
 main{
     .titleRemera{
@@ -8,7 +9,6 @@ main{
         font-size: 2.5rem;
         font-weight: 500;
         margin-bottom: 10%;
-        margin-top: 200px;
         margin-left: 30px;
         text-decoration: underline;
 
@@ -17,7 +17,9 @@ main{
     .gridRemeras{
         display: grid;
         grid-template-areas: "shirt1 shirt2 shirt3"
-                             "shirt4 shirt5 shirt6";
+                              "precio-shirt1 precio-shirt2 precio-shirt3"
+                             "shirt4 shirt5 shirt6"
+                             "precio-shirt4 precio-shirt5 precio-shirt6";
         align-items: center;
         justify-content: center;
         gap: 5%;
@@ -26,64 +28,112 @@ main{
         .remera1{
             grid-area: shirt1;
         }
+        .precio-shirt1{
+            grid-area: precio-shirt1;
+        }
         .remera2{
             grid-area: shirt2;
+        }
+        .precio-shirt2{
+            grid-area: precio-shirt2;
         }
         .remera3{
             grid-area: shirt3;
         }
+        .precio-shirt3{
+            grid-area: precio-shirt3;
+        }
         .remera4{
             grid-area: shirt4;
+        }
+        .precio-shirt4{
+            grid-area: precio-shirt4;
         }
         .remera5{
             grid-area: shirt5;
         }
+        .precio-shirt5{
+            grid-area: precio-shirt5;
+        }
         .remera6{
             grid-area: shirt6;
         }
+        .precio-shirt6{
+            grid-area: precio-shirt6;
+        }
         
         .remera1, .remera2, .remera3, .remera4, .remera5, .remera6{
-            width: 60%;
+            width: 100%;
             &:hover{
-                @include transforms(scale(2));
+                @include transforms(scale(1.5));
                 @include transitions(cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s);
             }
         }
 
     }
 
+    .precio-shirt{
+        position: relative;
+        display: block;
+        color: $color-serv;
+        font-size: 1rem;
+        z-index: -10;
+    }
+
     .gridBuzos{
         display: grid;
         grid-template-areas: "hoodie1 hoodie2 hoodie5"
-                             "hoodie3 hoodie4 hoodie6";
+                              "precio-hoodie1 precio-hoodie2 precio-hoodie3"
+                             "hoodie3 hoodie4 hoodie6"
+                             "precio-hoodie4 precio-hoodie5 precio-hoodie6";
         align-items: center;
         justify-content: center;
-        gap: 10%;
-        margin-bottom: 20%;
+        gap: 5%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        z-index: 10;
 
         .hoodie1{
             grid-area: hoodie1;
         }
+        .precio-hoodie1{
+            grid-area: precio-hoodie1;
+        }
         .hoodie2{
             grid-area: hoodie2;
+        }
+        .precio-hoodie2{
+            grid-area: precio-hoodie2;
         }
         .hoodie3{
             grid-area: hoodie3;
         }
+        .precio-hoodie3{
+            grid-area: precio-hoodie3;
+        }
         .hoodie4{
             grid-area: hoodie4;
+        }
+        .precio-hoodie4{
+            grid-area: precio-hoodie4;
         }
         .hoodie5{
             grid-area: hoodie5;
         }
+        .precio-hoodie5{
+            grid-area: precio-hoodie5;
+        }
         .hoodie6{
             grid-area: hoodie6;
         }
+        .precio-hoodie6{
+            grid-area: precio-hoodie6;
+        }
         
         .hoodie1, .hoodie2, .hoodie3, .hoodie4, .hoodie5, .hoodie6{
-            width: 100%;
+            width: 70%;
             &:hover{
-                @include transforms(scale(2));
+                @include transforms(scale(1.5));
                 @include transitions(cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s);
             }
         }

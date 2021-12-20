@@ -1,10 +1,6 @@
-.footer{
-        opacity: 80%;
-        background-size:cover;
+.footer{        
         padding: 10px;
-        border-bottom: $colortxt 5px;
-        margin-top: 200px;
-        background-image: url(../bg-footer.jpg);
+        margin-top: 50px;
         @media only screen and (max-width: 481px){
             margin-top: 0px;
         }

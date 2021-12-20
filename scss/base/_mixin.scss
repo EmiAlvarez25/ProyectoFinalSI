@@ -12,3 +12,10 @@
     transition: $transiciones;
 }
 
+@mixin opacity ($opacity){
+    -webkit-transition: $opacity;
+    -o-transition: $opacity;
+    -moz-transition: $opacity;
+    transition: $opacity;
+}
+
