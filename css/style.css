@@ -798,38 +798,58 @@ main .gridBuzos .hoodie1:hover, main .gridBuzos .hoodie2:hover, main .gridBuzos 
 }
 main .gridGorras {
   display: grid;
-  grid-template-areas: "hat1 hat2 hat3" "hat4 hat5 hat6";
+  grid-template-areas: "hat1 hat2 hat3" "precio-hat1 precio-hat2 precio-hat3" "hat4 hat5 hat6" "precio-hat4 precio-hat5 precio-hat6";
   align-items: center;
   justify-content: center;
-  gap: 10%;
+  gap: 5%;
   margin-bottom: 20%;
+  margin-left: 10%;
+  z-index: 10;
 }
 main .gridGorras .hat1 {
   grid-area: hat1;
 }
+main .gridGorras .precio-hat1 {
+  grid-area: precio-hat1;
+}
 main .gridGorras .hat2 {
   grid-area: hat2;
+}
+main .gridGorras .precio-hat2 {
+  grid-area: precio-hat2;
 }
 main .gridGorras .hat3 {
   grid-area: hat3;
 }
+main .gridGorras .precio-hat3 {
+  grid-area: precio-hat3;
+}
 main .gridGorras .hat4 {
   grid-area: hat4;
+}
+main .gridGorras .precio-hat4 {
+  grid-area: precio-hat4;
 }
 main .gridGorras .hat5 {
   grid-area: hat5;
 }
+main .gridGorras .precio-hat5 {
+  grid-area: precio-hat5;
+}
 main .gridGorras .hat6 {
   grid-area: hat6;
 }
+main .gridGorras .precio-hat6 {
+  grid-area: precio-hat6;
+}
 main .gridGorras .hat1, main .gridGorras .hat2, main .gridGorras .hat3, main .gridGorras .hat4, main .gridGorras .hat5, main .gridGorras .hat6 {
-  width: 100%;
+  width: 70%;
 }
 main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .hat3:hover, main .gridGorras .hat4:hover, main .gridGorras .hat5:hover, main .gridGorras .hat6:hover {
-  -webkit-transform: scale(2);
-  -o-transform: scale(2);
-  -moz-transform: scale(2);
-  transform: scale(2);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
   -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;

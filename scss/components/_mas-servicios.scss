@@ -142,35 +142,57 @@ main{
     .gridGorras{
         display: grid;
         grid-template-areas: "hat1 hat2 hat3"
-                             "hat4 hat5 hat6";
+                            "precio-hat1 precio-hat2 precio-hat3"
+                             "hat4 hat5 hat6"
+                             "precio-hat4 precio-hat5 precio-hat6";
         align-items: center;
         justify-content: center;
-        gap: 10%;
+        gap: 5%;
         margin-bottom: 20%;
+        margin-left: 10%;
+        z-index: 10;
 
         .hat1{
             grid-area: hat1;
         }
+        .precio-hat1{
+            grid-area: precio-hat1;
+        }
         .hat2{
             grid-area: hat2;
+        }
+        .precio-hat2{
+            grid-area: precio-hat2;
         }
         .hat3{
             grid-area: hat3;
         }
+        .precio-hat3{
+            grid-area: precio-hat3;
+        }
         .hat4{
             grid-area: hat4;
+        }
+        .precio-hat4{
+            grid-area: precio-hat4;
         }
         .hat5{
             grid-area: hat5;
         }
+        .precio-hat5{
+            grid-area: precio-hat5;
+        }
         .hat6{
             grid-area: hat6;
         }
+        .precio-hat6{
+            grid-area: precio-hat6;
+        }
         
         .hat1, .hat2, .hat3, .hat4, .hat5, .hat6{
-            width: 100%;
+            width: 70%;
             &:hover{
-                @include transforms(scale(2));
+                @include transforms(scale(1.5));
                 @include transitions(cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s);
             }
         }
