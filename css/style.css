@@ -337,12 +337,12 @@ main .foto-galeria8:hover {
 }
 
 .footer {
-  background-color: black;
   opacity: 80%;
   background-size: cover;
   padding: 10px;
   border-bottom: #c600e9 5px;
   margin-top: 200px;
+  background-image: url(../bg-footer.jpg);
 }
 @media only screen and (max-width: 481px) {
   .footer {
