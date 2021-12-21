@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@media only screen and (max-width: 481px) {
+  main .titleRemera {
+    font-size: 1rem;
+  }
+}
 .Bottom, .tatoo, .murales, .footer .footerFlex, main .principal, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, .header-home .menu-inicio, .header-home-contacto .menu-inicio, .header-home, .header-home-contacto {
   display: flex;
   justify-content: space-evenly;
@@ -46,19 +51,6 @@
   background-color: black;
   color: blanchedalmond;
 }
-.header-home .navsub .navbar-Emi, .header-home-contacto .navsub .navbar-Emi {
-  text-decoration: none;
-  color: #c600e9;
-  position: absolute;
-  font-size: 0.7rem;
-  margin-right: -277px;
-  display: block;
-}
-@media only screen and (max-width: 481px) {
-  .header-home .navsub .navbar-Emi, .header-home-contacto .navsub .navbar-Emi {
-    display: none;
-  }
-}
 .header-home .menu-inicio, .header-home-contacto .menu-inicio {
   color: #c600e9;
 }
@@ -98,19 +90,6 @@
   .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
     padding: 5px 13px;
   }
-}
-.header-home .menu-inicio .menu .submenu, .header-home-contacto .menu-inicio .menu .submenu {
-  position: absolute;
-  display: none;
-  text-decoration: none;
-  list-style-type: none;
-  background-color: black;
-  opacity: 90%;
-  padding-left: 0px;
-  color: #c600e9;
-}
-.header-home .menu-inicio .menu .mas-servicios:hover, .header-home-contacto .menu-inicio .menu .mas-servicios:hover {
-  display: block;
 }
 
 main .presentacion {
@@ -673,6 +652,11 @@ main .titleRemera {
   margin-left: 30px;
   text-decoration: underline;
 }
+@media only screen and (max-width: 481px) {
+  main .titleRemera {
+    font-size: 1rem;
+  }
+}
 main .gridRemeras {
   display: grid;
   grid-template-areas: "shirt1 shirt2 shirt3" "precio-shirt1 precio-shirt2 precio-shirt3" "shirt4 shirt5 shirt6" "precio-shirt4 precio-shirt5 precio-shirt6";
@@ -680,6 +664,12 @@ main .gridRemeras {
   justify-content: center;
   gap: 5%;
   margin-bottom: 20%;
+}
+@media only screen and (max-width: 481px) {
+  main .gridRemeras {
+    margin: 0% 3%;
+    gap: 1%;
+  }
 }
 main .gridRemeras .remera1 {
   grid-area: shirt1;
@@ -737,6 +727,11 @@ main .precio-shirt {
   font-size: 1rem;
   z-index: -10;
 }
+@media only screen and (max-width: 481px) {
+  main .precio-shirt {
+    font-size: 0.7rem;
+  }
+}
 main .gridBuzos {
   display: grid;
   grid-template-areas: "hoodie1 hoodie2 hoodie5" "precio-hoodie1 precio-hoodie2 precio-hoodie3" "hoodie3 hoodie4 hoodie6" "precio-hoodie4 precio-hoodie5 precio-hoodie6";
@@ -746,6 +741,11 @@ main .gridBuzos {
   margin-bottom: 10%;
   margin-left: 10%;
   z-index: 10;
+}
+@media only screen and (max-width: 481px) {
+  main .gridBuzos {
+    margin: 10% 5%;
+  }
 }
 main .gridBuzos .hoodie1 {
   grid-area: hoodie1;
@@ -796,6 +796,11 @@ main .gridBuzos .hoodie1:hover, main .gridBuzos .hoodie2:hover, main .gridBuzos 
   -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
 }
+@media only screen and (max-width: 481px) {
+  main .gridBuzos .hoodie1, main .gridBuzos .hoodie2, main .gridBuzos .hoodie3, main .gridBuzos .hoodie4, main .gridBuzos .hoodie5, main .gridBuzos .hoodie6 {
+    width: 100%;
+  }
+}
 main .gridGorras {
   display: grid;
   grid-template-areas: "hat1 hat2 hat3" "precio-hat1 precio-hat2 precio-hat3" "hat4 hat5 hat6" "precio-hat4 precio-hat5 precio-hat6";
@@ -805,6 +810,11 @@ main .gridGorras {
   margin-bottom: 20%;
   margin-left: 10%;
   z-index: 10;
+}
+@media only screen and (max-width: 481px) {
+  main .gridGorras {
+    margin: 10% 5%;
+  }
 }
 main .gridGorras .hat1 {
   grid-area: hat1;
@@ -854,6 +864,11 @@ main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .ha
   -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+}
+@media only screen and (max-width: 481px) {
+  main .gridGorras .hat1, main .gridGorras .hat2, main .gridGorras .hat3, main .gridGorras .hat4, main .gridGorras .hat5, main .gridGorras .hat6 {
+    width: 100%;
+  }
 }
 
 .contactoAboutMe {
