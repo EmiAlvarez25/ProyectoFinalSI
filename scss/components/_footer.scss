@@ -1,4 +1,8 @@
-.footer{        
+.footer{ 
+        background-image: url(../../multimedia/bg-mural.jpg);
+        background-repeat: repeat-x;
+        background-size: 100%;
+        background-color: $bg-color;
         padding: 10px;
         margin-top: 50px;
         @media only screen and (max-width: 481px){
@@ -8,10 +12,14 @@
             margin-top: 0px;
         }
         .footerFlex{
-            @extend %dp-flex;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 50px 0px;
             .tel{
                 list-style-type: none;
-                padding: 0px 10px;
+                padding: 0px 10px 0px 100px;
                 font-size: 0.7rem;
                 color: $color-pr;
             }
