@@ -316,7 +316,7 @@ main .galeria-img .mercado {
   flex-direction: column;
   padding: 50px 10px 10px 90px;
   font-weight: bold;
-  margin: 20px 15px;
+  margin: 20px 40px;
   color: #f38825;
 }
 @media only screen and (max-width: 481px) {
@@ -335,22 +335,25 @@ main .galeria-img .mercado {
 }
 .gradiente .tatooTxt {
   padding-bottom: 80px;
-  font-size: 2rem;
+  font-size: 10rem;
+  font-family: "Road Rage";
 }
 @media only screen and (max-width: 481px) {
   .gradiente .tatooTxt {
-    font-size: 1rem;
+    font-size: 5rem;
     padding-bottom: 0px;
+    margin: 10px;
   }
 }
 .gradiente .muralesTxt {
-  font-size: 2rem;
+  font-size: 10rem;
+  font-family: "Road Rage";
 }
 @media only screen and (max-width: 481px) {
   .gradiente .muralesTxt {
-    font-size: 1rem;
+    font-size: 5rem;
     padding: 0px 0px;
-    margin: 0px;
+    margin: 10px;
   }
 }
 .gradiente .galeria-tatoo {
@@ -832,7 +835,7 @@ html {
 .fondo {
   background-color: black;
   font-family: "Zen Kurenaido", sans-serif;
-  font-size: 0rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #c600e9;
