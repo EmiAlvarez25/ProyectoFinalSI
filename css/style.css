@@ -199,112 +199,23 @@ main .principal .ultimos-trabajos .header-divider {
 
 main .galeria-img {
   background-color: black;
-  display: grid;
-  grid-template-areas: "foto-galeria1 foto-galeria2" "foto-galeria3 foto-galeria4" "foto-galeria5 foto-galeria6" "foto-galeria7 foto-galeria8";
   justify-items: center;
   align-items: center;
   padding-bottom: 50px;
+}
+main .galeria-img .mercado {
+  margin: 0px 50px 80px 0px;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 main .galeria-img .foto-galeria1, main .galeria-img .foto-galeria2, main .galeria-img .foto-galeria3, main .galeria-img .foto-galeria4, main .galeria-img .foto-galeria5, main .galeria-img .foto-galeria6, main .galeria-img .foto-galeria7, main .galeria-img .foto-galeria8 {
   justify-items: center;
   width: 80%;
   padding-bottom: 10px;
 }
-main .foto-galeria1 {
-  grid-area: foto-galeria1;
-}
-main .foto-galeria1:hover {
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-}
-main .foto-galeria2 {
-  grid-area: foto-galeria2;
-}
-main .foto-galeria2:hover {
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-}
-main .foto-galeria3 {
-  grid-area: foto-galeria3;
-}
-main .foto-galeria3:hover {
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-}
-main .foto-galeria4 {
-  grid-area: foto-galeria4;
-}
-main .foto-galeria4:hover {
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-}
-main .foto-galeria5 {
-  grid-area: foto-galeria5;
-}
-main .foto-galeria5:hover {
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-}
-main .foto-galeria6 {
-  grid-area: foto-galeria6;
-}
-main .foto-galeria6:hover {
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-}
-main .foto-galeria7 {
-  grid-area: foto-galeria7;
-}
-main .foto-galeria7:hover {
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-}
-main .foto-galeria8 {
-  grid-area: foto-galeria8;
-}
-main .foto-galeria8:hover {
+main .galeria-img .foto-galeria1:hover, main .galeria-img .foto-galeria2:hover, main .galeria-img .foto-galeria3:hover, main .galeria-img .foto-galeria4:hover, main .galeria-img .foto-galeria5:hover, main .galeria-img .foto-galeria6:hover, main .galeria-img .foto-galeria7:hover, main .galeria-img .foto-galeria8:hover {
   -webkit-transform: scale(1.2);
   -o-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -329,15 +240,16 @@ main .foto-galeria8:hover {
     margin-top: 0px;
   }
 }
+.footer .footerFlex .tel {
+  list-style-type: none;
+  padding: 0px 10px;
+  font-size: 0.7rem;
+  color: #e6dbdb;
+}
 .footer .footerFlex .insta {
   list-style-type: none;
   padding: 0px 10px;
   font-size: 0.9rem;
-}
-@media only screen and (max-width: 481px) {
-  .footer .footerFlex .insta {
-    display: none;
-  }
 }
 .footer .footerFlex .insta .insta-img {
   width: 10%;
@@ -353,11 +265,6 @@ main .foto-galeria8:hover {
   list-style-type: none;
   padding: 0px 10px;
   font-size: 0.9rem;
-}
-@media only screen and (max-width: 481px) {
-  .footer .footerFlex .wpp {
-    display: none;
-  }
 }
 .footer .footerFlex .wpp .wpp-img {
   width: 10%;
@@ -574,7 +481,7 @@ main .foto-galeria8:hover {
 
 .imgMural {
   width: 50%;
-  margin-left: 350px;
+  margin-left: 387px;
 }
 .imgMural:hover {
   -webkit-transform: scale(1.2);

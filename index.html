@@ -8,10 +8,15 @@
     <!--SEO-->
     <meta name="keywords" content= "murales tatuajes pintura diseño arte movimiento grafitti latas hoodies gorras remeras tienda">
     <meta name="description" content="Web de tatuajes, murales, arte y diseño. Ssupernova Illustration&streetart en Córdoba Capital">
+    <meta property="og:title" content="@Ssupernova - Illustration&StreetArt">
+    <meta property="og:site_name" content="SsupernovaFa">
+    <meta property="og:description" content="Web de tatuajes, murales, arte y diseño. Ssupernova Illustration&streetart en Córdoba Capital">
+    <meta property="og:type" content="WebSite">
+    <title>Ssupernova Illustration&streetart</title>
+    
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
-    <title>Ssupernova Illustration&streetart</title>
-
+    
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
@@ -26,90 +31,94 @@
 
 <body id=body class=fondo>
 
-<header id=header-home class=header-home>
+    <header id=header-home class=header-home>
+            <nav class=menu-inicio> 
+                <ul class=menu> 
+                    <li class=inicio>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class=muralesytatoo>
+                        <a href="muralesytatoo.html#tatoo">Tatoo</a> 
+                    </li>
+                    <li class=muralesytatoo>
+                        <a href="muralesytatoo.html#murales">Murales</a> 
+                    </li>
+                    <li class=mas-servicios>
+                            <a href="mas-servicios.html">Merchandising</a>
+                    </li>
+                    <li class=contacto>
+                        <a href="contacto-aboutme.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
 
-    <!--Menú de inicio-->
-        <nav class=menu-inicio> 
-            <ul class=menu> 
-                <li class=inicio>
-                    <a href="index.html">Inicio</a>
+    <main>
+        <section class=presentacion>
+            <h1>
+                <a class=texto data-aos="fade-right" href="https://www.instagram.com/_nnoovvaa/">@_nnoovvaa</a>
+            </h1>  
+            <h2 class=text0 data-aos="fade-right">
+                    diseñando para vos
+            </h2>    
+        </section>
+        
+        <section id="principal" class=principal data-aos="fade-up" >
+            <h3 class=ultimos-trabajos> 
+                ÚLTIMOS TRABAJOS 
+            <span class=header-divider data-aos="fade-right"></span>
+            </h3> 
+        </section>
+
+        <section class=galeria-img data-aos="fade-up"> 
+            <section class=slideEmi>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">            
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="multimedia/gombu1.png" class="d-block imgMural" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="multimedia/gombu2.png" class="d-block imgMural" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="multimedia/gombu3.png" class="d-block imgMural" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <h3 class=mercado>
+                    <a href="instagram.com/mercadogombu.cba">@mercadogombu.cba</a>
+                </h3>
+            </section>
+    </main>
+
+    <footer id=footer class=footer>
+       <p></p> 
+        <ul class=footerFlex>
+                <li class=insta>
+                    <a class="insta" href="https://www.instagram.com/_nnoovvaa/">
+                        <img class=insta-img src="multimedia/insta.webp" alt="instagram-logo"class="insta-img">
+                    Instagram
+                    </a>             
                 </li>
-                <li class=muralesytatoo>
-                    <a href="muralesytatoo.html#tatoo">Tatoo</a> 
-                    <!--Este enlace lleva a una parte de una página-->
+                <li class=wpp>   
+                    <a class="insta" href="https://www.instagram.com/_nnoovvaa/">
+                        <img class=wpp-img src="multimedia/wpp.webp" alt="WhatsApp-logo"class="wpp-img">
+                    WhatsApp
+                    </a>    
                 </li>
-                <li class=muralesytatoo>
-                    <a href="muralesytatoo.html#murales">Murales</a> 
-                    <!--Este enlace lleva a la misma página pero a otra parte-->
-                </li>
-                <!--Submenú - Desafío complementario-->
-                <li class=mas-servicios>
-                        <a href="mas-servicios.html">Merchandising</a>
-                 </li>
-                <li class=contacto>
-                    <a href="contacto-aboutme.html">Contacto</a>
+                <li class=tel>
+                    Tel: 0351 - 153478930
                 </li>
             </ul>
-       </nav>
-  </header>
-
- <main>
-    <section class=presentacion>
-        <h1>
-            <a class=texto data-aos="fade-right" href="https://www.instagram.com/_nnoovvaa/">@_nnoovvaa</a>
-        </h1>  
-        <h2>
-            <p class=text0 data-aos="fade-right">
-                diseñando para vos
-            </p>
-        </h2>    
-    </section>
-    
-    <section id="principal" class=principal data-aos="fade-up" >
-        <h3 class=ultimos-trabajos> 
-            <p>ÚLTIMOS TRABAJOS</p> 
-            <span class=header-divider data-aos="fade-right"></span>
-        </h3> 
-    </section>
-
-    <section class=galeria-img data-aos="fade-up"> 
-        <img class=foto-galeria1 src="multimedia/mural1.webp" alt="mural en proceso Fauna Cerveceria">
-        <img class=foto-galeria2 src="multimedia/mural2.webp" alt="mural en proceso Fauna Cerveceria">
-        <img class=foto-galeria3 src="multimedia/mural3.webp" alt="mural en proceso Fauna Cerveceria">
-        <img class=foto-galeria4 src="multimedia/mural4.webp" alt="mural en proceso Fauna Cerveceria">
-        <img class=foto-galeria5 src="multimedia/mural5.webp" alt="mural en proceso Fauna Cerveceria">
-        <img class=foto-galeria6 src="multimedia/mural6.webp" alt="mural en proceso Fauna Cerveceria">
-        <img class=foto-galeria7 src="multimedia/mural7.webp" alt="mural en proceso Fauna Cerveceria">
-        <img class=foto-galeria8 src="multimedia/mural8.webp" alt="mural en proceso Fauna Cerveceria">
-
-    </section>
-</main>
-
-<footer id=footer class=footer>
-   <ul class=footerFlex>
-        <li class=insta>
-            <a class="insta" href="https://www.instagram.com/_nnoovvaa/">
-                <img class=insta-img src="multimedia/insta.webp" alt="instagram-logo"class="insta-img">
-             Instagram
-            </a>             
-        </li>
-        <li class=wpp>   
-            <a class="insta" href="https://www.instagram.com/_nnoovvaa/">
-                <img class=wpp-img src="multimedia/wpp.webp" alt="WhatsApp-logo"class="wpp-img">
-             WhatsApp
-            </a>    
-        </li>
-    </ul>
-
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-</footer>
+    </footer>
 
     <!--AOS - Librería de animaciones-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

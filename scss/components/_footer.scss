@@ -9,12 +9,19 @@
         }
         .footerFlex{
             @extend %dp-flex;
+            .tel{
+                list-style-type: none;
+                padding: 0px 10px;
+                font-size: 0.7rem;
+                color: $color-pr;
+            }
+        
             .insta{
                     list-style-type: none;
                     padding: 0px 10px;
                     font-size: 0.9rem;
                     @media only screen and (max-width: 481px){
-                        display: none;
+                        
                     }
                 .insta-img{
                     width: 10%;
@@ -30,7 +37,7 @@
                     padding: 0px 10px;
                     font-size: 0.9rem;
                     @media only screen and (max-width: 481px){
-                        display: none;
+                        
                     }
                 .wpp-img{
                     width: 10%;
@@ -41,5 +48,6 @@
                     }
                 }
             }
-        }
-    }      
+        }        
+
+}      
