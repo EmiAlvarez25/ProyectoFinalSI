@@ -63,6 +63,7 @@
     justify-content: center;
     align-items: center;
     gap: 1%;
+    padding: 5px 30px;
     @media only screen and (max-width:481px){
         margin: 0px 10px;
         display: grid;
@@ -103,7 +104,6 @@
 }
 .foto-tatoo7{
     grid-area: foto-tatoo7;
-    padding-top:20px;
 }
 .foto-tatoo8{
     grid-area: foto-tatoo8;
