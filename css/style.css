@@ -1,9 +1,4 @@
 @charset "UTF-8";
-@media only screen and (max-width: 481px) {
-  main .titleRemera {
-    font-size: 1rem;
-  }
-}
 .gradiente .Bottom, .gradiente .tatoo, .gradiente .murales, main .principal, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, .header-home .menu-inicio, .header-home-contacto .menu-inicio, .header-home, .header-home-contacto {
   display: flex;
   justify-content: space-evenly;
@@ -234,10 +229,17 @@ main .galeria-img .mercado {
   background-color: black;
   padding: 10px;
   margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0px;
 }
 @media only screen and (max-width: 481px) {
   .footer {
     margin-top: 0px;
+    display: flex;
+    align-content: flex-end;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -245,16 +247,9 @@ main .galeria-img .mercado {
     margin-top: 0px;
   }
 }
-.footer .footerFlex {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 50px 0px;
-}
 .footer .footerFlex .tel {
   list-style-type: none;
-  padding: 0px 10px 0px 100px;
+  padding: 0px 19px;
   font-size: 0.7rem;
   color: #e6dbdb;
 }
