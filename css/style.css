@@ -203,19 +203,13 @@ main .galeria-img {
   align-items: center;
   padding-bottom: 50px;
 }
-main .galeria-img .mercado {
-  margin: 0px 50px 80px 0px;
-  font-size: 1.2rem;
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: flex-end;
-}
-main .galeria-img .foto-galeria1, main .galeria-img .foto-galeria2, main .galeria-img .foto-galeria3, main .galeria-img .foto-galeria4, main .galeria-img .foto-galeria5, main .galeria-img .foto-galeria6, main .galeria-img .foto-galeria7, main .galeria-img .foto-galeria8 {
+main .galeria-img .gombu {
+  width: 70%;
+  margin-left: 100px;
   justify-items: center;
-  width: 80%;
   padding-bottom: 10px;
 }
-main .galeria-img .foto-galeria1:hover, main .galeria-img .foto-galeria2:hover, main .galeria-img .foto-galeria3:hover, main .galeria-img .foto-galeria4:hover, main .galeria-img .foto-galeria5:hover, main .galeria-img .foto-galeria6:hover, main .galeria-img .foto-galeria7:hover, main .galeria-img .foto-galeria8:hover {
+main .galeria-img .gombu:hover {
   -webkit-transform: scale(1.2);
   -o-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -224,6 +218,13 @@ main .galeria-img .foto-galeria1:hover, main .galeria-img .foto-galeria2:hover, 
   -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
   -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+}
+main .galeria-img .mercado {
+  margin: 0px 50px 80px 0px;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer {
