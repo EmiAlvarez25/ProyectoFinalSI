@@ -149,6 +149,27 @@
 
 }
 
+.diseñosTxt{
+    font-size: 4rem;
+    color:$color-murales;
+    font-family: 'Road Rage';
+    margin-left: 10px;
+    padding-bottom: 10px;
+
+}
+.diseños{
+    @extend %dp-flex;
+    .diseño2, .diseño3, .diseño5{
+        width: 20%;
+        
+        &:hover{
+            @include transforms (scale(1.5));
+            @include transitions (cubic-bezier(0.075, 0.82, 0.165, 1) 1s);
+        }
+    }
+
+}
+
 .slideEmi{
     margin-bottom: 30px;
 }

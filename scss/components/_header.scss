@@ -1,4 +1,5 @@
 .header-home, .header-home-contacto{
+            text-decoration: none;
             color:$colortxt;
             font-size: 1rem;
             background-color: $bg-color;
@@ -39,6 +40,7 @@
 
 
     .menu-inicio{
+                text-decoration: none;
                 @extend %dp-flex;
                 color:$colortxt;
                 @media only screen and (max-width: 321px){
