@@ -15,7 +15,31 @@
         }
 
     }
-
+    main{
+        .presentacion{
+            display: flex;
+            padding: 10px 10px;
+            background-repeat: no-repeat;
+            
+            .texto, .text0{
+                font-size: 1rem;
+            }
+        }
+        .principal{
+            padding: 10px 0px 10px 0px;
+            .ultimos-trabajos{
+                font-size: 1.5rem;
+            }
+        }
+        .galeria-img{
+           .gombu{
+               margin-left: 75px;
+           } 
+            .mercado{
+                font-size: 0.5rem;
+            }
+        }
+    }
 
 }
 
@@ -28,19 +52,21 @@
         margin-top: 0px;
         padding:0px;
         font-size: 0.8rem;
+        .inicio, .muralesytatoo, .mas-servicios, .contacto{
+            padding: 0px 4px;
+        }
     }
-    .inicio, .muralesytatoo, .mas-servicios, .contacto{
-        padding: 0px 4px;
-    }
-    
+   
 }
 
 @media only screen and (max-width:577){
     .header-home, .header-home-contacto{
         padding:0px;
+        .inicio, .muralesytatoo, .mas-servicios, .contacto{
+            padding: 5px 13px;
+        }
+
     }
-    .inicio, .muralesytatoo, .mas-servicios, .contacto{
-        padding: 5px 13px;
-    }
+
     
 }

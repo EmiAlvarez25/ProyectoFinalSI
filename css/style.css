@@ -22,6 +22,27 @@
   .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
     padding: 0px 4px;
   }
+
+  main .presentacion {
+    display: flex;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 1.5rem;
+  }
+  main .galeria-img .gombu {
+    margin-left: 75px;
+  }
+  main .galeria-img .mercado {
+    font-size: 0.5rem;
+  }
 }
 @media only screen and (max-width: 481px) {
   .header-home, .header-home-contacto {
@@ -33,8 +54,7 @@
     padding: 0px;
     font-size: 0.8rem;
   }
-
-  .inicio, .muralesytatoo, .mas-servicios, .contacto {
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
     padding: 0px 4px;
   }
 }
@@ -42,8 +62,7 @@
   .header-home, .header-home-contacto {
     padding: 0px;
   }
-
-  .inicio, .muralesytatoo, .mas-servicios, .contacto {
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
     padding: 5px 13px;
   }
 }
@@ -86,6 +105,66 @@
   text-align: center;
   position: relative;
 }
+@media only screen and (max-width: 321px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
+    padding: 0px 4px;
+  }
+
+  main .presentacion {
+    display: flex;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 1.5rem;
+  }
+  main .galeria-img .gombu {
+    margin-left: 75px;
+  }
+  main .galeria-img .mercado {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+    padding: 0px 4px;
+  }
+}
+@media only screen and (max-width: 577) {
+  .header-home, .header-home-contacto {
+    padding: 0px;
+  }
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+    padding: 5px 13px;
+  }
+}
 main .presentacion {
   display: flex;
   justify-content: space-evenly;
@@ -96,18 +175,6 @@ main .presentacion {
   padding: 250px 0px;
   flex-direction: column;
 }
-@media only screen and (max-width: 481px) {
-  main .presentacion {
-    background-repeat: no-repeat;
-    padding: 10px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  main .presentacion {
-    background-repeat: no-repeat;
-    padding: 120px;
-  }
-}
 main .presentacion .texto {
   display: block;
   color: #85009d;
@@ -115,20 +182,6 @@ main .presentacion .texto {
   font-family: "Road Rage";
   background-color: black;
   position: relative;
-}
-@media only screen and (max-width: 481px) {
-  main .presentacion .texto {
-    font-size: 1rem;
-    background-color: #e6dbdb;
-    color: black;
-  }
-}
-@media only screen and (max-width: 576px) {
-  main .presentacion .texto {
-    font-size: 1rem;
-    background-color: #e6dbdb;
-    color: black;
-  }
 }
 main .presentacion .text0 {
   display: block;
@@ -140,20 +193,6 @@ main .presentacion .text0 {
   position: relative;
   margin-top: 30px;
 }
-@media only screen and (max-width: 481px) {
-  main .presentacion .text0 {
-    font-size: 0.9rem;
-    background-color: #e6dbdb;
-    color: black;
-  }
-}
-@media only screen and (max-width: 576px) {
-  main .presentacion .text0 {
-    font-size: 0.7rem;
-    background-color: #e6dbdb;
-    color: black;
-  }
-}
 main .principal {
   background-color: black;
   color: #c600e9;
@@ -162,18 +201,6 @@ main .principal {
   flex-wrap: wrap;
   flex-direction: row;
 }
-@media only screen and (max-width: 481px) {
-  main .principal {
-    padding: 41px 0px 2px 0px;
-    font-size: 1rem;
-  }
-}
-@media only screen and (max-width: 576px) {
-  main .principal {
-    padding: 5px 0px 5px 0px;
-    text-decoration: underline;
-  }
-}
 main .principal .ultimos-trabajos {
   font-size: 5rem;
 }
@@ -181,16 +208,6 @@ main .principal .ultimos-trabajos .header-divider {
   border-top: 1px solid;
   display: block;
   width: 100%;
-}
-@media only screen and (max-width: 481px) {
-  main .principal .ultimos-trabajos .header-divider {
-    display: none;
-  }
-}
-@media only screen and (max-width: 576px) {
-  main .principal .ultimos-trabajos .header-divider {
-    display: none;
-  }
 }
 
 main .galeria-img {
@@ -852,6 +869,27 @@ main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .ha
   .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
     padding: 0px 4px;
   }
+
+  main .presentacion {
+    display: flex;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 1.5rem;
+  }
+  main .galeria-img .gombu {
+    margin-left: 75px;
+  }
+  main .galeria-img .mercado {
+    font-size: 0.5rem;
+  }
 }
 @media only screen and (max-width: 481px) {
   .header-home, .header-home-contacto {
@@ -863,8 +901,7 @@ main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .ha
     padding: 0px;
     font-size: 0.8rem;
   }
-
-  .inicio, .muralesytatoo, .mas-servicios, .contacto {
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
     padding: 0px 4px;
   }
 }
@@ -872,8 +909,7 @@ main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .ha
   .header-home, .header-home-contacto {
     padding: 0px;
   }
-
-  .inicio, .muralesytatoo, .mas-servicios, .contacto {
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
     padding: 5px 13px;
   }
 }

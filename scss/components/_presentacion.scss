@@ -1,4 +1,5 @@
 @import "../base/variables";
+@import "../base/mediaQuery";
 
 main{
 
@@ -11,16 +12,7 @@ main{
             background-size: 100%;
             padding: 250px 0px; 
             flex-direction: column;
-            @media only screen and (max-width: 481px){
-                background-repeat: no-repeat;
-                padding: 10px;
 
-            }
-            @media only screen and (max-width:576px){
-                background-repeat: no-repeat;
-                padding: 120px;
-
-            }
         .texto{
             display: block;
             color: darken($colortxt, 15%);
@@ -28,17 +20,6 @@ main{
             font-family: 'Road Rage';
             background-color: $bg-color;
             position: relative;
-
-            @media only screen and (max-width: 481px){
-                font-size: 1rem;
-                background-color: $color-pr;
-                color: $bg-color;
-            }
-            @media only screen and (max-width:576px){
-                font-size: 1rem;
-                background-color: $color-pr;
-                color: $bg-color;
-            }
         }
         .text0{
             display: block;
@@ -49,17 +30,7 @@ main{
             background-color:$bg-color;
             position: relative;
             margin-top: 30px;
-            @media only screen and (max-width: 481px){
-                font-size: 0.9rem;
-                background-color: $color-pr;
-                color: $bg-color;
-            }
-            @media only screen and (max-width:576px){
-                font-size: 0.7rem;
-                background-color: $color-pr;
-                color: $bg-color;
-            }
-        }
+         }
     }
     .principal{
             @extend %dp-flex;
@@ -69,26 +40,13 @@ main{
             padding: 140px 0px 140px 0px;
             flex-wrap: wrap;
             flex-direction: row;
-            @media only screen and (max-width: 481px){
-                padding: 41px 0px 2px 0px;
-                font-size: 1rem;
-            }
-            @media only screen and (max-width:576px){
-                padding: 5px 0px 5px 0px;
-                text-decoration: underline;
-            }
         .ultimos-trabajos{
             font-size: 5rem;
             .header-divider{
                 border-top: 1px  solid;
                 display: block;
                 width: 100%;
-                @media only screen and (max-width: 481px){
-                    display: none;
-                }
-                @media only screen and (max-width: 576px){
-                    display: none;
-                }
+
             }
         }
     }
