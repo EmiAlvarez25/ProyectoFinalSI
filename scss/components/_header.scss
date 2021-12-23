@@ -1,3 +1,5 @@
+@import "../base/mediaQuery";
+
 .header-home, .header-home-contacto{
             text-decoration: none;
             color:$colortxt;
@@ -13,24 +15,7 @@
             flex-direction: row;
             flex-wrap: wrap;
             position: relative;
-            @media only screen and (max-width: 481px){
-                flex-direction: row;
-                justify-content: start;
-                margin-right: 5px;
-                margin-top: 0px;
-                padding:0px;
-                font-size: 0.8rem;
-                flex-direction: column;
-            }
-            @media only screen and (max-width:321px){
-                flex-direction: column;
-                align-content: flex-start;
-            }
-            @media only screen and (max-width:577){
-                padding:0px;
-            }
-
-          
+         
             &:hover{
                 background-color: black;
                 color: blanchedalmond;
@@ -43,9 +28,7 @@
                 text-decoration: none;
                 @extend %dp-flex;
                 color:$colortxt;
-                @media only screen and (max-width: 321px){
-                    align-items: flex-start;
-                }  
+
 
         .menu{
                 @extend %dp-flex;
@@ -55,11 +38,6 @@
                 padding: 0px;
                 background-color: $bg-color;
                 color:$colortxt;
-
-                @media only screen and (max-width: 321px){
-                        flex-direction: column;
-                        align-items: flex-start;
-                }  
                     
             .inicio, .muralesytatoo, .mas-servicios, .contacto{
                         display: inline-block;
@@ -68,16 +46,12 @@
                         padding: 5px 50px;
                         text-align: center;
                         position:relative;
-                        @media only screen and (max-width: 481px){
-                            padding: 0px 4px;
-                        }
                         @media only screen and (max-width: 576px){
-                            padding: 5px 13px;
+                            
                         }
             }
-            
-
-        }  
+        
+        }    
 
     }
 

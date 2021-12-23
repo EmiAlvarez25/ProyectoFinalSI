@@ -6,6 +6,47 @@
   flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 321px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
+    padding: 0px 4px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+
+  .inicio, .muralesytatoo, .mas-servicios, .contacto {
+    padding: 0px 4px;
+  }
+}
+@media only screen and (max-width: 577) {
+  .header-home, .header-home-contacto {
+    padding: 0px;
+  }
+
+  .inicio, .muralesytatoo, .mas-servicios, .contacto {
+    padding: 5px 13px;
+  }
+}
 .header-home, .header-home-contacto {
   text-decoration: none;
   color: #c600e9;
@@ -21,28 +62,6 @@
   flex-wrap: wrap;
   position: relative;
 }
-@media only screen and (max-width: 481px) {
-  .header-home, .header-home-contacto {
-    flex-direction: row;
-    justify-content: start;
-    margin-right: 5px;
-    margin-top: 0px;
-    padding: 0px;
-    font-size: 0.8rem;
-    flex-direction: column;
-  }
-}
-@media only screen and (max-width: 321px) {
-  .header-home, .header-home-contacto {
-    flex-direction: column;
-    align-content: flex-start;
-  }
-}
-@media only screen and (max-width: 577) {
-  .header-home, .header-home-contacto {
-    padding: 0px;
-  }
-}
 .header-home:hover, .header-home-contacto:hover {
   background-color: black;
   color: blanchedalmond;
@@ -50,11 +69,6 @@
 .header-home .menu-inicio, .header-home-contacto .menu-inicio {
   text-decoration: none;
   color: #c600e9;
-}
-@media only screen and (max-width: 321px) {
-  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    align-items: flex-start;
-  }
 }
 .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
   text-decoration: none;
@@ -64,12 +78,6 @@
   background-color: black;
   color: #c600e9;
 }
-@media only screen and (max-width: 321px) {
-  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
 .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
   display: inline-block;
   text-decoration: none;
@@ -78,17 +86,6 @@
   text-align: center;
   position: relative;
 }
-@media only screen and (max-width: 481px) {
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
-    padding: 0px 4px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
-    padding: 5px 13px;
-  }
-}
-
 main .presentacion {
   display: flex;
   justify-content: space-evenly;
@@ -839,6 +836,47 @@ main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .ha
   padding-left: 25px;
 }
 
+@media only screen and (max-width: 321px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
+    padding: 0px 4px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+
+  .inicio, .muralesytatoo, .mas-servicios, .contacto {
+    padding: 0px 4px;
+  }
+}
+@media only screen and (max-width: 577) {
+  .header-home, .header-home-contacto {
+    padding: 0px;
+  }
+
+  .inicio, .muralesytatoo, .mas-servicios, .contacto {
+    padding: 5px 13px;
+  }
+}
 * {
   margin: 0%;
   padding: 0%;
