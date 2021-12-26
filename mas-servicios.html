@@ -39,21 +39,25 @@
         <nav class=menu-inicio> 
             <ul class=menu> 
                 <li class=inicio>
-                    <a href="index.html">Inicio</a>
+                    <a class=link href="index.html">Inicio</a>
                 </li>
                 <li class=muralesytatoo>
-                    <a href="muralesytatoo.html#tatoo">Tatoo</a> 
+                    <a class=link href="muralesytatoo.html#tatoo">Tatoo</a> 
                     <!--Este enlace lleva a una parte de una página-->
                 </li>
                 <li class=muralesytatoo>
-                    <a href="muralesytatoo.html#murales">Murales</a> 
+                    <a class=link href="muralesytatoo.html#murales">Murales</a> 
                     <!--Este enlace lleva a la misma página pero a otra parte-->
                 </li>
                 <li class=mas-servicios>
-                        <a href="mas-servicios.html">Tienda</a>
+                        <a class=link href="mas-servicios.html">Tienda</a>
                 </li>
                 <li class=contacto>
-                    <a href="contacto-aboutme.html">Contacto</a>
+                    <a class=link href="contacto-aboutme.html">Contacto</a>
+                </li>
+                <li class=navcarrito>   
+                    <a class=link href="index.html"> <img class=carrito src="multimedia/carrito.webp" alt="carrito"class="wpp-img">
+                    </a>    
                 </li>
             </ul>
     </header>
@@ -77,17 +81,22 @@
         <section class=gridRemeras>
             <img src="multimedia/shirt1.png" class=remera1 alt="remera serpiente">
             <p class= "precio-shirt1 precio-shirt">$3000</p>
+            <button type="button" class="btn btn-outline-success btncart1">Agregar al carrito</button>
             <img src="multimedia/shirt3.png" class=remera2 alt="remera serpiente">
             <p class= "precio-shirt2 precio-shirt">$3000</p>
+            <button type="button" class="btn btn-outline-success btncart2">Agregar al carrito</button>
             <img src="multimedia/shirt1.png" class=remera3 alt="remera serpiente">
             <p class= "precio-shirt3 precio-shirt">$3000</p>
+            <button type="button" class="btn btn-outline-success btncar3t">Agregar al carrito</button>
             <img src="multimedia/shirt3.png" class=remera4 alt="remera serpiente">
             <p class= "precio-shirt4 precio-shirt">$3000</p>
+            <button type="button" class="btn btn-outline-success btncart4">Agregar al carrito</button>
             <img src="multimedia/shirt1.png" class=remera5 alt="remera serpiente">
             <p class= "precio-shirt5 precio-shirt">$3000</p>
+            <button type="button" class="btn btn-outline-success btncart5">Agregar al carrito</button>
             <img src="multimedia/shirt3.png" class=remera6 alt="remera serpiente">
             <p class= "precio-shirt6 precio-shirt">$3000</p>
-    
+            <button type="button" class="btn btn-outline-success btncart6">Agregar al carrito</button>
         </section>
 
         <section id=hoodies class=titleRemera>
@@ -97,21 +106,27 @@
         </section>
 
         <section class=gridBuzos>
-            <img src="multimedia/buzo1.png" class=hoodie1 alt="gorra-piluso">
+            <img src="multimedia/buzo1.png" class=hoodie1 alt="hoodie">
             <p class= "precio-hoodie1 precio-shirt">$6500</p>
+            <button type="button" class="btn btn-outline-success btncart1">Agregar al carrito</button>
             <img src="multimedia/buzo2.png" class=hoodie2 alt="buzo drew">
             <p class= "precio-hoodie2 precio-shirt">$5000</p>
+            <button type="button" class="btn btn-outline-success btncart2">Agregar al carrito</button>
             <img src="multimedia/buzo3.png" class=hoodie3 alt="buzo rosa">
             <p class= "precio-hoodie3 precio-shirt">$7200</p>
+            <button type="button" class="btn btn-outline-success btncart3">Agregar al carrito</button>
             <img src="multimedia/buzo4.png" class=hoodie4 alt="buzo trasher">
             <p class= "precio-hoodie4 precio-shirt">$6000</p>
+            <button type="button" class="btn btn-outline-success btncart4">Agregar al carrito</button>
             <img src="multimedia/buzo5.png" class=hoodie5 alt="buzo drew">
             <p class= "precio-hoodie5 precio-shirt">$4500</p>
+            <button type="button" class="btn btn-outline-success btncart5">Agregar al carrito</button>
             <img src="multimedia/buzo6.png" class=hoodie6 alt="buzo rosa">
             <p class= "precio-hoodie6 precio-shirt">$6000</p>
+            <button type="button" class="btn btn-outline-success btncart6">Agregar al carrito</button>
         </section>
 
-        <section id=hats class=titleRemera>
+        <section id=hats class="titleRemera hats">
             <p class=product data-aos="zoom-in">
                 Gorras y pilusos
             </p>
@@ -134,25 +149,25 @@
     </main>
 
     <footer id=footer class=footer>
-        <button type="button" class="btn btn-link">Visita la Tienda Online</button>
-         <ul class=footerFlex>
-                 <li class=insta>
-                     <a class="insta" href="https://www.instagram.com/_nnoovvaa/">
-                         <img class=insta-img src="multimedia/insta.webp" alt="instagram-logo"class="insta-img">
-                     Instagram
-                     </a>             
-                 </li>
-                 <li class=wpp>   
-                     <a class="insta" href="https://www.instagram.com/_nnoovvaa/">
-                         <img class=wpp-img src="multimedia/wpp.webp" alt="WhatsApp-logo"class="wpp-img">
-                     WhatsApp
-                     </a>    
-                 </li>
-                 <li class=tel>
-                     Tel: 0351 - 153478930
-                 </li>
-             </ul>
-     </footer>
+        <button type="button" class="btn tiendabtn">Visita la Tienda Online</button>
+        <ul class=footerFlex>
+                <li class=insta>
+                    <a class="insta" href="https://www.instagram.com/_nnoovvaa/">
+                        <img class=insta-img src="multimedia/insta.webp" alt="instagram-logo"class="insta-img">
+                    Instagram
+                    </a>             
+                </li>
+                <li class=wpp>   
+                    <a class="insta" href="https://www.instagram.com/_nnoovvaa/">
+                        <img class=wpp-img src="multimedia/wpp.webp" alt="WhatsApp-logo"class="wpp-img">
+                    WhatsApp
+                    </a>    
+                </li>
+                <li class=tel>
+                    Tel: 0351 - 153478930
+                </li>
+            </ul>
+    </footer>
  
 
 

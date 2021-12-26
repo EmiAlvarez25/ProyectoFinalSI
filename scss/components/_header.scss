@@ -38,17 +38,16 @@
                 padding: 0px;
                 background-color: $bg-color;
                 color:$colortxt;
+                align-items: center;
+                margin-left: 199px;
                     
             .inicio, .muralesytatoo, .mas-servicios, .contacto{
-                        display: inline-block;
-                        text-decoration: none;
-                        color: $colortxt;
-                        padding: 5px 50px;
-                        text-align: center;
-                        position:relative;
-                        @media only screen and (max-width: 576px){
-                            
-                        }
+                    display: inline-block;
+                    text-decoration: none;
+                    color: $colortxt;
+                    padding: 43px 50px;
+                    text-align: center;
+                    position:relative;
             }
         
         }    
@@ -56,6 +55,23 @@
     }
 
 }
+
+.header-home{
+    .menu-inicio{
+        .menu{
+            .navcarrito{
+                display: inline-block;
+                position:relative;
+                padding: 5px 0px 10px 0px;
+                    .carrito{
+                        display: block;
+                        width:25%;
+                    }
+            }
+        }
+    }
+}
+
 
 
 

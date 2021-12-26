@@ -1,29 +1,22 @@
 .footer{ 
         background-image: url(../../multimedia/bg-mural.jpg);
-        background-repeat: repeat-x;
         background-size: 100%;
-        background-color: $bg-color;
         padding: 10px;
-        margin-top: 50px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         flex-wrap: wrap;
         margin: 50px 0px;
+        .tiendabtn{
+            text-decoration: none;
+            color: $colortxt;
+        }
 
-        @media only screen and (max-width: 481px){
-            margin-top: 0px;
-            display: flex;
-            align-content: flex-end;
-        }
-        @media only screen and (max-width: 576px){
-            margin-top: 0px;
-        }
         .footerFlex{
 
             .tel{
                 list-style-type: none;
-                padding: 0px 19px;
+                padding: 5px 19px;
                 font-size: 0.7rem;
                 color: $color-pr;
 
@@ -33,34 +26,25 @@
                     list-style-type: none;
                     padding: 0px 10px;
                     font-size: 0.9rem;
-                    @media only screen and (max-width: 481px){
-                        
-                    }
+                    text-decoration: none;
+                    color: $colortxt;
                 .insta-img{
                     width: 10%;
                     height: 3%;
                     padding-right: 10px; 
-                    @media only screen and (max-width: 481px){
-                        width: 10%;
-                    }
                 }
             }
             .wpp{
                     list-style-type: none;
                     padding: 0px 10px;
                     font-size: 0.9rem;
-                    @media only screen and (max-width: 481px){
-                        
-                    }
                 .wpp-img{
                     width: 10%;
                     height: 3%;
                     padding-right: 10px; 
-                    @media only screen and (max-width: 481px){
-                        width: 10%;
-                    }
                 }
             }
+
         }        
 
 }      

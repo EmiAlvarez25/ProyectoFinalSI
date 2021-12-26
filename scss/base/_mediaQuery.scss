@@ -40,6 +40,30 @@
             }
         }
     }
+    .footer{
+        display: flex;
+        margin: 10px 0px;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        .tiendabtn{
+            font-size: 0.7rem;
+        }
+        .footerFlex{
+            .tel{
+                font-size: 0.5rem;
+                padding: 5px 0px 5px 118px;
+            }
+            .insta{
+                font-size: 0.7rem;
+                padding: 5px 0px 5px 20px;
+            }
+            .wpp{
+                font-size: 0.7rem;
+                padding: 5px 0px 5px 20px;
+            }
+
+        }
+    }
 
 }
 

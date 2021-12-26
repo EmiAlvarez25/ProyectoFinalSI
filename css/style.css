@@ -2,7 +2,7 @@
 .gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, main .principal, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, .header-home .menu-inicio, .header-home-contacto .menu-inicio, .header-home, .header-home-contacto {
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -42,6 +42,28 @@
   }
   main .galeria-img .mercado {
     font-size: 0.5rem;
+  }
+
+  .footer {
+    display: flex;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.7rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
+    padding: 5px 0px 5px 118px;
+  }
+  .footer .footerFlex .insta {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -96,15 +118,28 @@
   padding: 0px;
   background-color: black;
   color: #c600e9;
+  align-items: center;
+  margin-left: 199px;
 }
 .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
   display: inline-block;
   text-decoration: none;
   color: #c600e9;
-  padding: 5px 50px;
+  padding: 43px 50px;
   text-align: center;
   position: relative;
 }
+
+.header-home .menu-inicio .menu .navcarrito {
+  display: inline-block;
+  position: relative;
+  padding: 5px 0px 10px 0px;
+}
+.header-home .menu-inicio .menu .navcarrito .carrito {
+  display: block;
+  width: 25%;
+}
+
 @media only screen and (max-width: 321px) {
   .header-home, .header-home-contacto {
     display: flex;
@@ -141,6 +176,28 @@
   }
   main .galeria-img .mercado {
     font-size: 0.5rem;
+  }
+
+  .footer {
+    display: flex;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.7rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
+    padding: 5px 0px 5px 118px;
+  }
+  .footer .footerFlex .insta {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -242,32 +299,21 @@ main .galeria-img .mercado {
 
 .footer {
   background-image: url(../../multimedia/bg-mural.jpg);
-  background-repeat: repeat-x;
   background-size: 100%;
-  background-color: black;
   padding: 10px;
-  margin-top: 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
   margin: 50px 0px;
 }
-@media only screen and (max-width: 481px) {
-  .footer {
-    margin-top: 0px;
-    display: flex;
-    align-content: flex-end;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .footer {
-    margin-top: 0px;
-  }
+.footer .tiendabtn {
+  text-decoration: none;
+  color: #c600e9;
 }
 .footer .footerFlex .tel {
   list-style-type: none;
-  padding: 0px 19px;
+  padding: 5px 19px;
   font-size: 0.7rem;
   color: #e6dbdb;
 }
@@ -275,16 +321,13 @@ main .galeria-img .mercado {
   list-style-type: none;
   padding: 0px 10px;
   font-size: 0.9rem;
+  text-decoration: none;
+  color: #c600e9;
 }
 .footer .footerFlex .insta .insta-img {
   width: 10%;
   height: 3%;
   padding-right: 10px;
-}
-@media only screen and (max-width: 481px) {
-  .footer .footerFlex .insta .insta-img {
-    width: 10%;
-  }
 }
 .footer .footerFlex .wpp {
   list-style-type: none;
@@ -296,16 +339,11 @@ main .galeria-img .mercado {
   height: 3%;
   padding-right: 10px;
 }
-@media only screen and (max-width: 481px) {
-  .footer .footerFlex .wpp .wpp-img {
-    width: 10%;
-  }
-}
 
 .gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, .header-home, .header-home-contacto, .header-home .menu-inicio, .header-home-contacto .menu-inicio, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal {
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -578,24 +616,13 @@ main .titleRemera {
   margin-left: 30px;
   text-decoration: underline;
 }
-@media only screen and (max-width: 481px) {
-  main .titleRemera {
-    font-size: 1rem;
-  }
-}
 main .gridRemeras {
   display: grid;
-  grid-template-areas: "shirt1 shirt2 shirt3" "precio-shirt1 precio-shirt2 precio-shirt3" "shirt4 shirt5 shirt6" "precio-shirt4 precio-shirt5 precio-shirt6";
+  grid-template-areas: "shirt1 shirt2 shirt3" "precio-shirt1 precio-shirt2 precio-shirt3" "btncart1 btncart2 btncart3" "shirt4 shirt5 shirt6" "precio-shirt4 precio-shirt5 precio-shirt6" "btncart4 btncart5 btncart6";
   align-items: center;
   justify-content: center;
-  gap: 5%;
+  gap: 3%;
   margin-bottom: 20%;
-}
-@media only screen and (max-width: 481px) {
-  main .gridRemeras {
-    margin: 0% 3%;
-    gap: 1%;
-  }
 }
 main .gridRemeras .remera1 {
   grid-area: shirt1;
@@ -603,11 +630,17 @@ main .gridRemeras .remera1 {
 main .gridRemeras .precio-shirt1 {
   grid-area: precio-shirt1;
 }
+main .gridRemeras .btncart1 {
+  grid-area: btncart1;
+}
 main .gridRemeras .remera2 {
   grid-area: shirt2;
 }
 main .gridRemeras .precio-shirt2 {
   grid-area: precio-shirt2;
+}
+main .gridRemeras .btncart2 {
+  grid-area: btncart2;
 }
 main .gridRemeras .remera3 {
   grid-area: shirt3;
@@ -615,11 +648,17 @@ main .gridRemeras .remera3 {
 main .gridRemeras .precio-shirt3 {
   grid-area: precio-shirt3;
 }
+main .gridRemeras .btncart3 {
+  grid-area: btncart3;
+}
 main .gridRemeras .remera4 {
   grid-area: shirt4;
 }
 main .gridRemeras .precio-shirt4 {
   grid-area: precio-shirt4;
+}
+main .gridRemeras .btncart4 {
+  grid-area: btncart4;
 }
 main .gridRemeras .remera5 {
   grid-area: shirt5;
@@ -627,11 +666,17 @@ main .gridRemeras .remera5 {
 main .gridRemeras .precio-shirt5 {
   grid-area: precio-shirt5;
 }
+main .gridRemeras .btncart5 {
+  grid-area: btncart5;
+}
 main .gridRemeras .remera6 {
   grid-area: shirt6;
 }
 main .gridRemeras .precio-shirt6 {
   grid-area: precio-shirt6;
+}
+main .gridRemeras .btncart6 {
+  grid-area: btncart6;
 }
 main .gridRemeras .remera1, main .gridRemeras .remera2, main .gridRemeras .remera3, main .gridRemeras .remera4, main .gridRemeras .remera5, main .gridRemeras .remera6 {
   width: 100%;
@@ -658,74 +703,8 @@ main .precio-shirt {
     font-size: 0.7rem;
   }
 }
-main .gridBuzos {
-  display: grid;
-  grid-template-areas: "hoodie1 hoodie2 hoodie5" "precio-hoodie1 precio-hoodie2 precio-hoodie3" "hoodie3 hoodie4 hoodie6" "precio-hoodie4 precio-hoodie5 precio-hoodie6";
-  align-items: center;
-  justify-content: center;
-  gap: 5%;
-  margin-bottom: 10%;
-  margin-left: 10%;
-  z-index: 10;
-}
-@media only screen and (max-width: 481px) {
-  main .gridBuzos {
-    margin: 10% 5%;
-  }
-}
-main .gridBuzos .hoodie1 {
-  grid-area: hoodie1;
-}
-main .gridBuzos .precio-hoodie1 {
-  grid-area: precio-hoodie1;
-}
-main .gridBuzos .hoodie2 {
-  grid-area: hoodie2;
-}
-main .gridBuzos .precio-hoodie2 {
-  grid-area: precio-hoodie2;
-}
-main .gridBuzos .hoodie3 {
-  grid-area: hoodie3;
-}
-main .gridBuzos .precio-hoodie3 {
-  grid-area: precio-hoodie3;
-}
-main .gridBuzos .hoodie4 {
-  grid-area: hoodie4;
-}
-main .gridBuzos .precio-hoodie4 {
-  grid-area: precio-hoodie4;
-}
-main .gridBuzos .hoodie5 {
-  grid-area: hoodie5;
-}
-main .gridBuzos .precio-hoodie5 {
-  grid-area: precio-hoodie5;
-}
-main .gridBuzos .hoodie6 {
-  grid-area: hoodie6;
-}
-main .gridBuzos .precio-hoodie6 {
-  grid-area: precio-hoodie6;
-}
-main .gridBuzos .hoodie1, main .gridBuzos .hoodie2, main .gridBuzos .hoodie3, main .gridBuzos .hoodie4, main .gridBuzos .hoodie5, main .gridBuzos .hoodie6 {
-  width: 70%;
-}
-main .gridBuzos .hoodie1:hover, main .gridBuzos .hoodie2:hover, main .gridBuzos .hoodie3:hover, main .gridBuzos .hoodie4:hover, main .gridBuzos .hoodie5:hover, main .gridBuzos .hoodie6:hover {
-  -webkit-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  transform: scale(1.5);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-}
-@media only screen and (max-width: 481px) {
-  main .gridBuzos .hoodie1, main .gridBuzos .hoodie2, main .gridBuzos .hoodie3, main .gridBuzos .hoodie4, main .gridBuzos .hoodie5, main .gridBuzos .hoodie6 {
-    width: 100%;
-  }
+main .hats {
+  padding-top: 70px;
 }
 main .gridGorras {
   display: grid;
@@ -890,6 +869,28 @@ main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .ha
   main .galeria-img .mercado {
     font-size: 0.5rem;
   }
+
+  .footer {
+    display: flex;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.7rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
+    padding: 5px 0px 5px 118px;
+  }
+  .footer .footerFlex .insta {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
 }
 @media only screen and (max-width: 481px) {
   .header-home, .header-home-contacto {
@@ -913,6 +914,165 @@ main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .ha
     padding: 5px 13px;
   }
 }
+@media only screen and (max-width: 321px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
+    padding: 0px 4px;
+  }
+
+  main .presentacion {
+    display: flex;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 1.5rem;
+  }
+  main .galeria-img .gombu {
+    margin-left: 75px;
+  }
+  main .galeria-img .mercado {
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    display: flex;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.7rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
+    padding: 5px 0px 5px 118px;
+  }
+  .footer .footerFlex .insta {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+    padding: 0px 4px;
+  }
+}
+@media only screen and (max-width: 577) {
+  .header-home, .header-home-contacto {
+    padding: 0px;
+  }
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+    padding: 5px 13px;
+  }
+}
+main .gridBuzos {
+  display: grid;
+  grid-template-areas: "hoodie1 hoodie2 hoodie5" "precio-hoodie1 precio-hoodie2 precio-hoodie3" "btncart1 btncart2 btncart3" "hoodie3 hoodie4 hoodie6" "precio-hoodie4 precio-hoodie5 precio-hoodie6" "btncart4 btncart5 btncart6";
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  margin-bottom: 20%;
+  z-index: 10;
+}
+main .gridBuzos .hoodie1 {
+  grid-area: hoodie1;
+}
+main .gridBuzos .precio-hoodie1 {
+  grid-area: precio-hoodie1;
+}
+main .gridBuzos .btncart1 {
+  grid-area: btncart1;
+}
+main .gridBuzos .hoodie2 {
+  grid-area: hoodie2;
+}
+main .gridBuzos .precio-hoodie2 {
+  grid-area: precio-hoodie2;
+}
+main .gridBuzos .btncart2 {
+  grid-area: btncart2;
+}
+main .gridBuzos .hoodie3 {
+  grid-area: hoodie3;
+}
+main .gridBuzos .precio-hoodie3 {
+  grid-area: precio-hoodie3;
+}
+main .gridBuzos .btncart3 {
+  grid-area: btncart3;
+}
+main .gridBuzos .hoodie4 {
+  grid-area: hoodie4;
+}
+main .gridBuzos .precio-hoodie4 {
+  grid-area: precio-hoodie4;
+}
+main .gridBuzos .btncart4 {
+  grid-area: btncart4;
+}
+main .gridBuzos .hoodie5 {
+  grid-area: hoodie5;
+}
+main .gridBuzos .precio-hoodie5 {
+  grid-area: precio-hoodie5;
+}
+main .gridBuzos .btncart5 {
+  grid-area: btncart5;
+}
+main .gridBuzos .hoodie6 {
+  grid-area: hoodie6;
+}
+main .gridBuzos .precio-hoodie6 {
+  grid-area: precio-hoodie6;
+}
+main .gridBuzos .btncart6 {
+  grid-area: btncart6;
+}
+main .gridBuzos .hoodie1, main .gridBuzos .hoodie2, main .gridBuzos .hoodie3, main .gridBuzos .hoodie4, main .gridBuzos .hoodie5, main .gridBuzos .hoodie6 {
+  width: 70%;
+}
+main .gridBuzos .hoodie1:hover, main .gridBuzos .hoodie2:hover, main .gridBuzos .hoodie3:hover, main .gridBuzos .hoodie4:hover, main .gridBuzos .hoodie5:hover, main .gridBuzos .hoodie6:hover {
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -935,11 +1095,11 @@ html {
   color: #c600e9;
 }
 
-a {
+.link {
   text-decoration: none;
   color: #00f100;
 }
-a:hover {
+.link:hover {
   color: blanchedalmond;
 }
 
