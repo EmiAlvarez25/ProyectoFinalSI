@@ -1,0 +1,85 @@
+@import "../base/variables";
+@import "../base/mixin";
+@import "../base/mediaQuery";
+
+main{
+       
+    .gridBuzos{
+        display: grid;
+        grid-template-areas: "hoodie1 hoodie2 hoodie5"
+                              "precio-hoodie1 precio-hoodie2 precio-hoodie3"
+                              "btncart1 btncart2 btncart3"
+                             "hoodie3 hoodie4 hoodie6"
+                             "precio-hoodie4 precio-hoodie5 precio-hoodie6"
+                             "btncart4 btncart5 btncart6";
+        align-items: center;
+        justify-content: center;
+        gap: 3%;
+        margin-bottom: 20%;
+        z-index: 10;
+
+        .hoodie1{
+            grid-area: hoodie1;
+        }
+        .precio-hoodie1{
+            grid-area: precio-hoodie1;
+            
+        }
+        .btncart1{
+            grid-area: btncart1;
+        }
+        .hoodie2{
+            grid-area: hoodie2;
+        }
+        .precio-hoodie2{
+            grid-area: precio-hoodie2;
+        }
+        .btncart2{
+            grid-area: btncart2;
+        }
+        .hoodie3{
+            grid-area: hoodie3;
+        }
+        .precio-hoodie3{
+            grid-area: precio-hoodie3;
+        }
+        .btncart3{
+            grid-area: btncart3;
+        }
+        .hoodie4{
+            grid-area: hoodie4;
+        }
+        .precio-hoodie4{
+            grid-area: precio-hoodie4;
+        }
+        .btncart4{
+            grid-area: btncart4;
+        }
+        .hoodie5{
+            grid-area: hoodie5;
+        }
+        .precio-hoodie5{
+            grid-area: precio-hoodie5;
+        }
+        .btncart5{
+            grid-area: btncart5;
+        }
+        .hoodie6{
+            grid-area: hoodie6;
+        }
+        .precio-hoodie6{
+            grid-area: precio-hoodie6;
+        }
+        .btncart6{
+            grid-area: btncart6;
+        }
+        
+        .hoodie1, .hoodie2, .hoodie3, .hoodie4, .hoodie5, .hoodie6{
+            width: 70%;
+            &:hover{
+                @include transforms(scale(1.5));
+                @include transitions(cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s);
+            }
+        }
+    }
+}

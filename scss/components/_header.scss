@@ -1,43 +1,24 @@
 @import "../base/mediaQuery";
 
 .header-home, .header-home-contacto{
-            text-decoration: none;
-            color:$colortxt;
-            font-size: 1rem;
             background-color: $bg-color;
             list-style-type: none;
-            font-style: normal;
             font-weight: bold;
-            margin-top: 30px;
             background-size: 100%; 
-            border-bottom: $bg-color solid 10px;
             @extend %dp-flex;
-            flex-direction: row;
-            flex-wrap: wrap;
             position: relative;
          
-            &:hover{
-                background-color: black;
-                color: blanchedalmond;
 
-            }
 
 
 
     .menu-inicio{
-                text-decoration: none;
-                @extend %dp-flex;
-                color:$colortxt;
-
-
         .menu{
                 @extend %dp-flex;
                 text-decoration: none;
                 list-style-type: none;
                 position: relative;
                 padding: 0px;
-                background-color: $bg-color;
-                color:$colortxt;
                 align-items: center;
                 margin-left: 199px;
                     
@@ -45,32 +26,35 @@
                     display: inline-block;
                     text-decoration: none;
                     color: $colortxt;
-                    padding: 43px 50px;
+                    padding: 43px 63px;
                     text-align: center;
                     position:relative;
+                    z-index: 10;
+
+                    &:hover{
+                        background-color: black;
+                        color: blanchedalmond;
+                        cursor: pointer;
+        
+                    }
             }
         
+            .navcarrito{
+                display: block;
+                position: relative;
+                .carrito{
+                    display: inline-block;
+                    width: 25%;
+                    padding-right: 10px; 
+                    z-index: -10;
+                }
+            }
         }    
 
     }
 
 }
 
-.header-home{
-    .menu-inicio{
-        .menu{
-            .navcarrito{
-                display: inline-block;
-                position:relative;
-                padding: 5px 0px 10px 0px;
-                    .carrito{
-                        display: block;
-                        width:25%;
-                    }
-            }
-        }
-    }
-}
 
 
 

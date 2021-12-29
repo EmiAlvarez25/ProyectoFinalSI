@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, main .principal, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, .header-home .menu-inicio, .header-home-contacto .menu-inicio, .header-home, .header-home-contacto {
+.gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, main .principal, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, .header-home, .header-home-contacto {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -89,35 +89,17 @@
   }
 }
 .header-home, .header-home-contacto {
-  text-decoration: none;
-  color: #c600e9;
-  font-size: 1rem;
   background-color: black;
   list-style-type: none;
-  font-style: normal;
   font-weight: bold;
-  margin-top: 30px;
   background-size: 100%;
-  border-bottom: black solid 10px;
-  flex-direction: row;
-  flex-wrap: wrap;
   position: relative;
-}
-.header-home:hover, .header-home-contacto:hover {
-  background-color: black;
-  color: blanchedalmond;
-}
-.header-home .menu-inicio, .header-home-contacto .menu-inicio {
-  text-decoration: none;
-  color: #c600e9;
 }
 .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
   text-decoration: none;
   list-style-type: none;
   position: relative;
   padding: 0px;
-  background-color: black;
-  color: #c600e9;
   align-items: center;
   margin-left: 199px;
 }
@@ -125,19 +107,25 @@
   display: inline-block;
   text-decoration: none;
   color: #c600e9;
-  padding: 43px 50px;
+  padding: 43px 63px;
   text-align: center;
   position: relative;
+  z-index: 10;
 }
-
-.header-home .menu-inicio .menu .navcarrito {
-  display: inline-block;
-  position: relative;
-  padding: 5px 0px 10px 0px;
+.header-home .menu-inicio .menu .inicio:hover, .header-home .menu-inicio .menu .muralesytatoo:hover, .header-home .menu-inicio .menu .mas-servicios:hover, .header-home .menu-inicio .menu .contacto:hover, .header-home-contacto .menu-inicio .menu .inicio:hover, .header-home-contacto .menu-inicio .menu .muralesytatoo:hover, .header-home-contacto .menu-inicio .menu .mas-servicios:hover, .header-home-contacto .menu-inicio .menu .contacto:hover {
+  background-color: black;
+  color: blanchedalmond;
+  cursor: pointer;
 }
-.header-home .menu-inicio .menu .navcarrito .carrito {
+.header-home .menu-inicio .menu .navcarrito, .header-home-contacto .menu-inicio .menu .navcarrito {
   display: block;
+  position: relative;
+}
+.header-home .menu-inicio .menu .navcarrito .carrito, .header-home-contacto .menu-inicio .menu .navcarrito .carrito {
+  display: inline-block;
   width: 25%;
+  padding-right: 10px;
+  z-index: -10;
 }
 
 @media only screen and (max-width: 321px) {
@@ -340,7 +328,7 @@ main .galeria-img .mercado {
   padding-right: 10px;
 }
 
-.gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, .header-home, .header-home-contacto, .header-home .menu-inicio, .header-home-contacto .menu-inicio, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal {
+.gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, .header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -509,10 +497,11 @@ main .galeria-img .mercado {
   margin-left: 10px;
   padding-bottom: 10px;
 }
-.gradiente .diseños .diseño2, .gradiente .diseños .diseño3, .gradiente .diseños .diseño5 {
+.gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
   width: 20%;
+  margin: 37px 10px 5px 10px;
 }
-.gradiente .diseños .diseño2:hover, .gradiente .diseños .diseño3:hover, .gradiente .diseños .diseño5:hover {
+.gradiente .diseños .diseño5:hover, .gradiente .diseños .diseño9:hover, .gradiente .diseños .diseño10:hover, .gradiente .diseños .diseño6:hover, .gradiente .diseños .diseño7:hover, .gradiente .diseños .diseño8:hover, .gradiente .diseños .diseño2:hover, .gradiente .diseños .diseño3:hover {
   -webkit-transform: scale(1.5);
   -o-transform: scale(1.5);
   -moz-transform: scale(1.5);
