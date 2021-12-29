@@ -4,14 +4,8 @@
             background-color: $bg-color;
             list-style-type: none;
             font-weight: bold;
-            background-size: 100%; 
             @extend %dp-flex;
-            position: relative;
-         
-
-
-
-
+            position: relative;       
     .menu-inicio{
         .menu{
                 @extend %dp-flex;
@@ -52,7 +46,9 @@
         }    
 
     }
-
+    .menuHamburguesa{
+        display: none;
+    }
 }
 
 

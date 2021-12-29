@@ -10,6 +10,22 @@
         .tiendabtn{
             text-decoration: none;
             color: $colortxt;
+            &:hover{
+                background-color: black;
+                color: blanchedalmond;
+                cursor: pointer;
+
+            }
+        }
+        .datadesign{
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            padding: 0px;
+            font-size: 0.9rem;
+            text-decoration: none;
+            color: $colortxt;
+            margin-right: 10%;
         }
 
         .footerFlex{
@@ -33,6 +49,11 @@
                     height: 3%;
                     padding-right: 10px; 
                 }
+
+                &:hover{
+                    cursor: pointer;
+    
+                }
             }
             .wpp{
                     list-style-type: none;
@@ -42,6 +63,11 @@
                     width: 10%;
                     height: 3%;
                     padding-right: 10px; 
+                }
+
+                &:hover{
+                    cursor: pointer;
+    
                 }
             }
 

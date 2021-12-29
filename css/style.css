@@ -19,18 +19,26 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
 @media only screen and (max-width: 321px) {
   .header-home, .header-home-contacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: flex-start;
+    justify-content: flex-start;
   }
   .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    align-items: flex-start;
+    display: none;
   }
-  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
-    flex-direction: column;
-    align-items: flex-start;
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
   }
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
-    padding: 0px 4px;
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
   }
 
   main .presentacion {
@@ -47,33 +55,51 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   main .principal .ultimos-trabajos {
     font-size: 1.5rem;
   }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
   main .galeria-img .gombu {
-    margin-left: 75px;
+    margin-left: 26%;
   }
   main .galeria-img .mercado {
     font-size: 0.5rem;
+    padding-bottom: 0px;
   }
 
   .footer {
+    background-image: none;
     display: flex;
+    justify-content: flex-start;
     margin: 10px 0px;
     background-size: 50%;
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    margin-left: 55px;
+  }
+  .footer .datadesign {
+    padding: 0.3rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .footerFlex {
+    padding: 0.3rem;
+    margin: 0rem;
   }
   .footer .footerFlex .tel {
     font-size: 0.5rem;
-    padding: 5px 0px 5px 118px;
+    padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -86,23 +112,109 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
     padding: 0px;
     font-size: 0.8rem;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
-    padding: 0px 4px;
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    display: none;
   }
-}
-@media only screen and (max-width: 577) {
-  .header-home, .header-home-contacto {
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
+  }
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
+  }
+
+  main .presentacion {
+    background-repeat: no-repeat;
+    padding: 36px 5px;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 2rem;
+  }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
+  main .galeria-img .gombu {
+    padding-bottom: 0px;
+    margin-left: 26%;
+  }
+  main .galeria-img .mercado {
+    margin: 10px 60px 5px 0px;
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    background-image: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.6rem;
+    margin-left: 155px;
+  }
+  .footer .datadesign {
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .datadesign .web {
+    display: block;
+    padding: 0px 40px 0px 40px;
+  }
+  .footer .footerFlex {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
     padding: 0px;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+  .footer .footerFlex .insta {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 580) {
+  .header-home {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .header-home .menu-inicio .menu {
+    margin-left: 0px;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
     padding: 5px 13px;
+    font-size: 1rem;
   }
 }
 .header-home, .header-home-contacto {
   background-color: black;
   list-style-type: none;
   font-weight: bold;
-  background-size: 100%;
   position: relative;
 }
 .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
@@ -137,22 +249,33 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   padding-right: 10px;
   z-index: -10;
 }
+.header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+  display: none;
+}
 
 @media only screen and (max-width: 321px) {
   .header-home, .header-home-contacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: flex-start;
+    justify-content: flex-start;
   }
   .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    align-items: flex-start;
+    display: none;
   }
-  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
-    flex-direction: column;
-    align-items: flex-start;
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
   }
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
-    padding: 0px 4px;
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
   }
 
   main .presentacion {
@@ -169,33 +292,51 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   main .principal .ultimos-trabajos {
     font-size: 1.5rem;
   }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
   main .galeria-img .gombu {
-    margin-left: 75px;
+    margin-left: 26%;
   }
   main .galeria-img .mercado {
     font-size: 0.5rem;
+    padding-bottom: 0px;
   }
 
   .footer {
+    background-image: none;
     display: flex;
+    justify-content: flex-start;
     margin: 10px 0px;
     background-size: 50%;
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    margin-left: 55px;
+  }
+  .footer .datadesign {
+    padding: 0.3rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .footerFlex {
+    padding: 0.3rem;
+    margin: 0rem;
   }
   .footer .footerFlex .tel {
     font-size: 0.5rem;
-    padding: 5px 0px 5px 118px;
+    padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -208,16 +349,103 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
     padding: 0px;
     font-size: 0.8rem;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
-    padding: 0px 4px;
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    display: none;
   }
-}
-@media only screen and (max-width: 577) {
-  .header-home, .header-home-contacto {
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
+  }
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
+  }
+
+  main .presentacion {
+    background-repeat: no-repeat;
+    padding: 36px 5px;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 2rem;
+  }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
+  main .galeria-img .gombu {
+    padding-bottom: 0px;
+    margin-left: 26%;
+  }
+  main .galeria-img .mercado {
+    margin: 10px 60px 5px 0px;
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    background-image: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.6rem;
+    margin-left: 155px;
+  }
+  .footer .datadesign {
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .datadesign .web {
+    display: block;
+    padding: 0px 40px 0px 40px;
+  }
+  .footer .footerFlex {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
     padding: 0px;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+  .footer .footerFlex .insta {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 580) {
+  .header-home {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .header-home .menu-inicio .menu {
+    margin-left: 0px;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
     padding: 5px 13px;
+    font-size: 1rem;
   }
 }
 main .presentacion {
@@ -309,6 +537,21 @@ main .galeria-img .mercado {
   text-decoration: none;
   color: #c600e9;
 }
+.footer .tiendabtn:hover {
+  background-color: black;
+  color: blanchedalmond;
+  cursor: pointer;
+}
+.footer .datadesign {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #c600e9;
+  margin-right: 10%;
+}
 .footer .footerFlex .tel {
   list-style-type: none;
   padding: 5px 19px;
@@ -327,6 +570,9 @@ main .galeria-img .mercado {
   height: 3%;
   padding-right: 10px;
 }
+.footer .footerFlex .insta:hover {
+  cursor: pointer;
+}
 .footer .footerFlex .wpp {
   list-style-type: none;
   padding: 0px 10px;
@@ -336,6 +582,9 @@ main .galeria-img .mercado {
   width: 10%;
   height: 3%;
   padding-right: 10px;
+}
+.footer .footerFlex .wpp:hover {
+  cursor: pointer;
 }
 
 .gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, .header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal {
@@ -636,18 +885,26 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
 @media only screen and (max-width: 321px) {
   .header-home, .header-home-contacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: flex-start;
+    justify-content: flex-start;
   }
   .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    align-items: flex-start;
+    display: none;
   }
-  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
-    flex-direction: column;
-    align-items: flex-start;
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
   }
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
-    padding: 0px 4px;
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
   }
 
   main .presentacion {
@@ -664,33 +921,51 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   main .principal .ultimos-trabajos {
     font-size: 1.5rem;
   }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
   main .galeria-img .gombu {
-    margin-left: 75px;
+    margin-left: 26%;
   }
   main .galeria-img .mercado {
     font-size: 0.5rem;
+    padding-bottom: 0px;
   }
 
   .footer {
+    background-image: none;
     display: flex;
+    justify-content: flex-start;
     margin: 10px 0px;
     background-size: 50%;
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    margin-left: 55px;
+  }
+  .footer .datadesign {
+    padding: 0.3rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .footerFlex {
+    padding: 0.3rem;
+    margin: 0rem;
   }
   .footer .footerFlex .tel {
     font-size: 0.5rem;
-    padding: 5px 0px 5px 118px;
+    padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -703,16 +978,103 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
     padding: 0px;
     font-size: 0.8rem;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
-    padding: 0px 4px;
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    display: none;
   }
-}
-@media only screen and (max-width: 577) {
-  .header-home, .header-home-contacto {
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
+  }
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
+  }
+
+  main .presentacion {
+    background-repeat: no-repeat;
+    padding: 36px 5px;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 2rem;
+  }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
+  main .galeria-img .gombu {
+    padding-bottom: 0px;
+    margin-left: 26%;
+  }
+  main .galeria-img .mercado {
+    margin: 10px 60px 5px 0px;
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    background-image: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.6rem;
+    margin-left: 155px;
+  }
+  .footer .datadesign {
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .datadesign .web {
+    display: block;
+    padding: 0px 40px 0px 40px;
+  }
+  .footer .footerFlex {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
     padding: 0px;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+  .footer .footerFlex .insta {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 580) {
+  .header-home {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .header-home .menu-inicio .menu {
+    margin-left: 0px;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
     padding: 5px 13px;
+    font-size: 1rem;
   }
 }
 .header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
@@ -827,18 +1189,26 @@ main .precio-shirt {
 @media only screen and (max-width: 321px) {
   .header-home, .header-home-contacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: flex-start;
+    justify-content: flex-start;
   }
   .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    align-items: flex-start;
+    display: none;
   }
-  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
-    flex-direction: column;
-    align-items: flex-start;
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
   }
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
-    padding: 0px 4px;
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
   }
 
   main .presentacion {
@@ -855,33 +1225,51 @@ main .precio-shirt {
   main .principal .ultimos-trabajos {
     font-size: 1.5rem;
   }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
   main .galeria-img .gombu {
-    margin-left: 75px;
+    margin-left: 26%;
   }
   main .galeria-img .mercado {
     font-size: 0.5rem;
+    padding-bottom: 0px;
   }
 
   .footer {
+    background-image: none;
     display: flex;
+    justify-content: flex-start;
     margin: 10px 0px;
     background-size: 50%;
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    margin-left: 55px;
+  }
+  .footer .datadesign {
+    padding: 0.3rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .footerFlex {
+    padding: 0.3rem;
+    margin: 0rem;
   }
   .footer .footerFlex .tel {
     font-size: 0.5rem;
-    padding: 5px 0px 5px 118px;
+    padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -894,16 +1282,103 @@ main .precio-shirt {
     padding: 0px;
     font-size: 0.8rem;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
-    padding: 0px 4px;
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    display: none;
   }
-}
-@media only screen and (max-width: 577) {
-  .header-home, .header-home-contacto {
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
+  }
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
+  }
+
+  main .presentacion {
+    background-repeat: no-repeat;
+    padding: 36px 5px;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 2rem;
+  }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
+  main .galeria-img .gombu {
+    padding-bottom: 0px;
+    margin-left: 26%;
+  }
+  main .galeria-img .mercado {
+    margin: 10px 60px 5px 0px;
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    background-image: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.6rem;
+    margin-left: 155px;
+  }
+  .footer .datadesign {
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .datadesign .web {
+    display: block;
+    padding: 0px 40px 0px 40px;
+  }
+  .footer .footerFlex {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
     padding: 0px;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+  .footer .footerFlex .insta {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 580) {
+  .header-home {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .header-home .menu-inicio .menu {
+    margin-left: 0px;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
     padding: 5px 13px;
+    font-size: 1rem;
   }
 }
 .header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
@@ -1179,18 +1654,26 @@ main .precio-shirt {
 @media only screen and (max-width: 321px) {
   .header-home, .header-home-contacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: flex-start;
+    justify-content: flex-start;
   }
   .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    align-items: flex-start;
+    display: none;
   }
-  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
-    flex-direction: column;
-    align-items: flex-start;
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
   }
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
-    padding: 0px 4px;
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
   }
 
   main .presentacion {
@@ -1207,33 +1690,51 @@ main .precio-shirt {
   main .principal .ultimos-trabajos {
     font-size: 1.5rem;
   }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
   main .galeria-img .gombu {
-    margin-left: 75px;
+    margin-left: 26%;
   }
   main .galeria-img .mercado {
     font-size: 0.5rem;
+    padding-bottom: 0px;
   }
 
   .footer {
+    background-image: none;
     display: flex;
+    justify-content: flex-start;
     margin: 10px 0px;
     background-size: 50%;
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    margin-left: 55px;
+  }
+  .footer .datadesign {
+    padding: 0.3rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .footerFlex {
+    padding: 0.3rem;
+    margin: 0rem;
   }
   .footer .footerFlex .tel {
     font-size: 0.5rem;
-    padding: 5px 0px 5px 118px;
+    padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -1246,33 +1747,128 @@ main .precio-shirt {
     padding: 0px;
     font-size: 0.8rem;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
-    padding: 0px 4px;
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    display: none;
   }
-}
-@media only screen and (max-width: 577) {
-  .header-home, .header-home-contacto {
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
+  }
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
+  }
+
+  main .presentacion {
+    background-repeat: no-repeat;
+    padding: 36px 5px;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 2rem;
+  }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
+  main .galeria-img .gombu {
+    padding-bottom: 0px;
+    margin-left: 26%;
+  }
+  main .galeria-img .mercado {
+    margin: 10px 60px 5px 0px;
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    background-image: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.6rem;
+    margin-left: 155px;
+  }
+  .footer .datadesign {
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .datadesign .web {
+    display: block;
+    padding: 0px 40px 0px 40px;
+  }
+  .footer .footerFlex {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
     padding: 0px;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+  .footer .footerFlex .insta {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 580) {
+  .header-home {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .header-home .menu-inicio .menu {
+    margin-left: 0px;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
     padding: 5px 13px;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 321px) {
   .header-home, .header-home-contacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: flex-start;
+    justify-content: flex-start;
   }
   .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    align-items: flex-start;
+    display: none;
   }
-  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
-    flex-direction: column;
-    align-items: flex-start;
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
   }
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
-    padding: 0px 4px;
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
   }
 
   main .presentacion {
@@ -1289,33 +1885,51 @@ main .precio-shirt {
   main .principal .ultimos-trabajos {
     font-size: 1.5rem;
   }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
   main .galeria-img .gombu {
-    margin-left: 75px;
+    margin-left: 26%;
   }
   main .galeria-img .mercado {
     font-size: 0.5rem;
+    padding-bottom: 0px;
   }
 
   .footer {
+    background-image: none;
     display: flex;
+    justify-content: flex-start;
     margin: 10px 0px;
     background-size: 50%;
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    margin-left: 55px;
+  }
+  .footer .datadesign {
+    padding: 0.3rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .footerFlex {
+    padding: 0.3rem;
+    margin: 0rem;
   }
   .footer .footerFlex .tel {
     font-size: 0.5rem;
-    padding: 5px 0px 5px 118px;
+    padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -1328,16 +1942,103 @@ main .precio-shirt {
     padding: 0px;
     font-size: 0.8rem;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
-    padding: 0px 4px;
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    display: none;
   }
-}
-@media only screen and (max-width: 577) {
-  .header-home, .header-home-contacto {
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
+  }
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
+  }
+
+  main .presentacion {
+    background-repeat: no-repeat;
+    padding: 36px 5px;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 2rem;
+  }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
+  main .galeria-img .gombu {
+    padding-bottom: 0px;
+    margin-left: 26%;
+  }
+  main .galeria-img .mercado {
+    margin: 10px 60px 5px 0px;
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    background-image: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.6rem;
+    margin-left: 155px;
+  }
+  .footer .datadesign {
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .datadesign .web {
+    display: block;
+    padding: 0px 40px 0px 40px;
+  }
+  .footer .footerFlex {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
     padding: 0px;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+  .footer .footerFlex .insta {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 580) {
+  .header-home {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .header-home .menu-inicio .menu {
+    margin-left: 0px;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
     padding: 5px 13px;
+    font-size: 1rem;
   }
 }
 .header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
@@ -1452,18 +2153,26 @@ main .precio-shirt {
 @media only screen and (max-width: 321px) {
   .header-home, .header-home-contacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: flex-start;
+    justify-content: flex-start;
   }
   .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    align-items: flex-start;
+    display: none;
   }
-  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
-    flex-direction: column;
-    align-items: flex-start;
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
   }
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
-    padding: 0px 4px;
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
   }
 
   main .presentacion {
@@ -1480,33 +2189,51 @@ main .precio-shirt {
   main .principal .ultimos-trabajos {
     font-size: 1.5rem;
   }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
   main .galeria-img .gombu {
-    margin-left: 75px;
+    margin-left: 26%;
   }
   main .galeria-img .mercado {
     font-size: 0.5rem;
+    padding-bottom: 0px;
   }
 
   .footer {
+    background-image: none;
     display: flex;
+    justify-content: flex-start;
     margin: 10px 0px;
     background-size: 50%;
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    margin-left: 55px;
+  }
+  .footer .datadesign {
+    padding: 0.3rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .footerFlex {
+    padding: 0.3rem;
+    margin: 0rem;
   }
   .footer .footerFlex .tel {
     font-size: 0.5rem;
-    padding: 5px 0px 5px 118px;
+    padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.7rem;
-    padding: 5px 0px 5px 20px;
+    font-size: 0.5rem;
+    padding: 0px;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -1519,16 +2246,103 @@ main .precio-shirt {
     padding: 0px;
     font-size: 0.8rem;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
-    padding: 0px 4px;
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    display: none;
   }
-}
-@media only screen and (max-width: 577) {
-  .header-home, .header-home-contacto {
+  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
+  }
+  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
+  }
+
+  main .presentacion {
+    background-repeat: no-repeat;
+    padding: 36px 5px;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 2rem;
+  }
+  main .galeria-img {
+    padding-bottom: 0px;
+  }
+  main .galeria-img .gombu {
+    padding-bottom: 0px;
+    margin-left: 26%;
+  }
+  main .galeria-img .mercado {
+    margin: 10px 60px 5px 0px;
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    background-image: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.6rem;
+    margin-left: 155px;
+  }
+  .footer .datadesign {
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+  .footer .datadesign .web {
+    display: block;
+    padding: 0px 40px 0px 40px;
+  }
+  .footer .footerFlex {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
     padding: 0px;
   }
-  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+  .footer .footerFlex .insta {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 580) {
+  .header-home {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .header-home .menu-inicio .menu {
+    margin-left: 0px;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
     padding: 5px 13px;
+    font-size: 1rem;
   }
 }
 .header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {

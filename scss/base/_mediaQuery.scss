@@ -1,17 +1,29 @@
+
+
 @media only screen and (max-width:321px){
     .header-home, .header-home-contacto{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-content: flex-start;
+        justify-content: flex-start;
+    
         .menu-inicio{
-            align-items: flex-start;
-            .menu{
-                flex-direction: column;
-                align-items: flex-start;
-                .inicio, .muralesytatoo, .mas-servicios, .contacto{
-                    padding: 0px 4px;
+            display: none;
+        }
+        .menuHamburguesa{
+            display: block;
+            position: relative;
+            margin-right: 60%;
+            .drw-emi{
+                width: 80%;
+                .tatmh, .muralesmh, .tiendamh, .contactomh{
+                    font-family: 'Zen Kurenaido', sans-serif;
+                    background-color: $bg-color;
+                    color: $color-serv;
+                    font-size: 0.7rem;
                 }
             }
+
         }
 
     }
@@ -32,34 +44,48 @@
             }
         }
         .galeria-img{
+            padding-bottom: 0px;
            .gombu{
-               margin-left: 75px;
+               margin-left: 26%;
            } 
             .mercado{
                 font-size: 0.5rem;
+                padding-bottom: 0px;
             }
         }
     }
     .footer{
+        background-image: none;
         display: flex;
+        justify-content: flex-start;
         margin: 10px 0px;
         background-size: 50%;
         background-repeat: no-repeat;
         .tiendabtn{
-            font-size: 0.7rem;
+            font-size: 0.6rem;
+            margin-left: 55px;
+        }
+        .datadesign{
+            padding: 0.3rem;
+            margin: 0rem;
+            display: flex;
+            flex-direction: row;
+            font-size: 0.5rem;
         }
         .footerFlex{
+            padding: 0.3rem;
+            margin: 0rem;
             .tel{
                 font-size: 0.5rem;
-                padding: 5px 0px 5px 118px;
+                padding: 0px;
             }
             .insta{
-                font-size: 0.7rem;
-                padding: 5px 0px 5px 20px;
+                font-size: 0.5rem;
+                padding: 0px;
             }
             .wpp{
-                font-size: 0.7rem;
-                padding: 5px 0px 5px 20px;
+                font-size: 0.5rem;
+                padding: 0px;
             }
 
         }
@@ -76,21 +102,123 @@
         margin-top: 0px;
         padding:0px;
         font-size: 0.8rem;
-        .inicio, .muralesytatoo, .mas-servicios, .contacto{
-            padding: 0px 4px;
+        .menu-inicio{
+            display: none;
+        }
+        .menuHamburguesa{
+            display: block;
+            position: relative;
+            margin-right: 60%;
+            .drw-emi{
+                width: 80%;
+                .tatmh, .muralesmh, .tiendamh, .contactomh{
+                    font-family: 'Zen Kurenaido', sans-serif;
+                    background-color: $bg-color;
+                    color: $color-serv;
+                    font-size: 0.7rem;
+                }
+            }
         }
     }
-   
+   main{
+       .presentacion{
+           background-repeat: no-repeat;
+           padding: 36px 5px;
+
+           .texto, .text0{
+            font-size: 1rem;
+           }
+        }
+
+        .principal{
+            padding: 10px 0px 10px 0px;
+            .ultimos-trabajos{
+                font-size: 2rem;
+            }
+        }
+
+        .galeria-img{
+            padding-bottom: 0px;
+            .gombu{
+                padding-bottom: 0px;
+                margin-left: 26%;
+            }
+            .mercado{
+                margin: 10px 60px 5px 0px;
+                font-size: 0.5rem;
+
+            }
+        
+        }
+    }
+
+
+    .footer{
+        background-image: none;
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px 0px;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        .tiendabtn{
+            font-size: 0.6rem;
+            margin-left: 155px;
+        }
+        .datadesign{
+            padding: 0rem;
+            margin: 0rem;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            font-size: 0.5rem;
+            .web{
+                display: block;
+                padding: 0px 40px 0px 40px;
+            }
+        }
+        .footerFlex{
+            padding: 0rem;
+            margin: 0rem;
+            .tel{
+                font-size: 0.5rem;
+                padding: 0px;
+            }
+            .insta{
+                font-size: 0.5rem;
+                padding: 0px;
+            }
+            .wpp{
+                font-size: 0.5rem;
+                padding: 0px;
+            }
+
+        }
+    }
 }
 
-@media only screen and (max-width:577){
-    .header-home, .header-home-contacto{
+
+
+
+
+
+@media only screen and (max-width:580){
+    .header-home{
         padding:0px;
-        .inicio, .muralesytatoo, .mas-servicios, .contacto{
-            padding: 5px 13px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        .menu-inicio{
+            .menu{
+                margin-left: 0px;
+                .inicio, .muralesytatoo, .mas-servicios, .contacto{
+                    padding: 5px 13px;
+                    font-size: 1rem;
+                }
+            }
         }
 
     }
 
     
 }
+
