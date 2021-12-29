@@ -2,6 +2,9 @@
 
 @import "../base/mixin";
 @import "../base/variables";
+@import "../base/extends";
+@import "../components/gridhoodies";
+@import "../components/gridHats";
 
 main{
      .titleRemera{
@@ -15,18 +18,14 @@ main{
     }
 
     .gridRemeras{
-        display: grid;
+        @extend %dp-grid;
         grid-template-areas: "shirt1 shirt2 shirt3"
                               "precio-shirt1 precio-shirt2 precio-shirt3"
                               "btncart1 btncart2 btncart3"
                              "shirt4 shirt5 shirt6"
                              "precio-shirt4 precio-shirt5 precio-shirt6"
                              "btncart4 btncart5 btncart6";
-        align-items: center;
-        justify-content: center;
-        gap: 3%;
-        margin-bottom: 20%;
-
+ 
         .remera1{
             grid-area: shirt1;
         }
@@ -100,76 +99,6 @@ main{
         z-index: -10;
         @media only screen and (max-width:481px){
             font-size: 0.7rem;
-        }
-    }
-
-
-
-    .hats{
-        padding-top: 70px;
-    }
-    .gridGorras{
-        display: grid;
-        grid-template-areas: "hat1 hat2 hat3"
-                            "precio-hat1 precio-hat2 precio-hat3"
-                             "hat4 hat5 hat6"
-                             "precio-hat4 precio-hat5 precio-hat6";
-        align-items: center;
-        justify-content: center;
-        gap: 5%;
-        margin-bottom: 20%;
-        margin-left: 10%;
-        z-index: 10;
-        @media only screen and (max-width:481px){
-            margin: 10% 5%;
-        }
-
-        .hat1{
-            grid-area: hat1;
-        }
-        .precio-hat1{
-            grid-area: precio-hat1;
-        }
-        .hat2{
-            grid-area: hat2;
-        }
-        .precio-hat2{
-            grid-area: precio-hat2;
-        }
-        .hat3{
-            grid-area: hat3;
-        }
-        .precio-hat3{
-            grid-area: precio-hat3;
-        }
-        .hat4{
-            grid-area: hat4;
-        }
-        .precio-hat4{
-            grid-area: precio-hat4;
-        }
-        .hat5{
-            grid-area: hat5;
-        }
-        .precio-hat5{
-            grid-area: precio-hat5;
-        }
-        .hat6{
-            grid-area: hat6;
-        }
-        .precio-hat6{
-            grid-area: precio-hat6;
-        }
-        
-        .hat1, .hat2, .hat3, .hat4, .hat5, .hat6{
-            width: 70%;
-            &:hover{
-                @include transforms(scale(1.5));
-                @include transitions(cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s);
-            }
-            @media only screen and (max-width:481px){
-                width: 100%;
-            }
         }
     }
 }

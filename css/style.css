@@ -6,6 +6,16 @@
   flex-wrap: wrap;
 }
 
+main .gridRemeras, main .gridGorras, main .gridBuzos {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 3%;
+  margin-bottom: 20%;
+  z-index: 10;
+}
+
 @media only screen and (max-width: 321px) {
   .header-home, .header-home-contacto {
     display: flex;
@@ -335,6 +345,16 @@ main .galeria-img .mercado {
   flex-wrap: wrap;
 }
 
+main .gridRemeras, main .gridGorras, main .gridBuzos {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 3%;
+  margin-bottom: 20%;
+  z-index: 10;
+}
+
 .gradiente .navEmi {
   font-size: 1rem;
   color: #c600e9;
@@ -373,7 +393,6 @@ main .galeria-img .mercado {
   }
 }
 .gradiente .tatooTxt {
-  padding-bottom: 80px;
   font-size: 10rem;
   font-family: "Road Rage";
 }
@@ -597,6 +616,419 @@ main .galeria-img .mercado {
 }
 
 /*Código hecho desde cero en SCSS*/
+.header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main .gridRemeras, main .gridGorras, main .gridBuzos {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 3%;
+  margin-bottom: 20%;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 321px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
+    padding: 0px 4px;
+  }
+
+  main .presentacion {
+    display: flex;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 1.5rem;
+  }
+  main .galeria-img .gombu {
+    margin-left: 75px;
+  }
+  main .galeria-img .mercado {
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    display: flex;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.7rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
+    padding: 5px 0px 5px 118px;
+  }
+  .footer .footerFlex .insta {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+    padding: 0px 4px;
+  }
+}
+@media only screen and (max-width: 577) {
+  .header-home, .header-home-contacto {
+    padding: 0px;
+  }
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+    padding: 5px 13px;
+  }
+}
+.header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main .gridRemeras, main .gridGorras, main .gridBuzos {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 3%;
+  margin-bottom: 20%;
+  z-index: 10;
+}
+
+main .titleRemera {
+  color: #00f100;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 10%;
+  margin-left: 30px;
+  text-decoration: underline;
+}
+main .gridBuzos {
+  margin: 0% 10%;
+  grid-template-areas: "hoodie1 hoodie2 hoodie5" "precio-hoodie1 precio-hoodie2 precio-hoodie3" "btncart1 btncart2 btncart3" "hoodie3 hoodie4 hoodie6" "precio-hoodie4 precio-hoodie5 precio-hoodie6" "btncart4 btncart5 btncart6";
+}
+main .gridBuzos .hoodie1 {
+  grid-area: hoodie1;
+}
+main .gridBuzos .precio-hoodie1 {
+  grid-area: precio-hoodie1;
+}
+main .gridBuzos .btncart1 {
+  grid-area: btncart1;
+}
+main .gridBuzos .hoodie2 {
+  grid-area: hoodie2;
+}
+main .gridBuzos .precio-hoodie2 {
+  grid-area: precio-hoodie2;
+}
+main .gridBuzos .btncart2 {
+  grid-area: btncart2;
+}
+main .gridBuzos .hoodie3 {
+  grid-area: hoodie3;
+}
+main .gridBuzos .precio-hoodie3 {
+  grid-area: precio-hoodie3;
+}
+main .gridBuzos .btncart3 {
+  grid-area: btncart3;
+}
+main .gridBuzos .hoodie4 {
+  grid-area: hoodie4;
+}
+main .gridBuzos .precio-hoodie4 {
+  grid-area: precio-hoodie4;
+}
+main .gridBuzos .btncart4 {
+  grid-area: btncart4;
+}
+main .gridBuzos .hoodie5 {
+  grid-area: hoodie5;
+}
+main .gridBuzos .precio-hoodie5 {
+  grid-area: precio-hoodie5;
+}
+main .gridBuzos .btncart5 {
+  grid-area: btncart5;
+}
+main .gridBuzos .hoodie6 {
+  grid-area: hoodie6;
+}
+main .gridBuzos .precio-hoodie6 {
+  grid-area: precio-hoodie6;
+}
+main .gridBuzos .btncart6 {
+  grid-area: btncart6;
+}
+main .gridBuzos .hoodie1, main .gridBuzos .hoodie2, main .gridBuzos .hoodie3, main .gridBuzos .hoodie4, main .gridBuzos .hoodie5, main .gridBuzos .hoodie6 {
+  width: 100%;
+}
+main .gridBuzos .hoodie1:hover, main .gridBuzos .hoodie2:hover, main .gridBuzos .hoodie3:hover, main .gridBuzos .hoodie4:hover, main .gridBuzos .hoodie5:hover, main .gridBuzos .hoodie6:hover {
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+}
+main .precio-shirt {
+  position: relative;
+  display: block;
+  color: #00f100;
+  font-size: 1rem;
+  z-index: -10;
+}
+@media only screen and (max-width: 481px) {
+  main .precio-shirt {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
+    padding: 0px 4px;
+  }
+
+  main .presentacion {
+    display: flex;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 1.5rem;
+  }
+  main .galeria-img .gombu {
+    margin-left: 75px;
+  }
+  main .galeria-img .mercado {
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    display: flex;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.7rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
+    padding: 5px 0px 5px 118px;
+  }
+  .footer .footerFlex .insta {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+    padding: 0px 4px;
+  }
+}
+@media only screen and (max-width: 577) {
+  .header-home, .header-home-contacto {
+    padding: 0px;
+  }
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+    padding: 5px 13px;
+  }
+}
+.header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main .gridRemeras, main .gridGorras, main .gridBuzos {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 3%;
+  margin-bottom: 20%;
+  z-index: 10;
+}
+
+main .titleRemera {
+  color: #00f100;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 10%;
+  margin-left: 30px;
+  text-decoration: underline;
+}
+main .hats {
+  padding-top: 70px;
+}
+main .gridGorras {
+  grid-template-areas: "hat1 hat2 hat3" "precio-hat1 precio-hat2 precio-hat3" "btncart1 btncart2 btncart3" "hat4 hat5 hat6" "precio-hat4 precio-hat5 precio-hat6" "btncart4 btncart5 btncart6";
+  margin-bottom: 20%;
+  margin: 0% 10% 20% 10%;
+}
+@media only screen and (max-width: 481px) {
+  main .gridGorras {
+    margin: 10% 5%;
+  }
+}
+main .gridGorras .hat1 {
+  grid-area: hat1;
+}
+main .gridGorras .precio-hat1 {
+  grid-area: precio-hat1;
+}
+main .gridGorras .btncart1 {
+  grid-area: btncart1;
+}
+main .gridGorras .hat2 {
+  grid-area: hat2;
+}
+main .gridGorras .precio-hat2 {
+  grid-area: precio-hat2;
+}
+main .gridGorras .btncart2 {
+  grid-area: btncart2;
+}
+main .gridGorras .hat3 {
+  grid-area: hat3;
+}
+main .gridGorras .precio-hat3 {
+  grid-area: precio-hat3;
+}
+main .gridGorras .btncart3 {
+  grid-area: btncart3;
+}
+main .gridGorras .hat4 {
+  grid-area: hat4;
+}
+main .gridGorras .precio-hat4 {
+  grid-area: precio-hat4;
+}
+main .gridGorras .btncart4 {
+  grid-area: btncart4;
+}
+main .gridGorras .hat5 {
+  grid-area: hat5;
+}
+main .gridGorras .precio-hat5 {
+  grid-area: precio-hat5;
+}
+main .gridGorras .btncart5 {
+  grid-area: btncart5;
+}
+main .gridGorras .hat6 {
+  grid-area: hat6;
+}
+main .gridGorras .precio-hat6 {
+  grid-area: precio-hat6;
+}
+main .gridGorras .btncart6 {
+  grid-area: btncart6;
+}
+main .gridGorras .hat1, main .gridGorras .hat2, main .gridGorras .hat3, main .gridGorras .hat4, main .gridGorras .hat5, main .gridGorras .hat6 {
+  width: 100%;
+}
+main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .hat3:hover, main .gridGorras .hat4:hover, main .gridGorras .hat5:hover, main .gridGorras .hat6:hover {
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+}
+@media only screen and (max-width: 481px) {
+  main .gridGorras .hat1, main .gridGorras .hat2, main .gridGorras .hat3, main .gridGorras .hat4, main .gridGorras .hat5, main .gridGorras .hat6 {
+    width: 100%;
+  }
+}
+main .precio-shirt {
+  position: relative;
+  display: block;
+  color: #00f100;
+  font-size: 1rem;
+  z-index: -10;
+}
+@media only screen and (max-width: 481px) {
+  main .precio-shirt {
+    font-size: 0.7rem;
+  }
+}
+
 main .titleRemera {
   color: #00f100;
   font-size: 2.5rem;
@@ -606,12 +1038,7 @@ main .titleRemera {
   text-decoration: underline;
 }
 main .gridRemeras {
-  display: grid;
   grid-template-areas: "shirt1 shirt2 shirt3" "precio-shirt1 precio-shirt2 precio-shirt3" "btncart1 btncart2 btncart3" "shirt4 shirt5 shirt6" "precio-shirt4 precio-shirt5 precio-shirt6" "btncart4 btncart5 btncart6";
-  align-items: center;
-  justify-content: center;
-  gap: 3%;
-  margin-bottom: 20%;
 }
 main .gridRemeras .remera1 {
   grid-area: shirt1;
@@ -690,78 +1117,6 @@ main .precio-shirt {
 @media only screen and (max-width: 481px) {
   main .precio-shirt {
     font-size: 0.7rem;
-  }
-}
-main .hats {
-  padding-top: 70px;
-}
-main .gridGorras {
-  display: grid;
-  grid-template-areas: "hat1 hat2 hat3" "precio-hat1 precio-hat2 precio-hat3" "hat4 hat5 hat6" "precio-hat4 precio-hat5 precio-hat6";
-  align-items: center;
-  justify-content: center;
-  gap: 5%;
-  margin-bottom: 20%;
-  margin-left: 10%;
-  z-index: 10;
-}
-@media only screen and (max-width: 481px) {
-  main .gridGorras {
-    margin: 10% 5%;
-  }
-}
-main .gridGorras .hat1 {
-  grid-area: hat1;
-}
-main .gridGorras .precio-hat1 {
-  grid-area: precio-hat1;
-}
-main .gridGorras .hat2 {
-  grid-area: hat2;
-}
-main .gridGorras .precio-hat2 {
-  grid-area: precio-hat2;
-}
-main .gridGorras .hat3 {
-  grid-area: hat3;
-}
-main .gridGorras .precio-hat3 {
-  grid-area: precio-hat3;
-}
-main .gridGorras .hat4 {
-  grid-area: hat4;
-}
-main .gridGorras .precio-hat4 {
-  grid-area: precio-hat4;
-}
-main .gridGorras .hat5 {
-  grid-area: hat5;
-}
-main .gridGorras .precio-hat5 {
-  grid-area: precio-hat5;
-}
-main .gridGorras .hat6 {
-  grid-area: hat6;
-}
-main .gridGorras .precio-hat6 {
-  grid-area: precio-hat6;
-}
-main .gridGorras .hat1, main .gridGorras .hat2, main .gridGorras .hat3, main .gridGorras .hat4, main .gridGorras .hat5, main .gridGorras .hat6 {
-  width: 70%;
-}
-main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .hat3:hover, main .gridGorras .hat4:hover, main .gridGorras .hat5:hover, main .gridGorras .hat6:hover {
-  -webkit-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  transform: scale(1.5);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-}
-@media only screen and (max-width: 481px) {
-  main .gridGorras .hat1, main .gridGorras .hat2, main .gridGorras .hat3, main .gridGorras .hat4, main .gridGorras .hat5, main .gridGorras .hat6 {
-    width: 100%;
   }
 }
 
@@ -985,14 +1340,34 @@ main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .ha
     padding: 5px 13px;
   }
 }
-main .gridBuzos {
+.header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main .gridBuzos, main .gridGorras, main .gridRemeras {
   display: grid;
-  grid-template-areas: "hoodie1 hoodie2 hoodie5" "precio-hoodie1 precio-hoodie2 precio-hoodie3" "btncart1 btncart2 btncart3" "hoodie3 hoodie4 hoodie6" "precio-hoodie4 precio-hoodie5 precio-hoodie6" "btncart4 btncart5 btncart6";
   align-items: center;
   justify-content: center;
+  align-content: center;
   gap: 3%;
   margin-bottom: 20%;
   z-index: 10;
+}
+
+main .titleRemera {
+  color: #00f100;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 10%;
+  margin-left: 30px;
+  text-decoration: underline;
+}
+main .gridBuzos {
+  margin: 0% 10%;
+  grid-template-areas: "hoodie1 hoodie2 hoodie5" "precio-hoodie1 precio-hoodie2 precio-hoodie3" "btncart1 btncart2 btncart3" "hoodie3 hoodie4 hoodie6" "precio-hoodie4 precio-hoodie5 precio-hoodie6" "btncart4 btncart5 btncart6";
 }
 main .gridBuzos .hoodie1 {
   grid-area: hoodie1;
@@ -1049,7 +1424,7 @@ main .gridBuzos .btncart6 {
   grid-area: btncart6;
 }
 main .gridBuzos .hoodie1, main .gridBuzos .hoodie2, main .gridBuzos .hoodie3, main .gridBuzos .hoodie4, main .gridBuzos .hoodie5, main .gridBuzos .hoodie6 {
-  width: 70%;
+  width: 100%;
 }
 main .gridBuzos .hoodie1:hover, main .gridBuzos .hoodie2:hover, main .gridBuzos .hoodie3:hover, main .gridBuzos .hoodie4:hover, main .gridBuzos .hoodie5:hover, main .gridBuzos .hoodie6:hover {
   -webkit-transform: scale(1.5);
@@ -1060,6 +1435,223 @@ main .gridBuzos .hoodie1:hover, main .gridBuzos .hoodie2:hover, main .gridBuzos 
   -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+}
+main .precio-shirt {
+  position: relative;
+  display: block;
+  color: #00f100;
+  font-size: 1rem;
+  z-index: -10;
+}
+@media only screen and (max-width: 481px) {
+  main .precio-shirt {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home-contacto .menu-inicio .menu .inicio, .header-home-contacto .menu-inicio .menu .muralesytatoo, .header-home-contacto .menu-inicio .menu .mas-servicios, .header-home-contacto .menu-inicio .menu .contacto {
+    padding: 0px 4px;
+  }
+
+  main .presentacion {
+    display: flex;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+  }
+  main .presentacion .texto, main .presentacion .text0 {
+    font-size: 1rem;
+  }
+  main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  main .principal .ultimos-trabajos {
+    font-size: 1.5rem;
+  }
+  main .galeria-img .gombu {
+    margin-left: 75px;
+  }
+  main .galeria-img .mercado {
+    font-size: 0.5rem;
+  }
+
+  .footer {
+    display: flex;
+    margin: 10px 0px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .footer .tiendabtn {
+    font-size: 0.7rem;
+  }
+  .footer .footerFlex .tel {
+    font-size: 0.5rem;
+    padding: 5px 0px 5px 118px;
+  }
+  .footer .footerFlex .insta {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+  .footer .footerFlex .wpp {
+    font-size: 0.7rem;
+    padding: 5px 0px 5px 20px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .header-home, .header-home-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+    padding: 0px 4px;
+  }
+}
+@media only screen and (max-width: 577) {
+  .header-home, .header-home-contacto {
+    padding: 0px;
+  }
+  .header-home .inicio, .header-home .muralesytatoo, .header-home .mas-servicios, .header-home .contacto, .header-home-contacto .inicio, .header-home-contacto .muralesytatoo, .header-home-contacto .mas-servicios, .header-home-contacto .contacto {
+    padding: 5px 13px;
+  }
+}
+.header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main .gridBuzos, main .gridGorras, main .gridRemeras {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 3%;
+  margin-bottom: 20%;
+  z-index: 10;
+}
+
+main .titleRemera {
+  color: #00f100;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 10%;
+  margin-left: 30px;
+  text-decoration: underline;
+}
+main .hats {
+  padding-top: 70px;
+}
+main .gridGorras {
+  grid-template-areas: "hat1 hat2 hat3" "precio-hat1 precio-hat2 precio-hat3" "btncart1 btncart2 btncart3" "hat4 hat5 hat6" "precio-hat4 precio-hat5 precio-hat6" "btncart4 btncart5 btncart6";
+  margin-bottom: 20%;
+  margin: 0% 10% 20% 10%;
+}
+@media only screen and (max-width: 481px) {
+  main .gridGorras {
+    margin: 10% 5%;
+  }
+}
+main .gridGorras .hat1 {
+  grid-area: hat1;
+}
+main .gridGorras .precio-hat1 {
+  grid-area: precio-hat1;
+}
+main .gridGorras .btncart1 {
+  grid-area: btncart1;
+}
+main .gridGorras .hat2 {
+  grid-area: hat2;
+}
+main .gridGorras .precio-hat2 {
+  grid-area: precio-hat2;
+}
+main .gridGorras .btncart2 {
+  grid-area: btncart2;
+}
+main .gridGorras .hat3 {
+  grid-area: hat3;
+}
+main .gridGorras .precio-hat3 {
+  grid-area: precio-hat3;
+}
+main .gridGorras .btncart3 {
+  grid-area: btncart3;
+}
+main .gridGorras .hat4 {
+  grid-area: hat4;
+}
+main .gridGorras .precio-hat4 {
+  grid-area: precio-hat4;
+}
+main .gridGorras .btncart4 {
+  grid-area: btncart4;
+}
+main .gridGorras .hat5 {
+  grid-area: hat5;
+}
+main .gridGorras .precio-hat5 {
+  grid-area: precio-hat5;
+}
+main .gridGorras .btncart5 {
+  grid-area: btncart5;
+}
+main .gridGorras .hat6 {
+  grid-area: hat6;
+}
+main .gridGorras .precio-hat6 {
+  grid-area: precio-hat6;
+}
+main .gridGorras .btncart6 {
+  grid-area: btncart6;
+}
+main .gridGorras .hat1, main .gridGorras .hat2, main .gridGorras .hat3, main .gridGorras .hat4, main .gridGorras .hat5, main .gridGorras .hat6 {
+  width: 100%;
+}
+main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .hat3:hover, main .gridGorras .hat4:hover, main .gridGorras .hat5:hover, main .gridGorras .hat6:hover {
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+}
+@media only screen and (max-width: 481px) {
+  main .gridGorras .hat1, main .gridGorras .hat2, main .gridGorras .hat3, main .gridGorras .hat4, main .gridGorras .hat5, main .gridGorras .hat6 {
+    width: 100%;
+  }
+}
+main .precio-shirt {
+  position: relative;
+  display: block;
+  color: #00f100;
+  font-size: 1rem;
+  z-index: -10;
+}
+@media only screen and (max-width: 481px) {
+  main .precio-shirt {
+    font-size: 0.7rem;
+  }
 }
 
 * {

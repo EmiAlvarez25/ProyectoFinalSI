@@ -3,6 +3,7 @@
 @import "../base/mediaQuery";
 @import "../base/extends";
 
+
 main{
     .titleRemera{
         color:$color-serv;
@@ -13,77 +14,86 @@ main{
         text-decoration: underline;
 
     }
-    .gridBuzos{
+    .hats{
+        padding-top: 70px;
+    }
+    .gridGorras{
         @extend %dp-grid;
-        margin: 0% 10%;
-        grid-template-areas: "hoodie1 hoodie2 hoodie5"
-                              "precio-hoodie1 precio-hoodie2 precio-hoodie3"
-                              "btncart1 btncart2 btncart3"
-                             "hoodie3 hoodie4 hoodie6"
-                             "precio-hoodie4 precio-hoodie5 precio-hoodie6"
+        grid-template-areas: "hat1 hat2 hat3"
+                            "precio-hat1 precio-hat2 precio-hat3"
+                            "btncart1 btncart2 btncart3"
+                             "hat4 hat5 hat6"
+                             "precio-hat4 precio-hat5 precio-hat6"
                              "btncart4 btncart5 btncart6";
 
-        .hoodie1{
-            grid-area: hoodie1;
+        margin-bottom: 20%;
+        margin: 0% 10% 20% 10%;
+        @media only screen and (max-width:481px){
+            margin: 10% 5%;
         }
-        .precio-hoodie1{
-            grid-area: precio-hoodie1;
-            
+
+        .hat1{
+            grid-area: hat1;
+        }
+        .precio-hat1{
+            grid-area: precio-hat1;
         }
         .btncart1{
             grid-area: btncart1;
         }
-        .hoodie2{
-            grid-area: hoodie2;
+        .hat2{
+            grid-area: hat2;
         }
-        .precio-hoodie2{
-            grid-area: precio-hoodie2;
+        .precio-hat2{
+            grid-area: precio-hat2;
         }
         .btncart2{
             grid-area: btncart2;
         }
-        .hoodie3{
-            grid-area: hoodie3;
+        .hat3{
+            grid-area: hat3;
         }
-        .precio-hoodie3{
-            grid-area: precio-hoodie3;
+        .precio-hat3{
+            grid-area: precio-hat3;
         }
         .btncart3{
             grid-area: btncart3;
         }
-        .hoodie4{
-            grid-area: hoodie4;
+        .hat4{
+            grid-area: hat4;
         }
-        .precio-hoodie4{
-            grid-area: precio-hoodie4;
+        .precio-hat4{
+            grid-area: precio-hat4;
         }
         .btncart4{
             grid-area: btncart4;
         }
-        .hoodie5{
-            grid-area: hoodie5;
+        .hat5{
+            grid-area: hat5;
         }
-        .precio-hoodie5{
-            grid-area: precio-hoodie5;
+        .precio-hat5{
+            grid-area: precio-hat5;
         }
         .btncart5{
             grid-area: btncart5;
         }
-        .hoodie6{
-            grid-area: hoodie6;
+        .hat6{
+            grid-area: hat6;
         }
-        .precio-hoodie6{
-            grid-area: precio-hoodie6;
+        .precio-hat6{
+            grid-area: precio-hat6;
         }
         .btncart6{
             grid-area: btncart6;
         }
-        
-        .hoodie1, .hoodie2, .hoodie3, .hoodie4, .hoodie5, .hoodie6{
+        .hat1, .hat2, .hat3, .hat4, .hat5, .hat6{
             width: 100%;
             &:hover{
                 @include transforms(scale(1.5));
                 @include transitions(cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s);
+            }
+            @media only screen and (max-width:481px){
+                width: 100%;
             }
         }
     }
@@ -97,6 +107,5 @@ main{
         @media only screen and (max-width:481px){
             font-size: 0.7rem;
         }
-
     }
 }
