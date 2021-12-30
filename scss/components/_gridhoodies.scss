@@ -1,7 +1,7 @@
 @import "../base/variables";
 @import "../base/mixin";
-@import "../base/mediaQuery";
 @import "../base/extends";
+@import "../base/mediaQuery";
 
 main{
     .titleHoodie{
@@ -77,7 +77,6 @@ main{
         .btncart6{
             grid-area: btncart6;
         }
-        
         .hoodie1, .hoodie2, .hoodie3, .hoodie4, .hoodie5, .hoodie6{
             width: 100%;
             &:hover{

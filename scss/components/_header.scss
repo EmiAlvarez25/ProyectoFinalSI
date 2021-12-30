@@ -1,6 +1,4 @@
-@import "../base/mediaQuery";
-
-.header-home, .header-home-contacto{
+.header-home{
             background-color: $bg-color;
             list-style-type: none;
             font-weight: bold;
@@ -16,7 +14,7 @@
                 align-items: center;
                 margin-left: 199px;
                     
-            .inicio, .muralesytatoo, .mas-servicios, .contacto{
+                .inicio, .muralesytatoo, .mas-servicios, .contacto{
                     display: inline-block;
                     text-decoration: none;
                     color: $colortxt;

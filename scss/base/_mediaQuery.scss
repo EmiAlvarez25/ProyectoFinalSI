@@ -1,7 +1,6 @@
 
-
 @media only screen and (max-width:321px){
-    .header-home, .header-home-contacto{
+    .header-home{
         display: flex;
         flex-direction: row;
         align-content: flex-start;
@@ -23,9 +22,7 @@
                     font-size: 0.7rem;
                 }
             }
-
         }
-
     }
     main{
         .presentacion{
@@ -58,7 +55,6 @@
         background-image: none;
         display: flex;
         justify-content: flex-start;
-        margin: 10px 0px;
         background-size: 50%;
         background-repeat: no-repeat;
         .tiendabtn{
@@ -141,34 +137,12 @@
         .navEmi{
             display: none;
         }
-        .titleRemera,  .titleHat{
+        .titleRemera, .titleHoodie, .titleHat{
             font-size: 1rem;
-            margin-bottom: 10%;
-            margin-left: 30px;
+            margin:10% 10%;
+            padding: 0px;
         }
-        .gridRemeras, .gridGorras{
-            margin: 0% 10% 0% 10%;
-            .precio-shirt{
-                font-size: 0.7rem;
-                padding: 0px;
-                display:block;
-            }
-            .btncart1, .btncart2, .btncart3, .btncart4, .btncart5, .btncart6{
-                font-size: 0.3rem;
-                padding: 0px 0px 0px 0px;
-                display: block;
-            }
-
-        }
-    }
-
-    main{
-        .titleHoodie{
-            font-size: 1rem;
-            margin-bottom: 10%;
-            margin-left: 30px;
-        }
-        .gridBuzos{
+        .gridRemeras, .gridBuzos, .gridGorras{
             margin: 0% 10% 0% 10%;
             .precio-shirt{
                 font-size: 0.7rem;
@@ -182,11 +156,10 @@
             }
         }
     }
-
 }
 
 @media only screen and (max-width: 481px){
-    .header-home, .header-home-contacto{
+    .header-home{
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -244,13 +217,11 @@
         
         }
     }
-
-
     .footer{
         background-image: none;
         display: flex;
         justify-content: flex-start;
-        margin: 10px 0px;
+        margin: 55px 0px;
         background-size: 50%;
         background-repeat: no-repeat;
         .tiendabtn{
@@ -258,8 +229,8 @@
             margin-left: 22%;
         }
         .datadesign{
-            padding: 0rem;
-            margin: 0rem;
+            padding: 0px 20px;
+            margin: 0px 84px;
             display: flex;
             justify-content: space-between;
             flex-direction: row;
@@ -320,38 +291,63 @@
         .diseños{
             .diseño5, .diseño9, .diseño10, .diseño6, .diseño7, .diseño8, .diseño2, .diseño3{
                 margin: 10px 5px 3px 5px;
-                
             }
-
-        }
-            
+        }   
     }
-
+     /*mas-servicios.html*/
+     main {
+        .navEmi{
+            display: none;
+        }
+        .titleRemera, .titleHoodie, .titleHat{
+            font-size: 1rem;
+            margin:10% 10%;
+            padding: 0px;
+        }
+        .gridRemeras, .gridBuzos, .gridGorras{
+            margin: 0% 10% 0% 10%;
+            .precio-shirt{
+                font-size: 0.7rem;
+                padding: 0px;
+                display:block;
+            }
+            .btncart1, .btncart2, .btncart3, .btncart4, .btncart5, .btncart6{
+                font-size: 0.3rem;
+                padding: 0px 0px 0px 0px;
+                display: block;
+            }
+        }
+    } 
 }
 
-
-
-
-
-
-@media only screen and (max-width:580){
+@media only screen and (max-width:769){
     .header-home{
-        padding:0px;
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: start;
+        margin-right: 5px;
+        margin-top: 0px;
+        padding:0px;
+        font-size: 0.8rem;
         .menu-inicio{
+            margin: 0px;
             .menu{
                 margin-left: 0px;
                 .inicio, .muralesytatoo, .mas-servicios, .contacto{
-                    padding: 5px 13px;
-                    font-size: 1rem;
+                    padding: 5px 10px;
+                    display: block;
                 }
             }
         }
-
     }
 
+    main{
+        .presentacion{
+            background-repeat: no-repeat;
+        }
+    }
     
 }
+
+
 
