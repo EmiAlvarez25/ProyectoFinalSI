@@ -1,11 +1,10 @@
 @import "../base/variables";
 @import "../base/mixin";
-@import "../base/mediaQuery";
 @import "../base/extends";
 
 
 main{
-    .titleRemera{
+    .titleHat{
         color:$color-serv;
         font-size: 2.5rem;
         font-weight: 500;

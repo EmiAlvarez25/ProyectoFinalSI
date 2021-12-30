@@ -63,7 +63,7 @@
         background-repeat: no-repeat;
         .tiendabtn{
             font-size: 0.6rem;
-            margin-left: 55px;
+            margin-left: 26%;
         }
         .datadesign{
             padding: 0.3rem;
@@ -88,6 +88,98 @@
                 padding: 0px;
             }
 
+        }
+    }
+
+    .gradiente{
+        .navEmi{
+            display: none;
+        }
+
+        .tatoo, .murales{
+            padding: 3px 10px;
+        }
+        .tatoo{
+            margin-bottom: 0px;
+        }
+        .tatooTxt, .muralesTxt{
+            font-size: 3rem;
+            padding-bottom: 0px;
+            margin: 10px;
+        }
+        .galeria-tatoo{
+            margin: 0px 10px;
+            display: grid;
+            justify-content: center;
+            grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3"
+                                 "foto-tatoo4 foto-tatoo5 foto-tatoo6"
+                                 "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+
+            .foto-tatoo10{
+                display:none;
+            }
+            .foto-tatoo1, .foto-tatoo2, .foto-tatoo3, .foto-tatoo4, .foto-tatoo5, .foto-tatoo6, .foto-tatoo7, .foto-tatoo8, .foto-tatoo9, .foto-tatoo10{
+                padding-left: 0px;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .diseñosTxt{
+            font-size: 1rem;
+        }
+        .diseños{
+            .diseño5, .diseño9, .diseño10, .diseño6, .diseño7, .diseño8, .diseño2, .diseño3{
+                margin: 10px 5px 3px 5px;
+                
+            }
+
+        }
+    }
+     /*mas-servicios.html*/
+    main {
+        .navEmi{
+            display: none;
+        }
+        .titleRemera,  .titleHat{
+            font-size: 1rem;
+            margin-bottom: 10%;
+            margin-left: 30px;
+        }
+        .gridRemeras, .gridGorras{
+            margin: 0% 10% 0% 10%;
+            .precio-shirt{
+                font-size: 0.7rem;
+                padding: 0px;
+                display:block;
+            }
+            .btncart1, .btncart2, .btncart3, .btncart4, .btncart5, .btncart6{
+                font-size: 0.3rem;
+                padding: 0px 0px 0px 0px;
+                display: block;
+            }
+
+        }
+    }
+
+    main{
+        .titleHoodie{
+            font-size: 1rem;
+            margin-bottom: 10%;
+            margin-left: 30px;
+        }
+        .gridBuzos{
+            margin: 0% 10% 0% 10%;
+            .precio-shirt{
+                font-size: 0.7rem;
+                padding: 0px;
+                display:block;
+            }
+            .btncart1, .btncart2, .btncart3, .btncart4, .btncart5, .btncart6{
+                font-size: 0.3rem;
+                padding: 0px 0px 0px 0px;
+                display: block;
+            }
         }
     }
 
@@ -120,6 +212,7 @@
             }
         }
     }
+    /*index.html*/
    main{
        .presentacion{
            background-repeat: no-repeat;
@@ -162,7 +255,7 @@
         background-repeat: no-repeat;
         .tiendabtn{
             font-size: 0.6rem;
-            margin-left: 155px;
+            margin-left: 22%;
         }
         .datadesign{
             padding: 0rem;
@@ -191,9 +284,49 @@
                 font-size: 0.5rem;
                 padding: 0px;
             }
-
         }
     }
+
+    /*Muralesytatoo.html*/
+    .gradiente{
+        .tatoo, .murales{
+            padding: 0px;
+        }
+        .tatooTxt, .muralesTxt{
+            font-size: 3rem;
+            margin-bottom: 5%;
+        }
+        .galeria-tatoo{
+            margin: 0px 10px;
+            display: grid;
+            justify-content: center;
+            grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3"
+                                 "foto-tatoo4 foto-tatoo5 foto-tatoo6"
+                                 "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+
+            .foto-tatoo10{
+                display:none;
+            }
+            .foto-tatoo1, .foto-tatoo2, .foto-tatoo3, .foto-tatoo4, .foto-tatoo5, .foto-tatoo6, .foto-tatoo7, .foto-tatoo8, .foto-tatoo9, .foto-tatoo10{
+                padding-left: 0px;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .diseñosTxt{
+            font-size: 1rem;
+            margin-top: 5%;
+        }
+        .diseños{
+            .diseño5, .diseño9, .diseño10, .diseño6, .diseño7, .diseño8, .diseño2, .diseño3{
+                margin: 10px 5px 3px 5px;
+                
+            }
+
+        }
+            
+    }
+
 }
 
 

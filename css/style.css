@@ -6,7 +6,7 @@
   flex-wrap: wrap;
 }
 
-main .gridRemeras, main .gridGorras, main .gridBuzos {
+main .gridGorras, main .gridBuzos, main .gridRemeras {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -76,7 +76,7 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   }
   .footer .tiendabtn {
     font-size: 0.6rem;
-    margin-left: 55px;
+    margin-left: 26%;
   }
   .footer .datadesign {
     padding: 0.3rem;
@@ -100,6 +100,83 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   .footer .footerFlex .wpp {
     font-size: 0.5rem;
     padding: 0px;
+  }
+
+  .gradiente .navEmi {
+    display: none;
+  }
+  .gradiente .tatoo, .gradiente .murales {
+    padding: 3px 10px;
+  }
+  .gradiente .tatoo {
+    margin-bottom: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 3rem;
+    padding-bottom: 0px;
+    margin: 10px;
+  }
+  .gradiente .galeria-tatoo {
+    margin: 0px 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+  }
+  .gradiente .galeria-tatoo .foto-tatoo10 {
+    display: none;
+  }
+  .gradiente .galeria-tatoo .foto-tatoo1, .gradiente .galeria-tatoo .foto-tatoo2, .gradiente .galeria-tatoo .foto-tatoo3, .gradiente .galeria-tatoo .foto-tatoo4, .gradiente .galeria-tatoo .foto-tatoo5, .gradiente .galeria-tatoo .foto-tatoo6, .gradiente .galeria-tatoo .foto-tatoo7, .gradiente .galeria-tatoo .foto-tatoo8, .gradiente .galeria-tatoo .foto-tatoo9, .gradiente .galeria-tatoo .foto-tatoo10 {
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 1rem;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 5px 3px 5px;
+  }
+
+  /*mas-servicios.html*/
+  main .navEmi {
+    display: none;
+  }
+  main .titleRemera, main .titleHat {
+    font-size: 1rem;
+    margin-bottom: 10%;
+    margin-left: 30px;
+  }
+  main .gridRemeras, main .gridGorras {
+    margin: 0% 10% 0% 10%;
+  }
+  main .gridRemeras .precio-shirt, main .gridGorras .precio-shirt {
+    font-size: 0.7rem;
+    padding: 0px;
+    display: block;
+  }
+  main .gridRemeras .btncart1, main .gridRemeras .btncart2, main .gridRemeras .btncart3, main .gridRemeras .btncart4, main .gridRemeras .btncart5, main .gridRemeras .btncart6, main .gridGorras .btncart1, main .gridGorras .btncart2, main .gridGorras .btncart3, main .gridGorras .btncart4, main .gridGorras .btncart5, main .gridGorras .btncart6 {
+    font-size: 0.3rem;
+    padding: 0px 0px 0px 0px;
+    display: block;
+  }
+
+  main .titleHoodie {
+    font-size: 1rem;
+    margin-bottom: 10%;
+    margin-left: 30px;
+  }
+  main .gridBuzos {
+    margin: 0% 10% 0% 10%;
+  }
+  main .gridBuzos .precio-shirt {
+    font-size: 0.7rem;
+    padding: 0px;
+    display: block;
+  }
+  main .gridBuzos .btncart1, main .gridBuzos .btncart2, main .gridBuzos .btncart3, main .gridBuzos .btncart4, main .gridBuzos .btncart5, main .gridBuzos .btncart6 {
+    font-size: 0.3rem;
+    padding: 0px 0px 0px 0px;
+    display: block;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -130,6 +207,7 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
     font-size: 0.7rem;
   }
 
+  /*index.html*/
   main .presentacion {
     background-repeat: no-repeat;
     padding: 36px 5px;
@@ -165,7 +243,7 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   }
   .footer .tiendabtn {
     font-size: 0.6rem;
-    margin-left: 155px;
+    margin-left: 22%;
   }
   .footer .datadesign {
     padding: 0rem;
@@ -194,6 +272,36 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   .footer .footerFlex .wpp {
     font-size: 0.5rem;
     padding: 0px;
+  }
+
+  /*Muralesytatoo.html*/
+  .gradiente .tatoo, .gradiente .murales {
+    padding: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 3rem;
+    margin-bottom: 5%;
+  }
+  .gradiente .galeria-tatoo {
+    margin: 0px 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+  }
+  .gradiente .galeria-tatoo .foto-tatoo10 {
+    display: none;
+  }
+  .gradiente .galeria-tatoo .foto-tatoo1, .gradiente .galeria-tatoo .foto-tatoo2, .gradiente .galeria-tatoo .foto-tatoo3, .gradiente .galeria-tatoo .foto-tatoo4, .gradiente .galeria-tatoo .foto-tatoo5, .gradiente .galeria-tatoo .foto-tatoo6, .gradiente .galeria-tatoo .foto-tatoo7, .gradiente .galeria-tatoo .foto-tatoo8, .gradiente .galeria-tatoo .foto-tatoo9, .gradiente .galeria-tatoo .foto-tatoo10 {
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 1rem;
+    margin-top: 5%;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 5px 3px 5px;
   }
 }
 @media only screen and (max-width: 580) {
@@ -313,7 +421,7 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   }
   .footer .tiendabtn {
     font-size: 0.6rem;
-    margin-left: 55px;
+    margin-left: 26%;
   }
   .footer .datadesign {
     padding: 0.3rem;
@@ -337,6 +445,83 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   .footer .footerFlex .wpp {
     font-size: 0.5rem;
     padding: 0px;
+  }
+
+  .gradiente .navEmi {
+    display: none;
+  }
+  .gradiente .tatoo, .gradiente .murales {
+    padding: 3px 10px;
+  }
+  .gradiente .tatoo {
+    margin-bottom: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 3rem;
+    padding-bottom: 0px;
+    margin: 10px;
+  }
+  .gradiente .galeria-tatoo {
+    margin: 0px 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+  }
+  .gradiente .galeria-tatoo .foto-tatoo10 {
+    display: none;
+  }
+  .gradiente .galeria-tatoo .foto-tatoo1, .gradiente .galeria-tatoo .foto-tatoo2, .gradiente .galeria-tatoo .foto-tatoo3, .gradiente .galeria-tatoo .foto-tatoo4, .gradiente .galeria-tatoo .foto-tatoo5, .gradiente .galeria-tatoo .foto-tatoo6, .gradiente .galeria-tatoo .foto-tatoo7, .gradiente .galeria-tatoo .foto-tatoo8, .gradiente .galeria-tatoo .foto-tatoo9, .gradiente .galeria-tatoo .foto-tatoo10 {
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 1rem;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 5px 3px 5px;
+  }
+
+  /*mas-servicios.html*/
+  main .navEmi {
+    display: none;
+  }
+  main .titleRemera, main .titleHat {
+    font-size: 1rem;
+    margin-bottom: 10%;
+    margin-left: 30px;
+  }
+  main .gridRemeras, main .gridGorras {
+    margin: 0% 10% 0% 10%;
+  }
+  main .gridRemeras .precio-shirt, main .gridGorras .precio-shirt {
+    font-size: 0.7rem;
+    padding: 0px;
+    display: block;
+  }
+  main .gridRemeras .btncart1, main .gridRemeras .btncart2, main .gridRemeras .btncart3, main .gridRemeras .btncart4, main .gridRemeras .btncart5, main .gridRemeras .btncart6, main .gridGorras .btncart1, main .gridGorras .btncart2, main .gridGorras .btncart3, main .gridGorras .btncart4, main .gridGorras .btncart5, main .gridGorras .btncart6 {
+    font-size: 0.3rem;
+    padding: 0px 0px 0px 0px;
+    display: block;
+  }
+
+  main .titleHoodie {
+    font-size: 1rem;
+    margin-bottom: 10%;
+    margin-left: 30px;
+  }
+  main .gridBuzos {
+    margin: 0% 10% 0% 10%;
+  }
+  main .gridBuzos .precio-shirt {
+    font-size: 0.7rem;
+    padding: 0px;
+    display: block;
+  }
+  main .gridBuzos .btncart1, main .gridBuzos .btncart2, main .gridBuzos .btncart3, main .gridBuzos .btncart4, main .gridBuzos .btncart5, main .gridBuzos .btncart6 {
+    font-size: 0.3rem;
+    padding: 0px 0px 0px 0px;
+    display: block;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -367,6 +552,7 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
     font-size: 0.7rem;
   }
 
+  /*index.html*/
   main .presentacion {
     background-repeat: no-repeat;
     padding: 36px 5px;
@@ -402,7 +588,7 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   }
   .footer .tiendabtn {
     font-size: 0.6rem;
-    margin-left: 155px;
+    margin-left: 22%;
   }
   .footer .datadesign {
     padding: 0rem;
@@ -431,6 +617,36 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   .footer .footerFlex .wpp {
     font-size: 0.5rem;
     padding: 0px;
+  }
+
+  /*Muralesytatoo.html*/
+  .gradiente .tatoo, .gradiente .murales {
+    padding: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 3rem;
+    margin-bottom: 5%;
+  }
+  .gradiente .galeria-tatoo {
+    margin: 0px 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+  }
+  .gradiente .galeria-tatoo .foto-tatoo10 {
+    display: none;
+  }
+  .gradiente .galeria-tatoo .foto-tatoo1, .gradiente .galeria-tatoo .foto-tatoo2, .gradiente .galeria-tatoo .foto-tatoo3, .gradiente .galeria-tatoo .foto-tatoo4, .gradiente .galeria-tatoo .foto-tatoo5, .gradiente .galeria-tatoo .foto-tatoo6, .gradiente .galeria-tatoo .foto-tatoo7, .gradiente .galeria-tatoo .foto-tatoo8, .gradiente .galeria-tatoo .foto-tatoo9, .gradiente .galeria-tatoo .foto-tatoo10 {
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 1rem;
+    margin-top: 5%;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 5px 3px 5px;
   }
 }
 @media only screen and (max-width: 580) {
@@ -594,7 +810,7 @@ main .galeria-img .mercado {
   flex-wrap: wrap;
 }
 
-main .gridRemeras, main .gridGorras, main .gridBuzos {
+main .gridGorras, main .gridBuzos, main .gridRemeras {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -610,16 +826,6 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   margin-left: 15px;
   text-decoration: none;
 }
-@media only screen and (max-width: 481px) {
-  .gradiente .navEmi {
-    display: none;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .gradiente .navEmi {
-    display: none;
-  }
-}
 .gradiente .tatoo, .gradiente .murales {
   flex-direction: column;
   padding: 50px 10px 10px 90px;
@@ -627,41 +833,12 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   margin: 20px 40px;
   color: #f38825;
 }
-@media only screen and (max-width: 481px) {
-  .gradiente .tatoo, .gradiente .murales {
-    margin: 0px 0px;
-    padding: 0px 0px;
-  }
-}
 .gradiente .tatoo {
   margin-bottom: 60px;
 }
-@media only screen and (max-width: 481px) {
-  .gradiente .tatoo {
-    margin-bottom: 0px;
-  }
-}
-.gradiente .tatooTxt {
+.gradiente .tatooTxt, .gradiente .muralesTxt {
   font-size: 10rem;
   font-family: "Road Rage";
-}
-@media only screen and (max-width: 481px) {
-  .gradiente .tatooTxt {
-    font-size: 5rem;
-    padding-bottom: 0px;
-    margin: 10px;
-  }
-}
-.gradiente .muralesTxt {
-  font-size: 10rem;
-  font-family: "Road Rage";
-}
-@media only screen and (max-width: 481px) {
-  .gradiente .muralesTxt {
-    font-size: 5rem;
-    padding: 0px 0px;
-    margin: 10px;
-  }
 }
 .gradiente .galeria-tatoo {
   display: grid;
@@ -671,70 +848,44 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   gap: 1%;
   padding: 5px 30px;
 }
-@media only screen and (max-width: 481px) {
-  .gradiente .galeria-tatoo {
-    margin: 0px 10px;
-    display: grid;
-    justify-content: center;
-    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
-  }
-}
-@media only screen and (max-width: 576px) {
-  .gradiente .galeria-tatoo {
-    margin: 0px 10px;
-    display: grid;
-    justify-content: center;
-    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
-  }
-}
-.gradiente .foto-tatoo1 {
+.gradiente .galeria-tatoo .foto-tatoo1 {
   grid-area: foto-tatoo1;
 }
-.gradiente .foto-tatoo2 {
+.gradiente .galeria-tatoo .foto-tatoo2 {
   grid-area: foto-tatoo2;
 }
-.gradiente .foto-tatoo3 {
+.gradiente .galeria-tatoo .foto-tatoo3 {
   grid-area: foto-tatoo3;
 }
-.gradiente .foto-tatoo3 {
+.gradiente .galeria-tatoo .foto-tatoo3 {
   grid-area: foto-tatoo3;
 }
-.gradiente .foto-tatoo4 {
+.gradiente .galeria-tatoo .foto-tatoo4 {
   grid-area: foto-tatoo4;
 }
-.gradiente .foto-tatoo5 {
+.gradiente .galeria-tatoo .foto-tatoo5 {
   grid-area: foto-tatoo5;
 }
-.gradiente .foto-tatoo6 {
+.gradiente .galeria-tatoo .foto-tatoo6 {
   grid-area: foto-tatoo6;
 }
-.gradiente .foto-tatoo7 {
+.gradiente .galeria-tatoo .foto-tatoo7 {
   grid-area: foto-tatoo7;
 }
-.gradiente .foto-tatoo8 {
+.gradiente .galeria-tatoo .foto-tatoo8 {
   grid-area: foto-tatoo8;
 }
-.gradiente .foto-tatoo9 {
+.gradiente .galeria-tatoo .foto-tatoo9 {
   grid-area: foto-tatoo9;
 }
-.gradiente .foto-tatoo10 {
+.gradiente .galeria-tatoo .foto-tatoo10 {
   grid-area: foto-tatoo10;
 }
-@media only screen and (max-width: 481px) {
-  .gradiente .foto-tatoo10 {
-    display: none;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .gradiente .foto-tatoo10 {
-    display: none;
-  }
-}
-.gradiente .foto-tatoo1, .gradiente .foto-tatoo2, .gradiente .foto-tatoo3, .gradiente .foto-tatoo4, .gradiente .foto-tatoo5, .gradiente .foto-tatoo6, .gradiente .foto-tatoo7, .gradiente .foto-tatoo8, .gradiente .foto-tatoo9, .gradiente .foto-tatoo10 {
+.gradiente .galeria-tatoo .foto-tatoo1, .gradiente .galeria-tatoo .foto-tatoo2, .gradiente .galeria-tatoo .foto-tatoo3, .gradiente .galeria-tatoo .foto-tatoo4, .gradiente .galeria-tatoo .foto-tatoo5, .gradiente .galeria-tatoo .foto-tatoo6, .gradiente .galeria-tatoo .foto-tatoo7, .gradiente .galeria-tatoo .foto-tatoo8, .gradiente .galeria-tatoo .foto-tatoo9, .gradiente .galeria-tatoo .foto-tatoo10 {
   width: 100%;
   padding-left: 10px;
 }
-.gradiente .foto-tatoo1:hover, .gradiente .foto-tatoo2:hover, .gradiente .foto-tatoo3:hover, .gradiente .foto-tatoo4:hover, .gradiente .foto-tatoo5:hover, .gradiente .foto-tatoo6:hover, .gradiente .foto-tatoo7:hover, .gradiente .foto-tatoo8:hover, .gradiente .foto-tatoo9:hover, .gradiente .foto-tatoo10:hover {
+.gradiente .galeria-tatoo .foto-tatoo1:hover, .gradiente .galeria-tatoo .foto-tatoo2:hover, .gradiente .galeria-tatoo .foto-tatoo3:hover, .gradiente .galeria-tatoo .foto-tatoo4:hover, .gradiente .galeria-tatoo .foto-tatoo5:hover, .gradiente .galeria-tatoo .foto-tatoo6:hover, .gradiente .galeria-tatoo .foto-tatoo7:hover, .gradiente .galeria-tatoo .foto-tatoo8:hover, .gradiente .galeria-tatoo .foto-tatoo9:hover, .gradiente .galeria-tatoo .foto-tatoo10:hover {
   -webkit-transform: scale(1.5);
   -o-transform: scale(1.5);
   -moz-transform: scale(1.5);
@@ -743,20 +894,6 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   -o-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
   -moz-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
-}
-@media only screnn and (max-width: 481px) {
-  .gradiente .foto-tatoo1, .gradiente .foto-tatoo2, .gradiente .foto-tatoo3, .gradiente .foto-tatoo4, .gradiente .foto-tatoo5, .gradiente .foto-tatoo6, .gradiente .foto-tatoo7, .gradiente .foto-tatoo8, .gradiente .foto-tatoo9, .gradiente .foto-tatoo10 {
-    padding-left: 0px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-@media only screnn and (max-width: 576px) {
-  .gradiente .foto-tatoo1, .gradiente .foto-tatoo2, .gradiente .foto-tatoo3, .gradiente .foto-tatoo4, .gradiente .foto-tatoo5, .gradiente .foto-tatoo6, .gradiente .foto-tatoo7, .gradiente .foto-tatoo8, .gradiente .foto-tatoo9, .gradiente .foto-tatoo10 {
-    padding-left: 0px;
-    align-items: center;
-    justify-content: center;
-  }
 }
 .gradiente .diseñosTxt {
   font-size: 4rem;
@@ -872,7 +1009,7 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   flex-wrap: wrap;
 }
 
-main .gridRemeras, main .gridGorras, main .gridBuzos {
+main .gridGorras, main .gridBuzos, main .gridRemeras {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -880,628 +1017,6 @@ main .gridRemeras, main .gridGorras, main .gridBuzos {
   gap: 3%;
   margin-bottom: 20%;
   z-index: 10;
-}
-
-@media only screen and (max-width: 321px) {
-  .header-home, .header-home-contacto {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: flex-start;
-  }
-  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    display: none;
-  }
-  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
-    display: block;
-    position: relative;
-    margin-right: 60%;
-  }
-  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
-    width: 80%;
-  }
-  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
-    font-family: "Zen Kurenaido", sans-serif;
-    background-color: black;
-    color: #00f100;
-    font-size: 0.7rem;
-  }
-
-  main .presentacion {
-    display: flex;
-    padding: 10px 10px;
-    background-repeat: no-repeat;
-  }
-  main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
-  }
-  main .principal {
-    padding: 10px 0px 10px 0px;
-  }
-  main .principal .ultimos-trabajos {
-    font-size: 1.5rem;
-  }
-  main .galeria-img {
-    padding-bottom: 0px;
-  }
-  main .galeria-img .gombu {
-    margin-left: 26%;
-  }
-  main .galeria-img .mercado {
-    font-size: 0.5rem;
-    padding-bottom: 0px;
-  }
-
-  .footer {
-    background-image: none;
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px 0px;
-    background-size: 50%;
-    background-repeat: no-repeat;
-  }
-  .footer .tiendabtn {
-    font-size: 0.6rem;
-    margin-left: 55px;
-  }
-  .footer .datadesign {
-    padding: 0.3rem;
-    margin: 0rem;
-    display: flex;
-    flex-direction: row;
-    font-size: 0.5rem;
-  }
-  .footer .footerFlex {
-    padding: 0.3rem;
-    margin: 0rem;
-  }
-  .footer .footerFlex .tel {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .insta {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .wpp {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-}
-@media only screen and (max-width: 481px) {
-  .header-home, .header-home-contacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    margin-right: 5px;
-    margin-top: 0px;
-    padding: 0px;
-    font-size: 0.8rem;
-  }
-  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    display: none;
-  }
-  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
-    display: block;
-    position: relative;
-    margin-right: 60%;
-  }
-  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
-    width: 80%;
-  }
-  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
-    font-family: "Zen Kurenaido", sans-serif;
-    background-color: black;
-    color: #00f100;
-    font-size: 0.7rem;
-  }
-
-  main .presentacion {
-    background-repeat: no-repeat;
-    padding: 36px 5px;
-  }
-  main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
-  }
-  main .principal {
-    padding: 10px 0px 10px 0px;
-  }
-  main .principal .ultimos-trabajos {
-    font-size: 2rem;
-  }
-  main .galeria-img {
-    padding-bottom: 0px;
-  }
-  main .galeria-img .gombu {
-    padding-bottom: 0px;
-    margin-left: 26%;
-  }
-  main .galeria-img .mercado {
-    margin: 10px 60px 5px 0px;
-    font-size: 0.5rem;
-  }
-
-  .footer {
-    background-image: none;
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px 0px;
-    background-size: 50%;
-    background-repeat: no-repeat;
-  }
-  .footer .tiendabtn {
-    font-size: 0.6rem;
-    margin-left: 155px;
-  }
-  .footer .datadesign {
-    padding: 0rem;
-    margin: 0rem;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    font-size: 0.5rem;
-  }
-  .footer .datadesign .web {
-    display: block;
-    padding: 0px 40px 0px 40px;
-  }
-  .footer .footerFlex {
-    padding: 0rem;
-    margin: 0rem;
-  }
-  .footer .footerFlex .tel {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .insta {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .wpp {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-}
-@media only screen and (max-width: 580) {
-  .header-home {
-    padding: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  .header-home .menu-inicio .menu {
-    margin-left: 0px;
-  }
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
-    padding: 5px 13px;
-    font-size: 1rem;
-  }
-}
-.header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-main .gridRemeras, main .gridGorras, main .gridBuzos {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  gap: 3%;
-  margin-bottom: 20%;
-  z-index: 10;
-}
-
-main .titleRemera {
-  color: #00f100;
-  font-size: 2.5rem;
-  font-weight: 500;
-  margin-bottom: 10%;
-  margin-left: 30px;
-  text-decoration: underline;
-}
-main .gridBuzos {
-  margin: 0% 10%;
-  grid-template-areas: "hoodie1 hoodie2 hoodie5" "precio-hoodie1 precio-hoodie2 precio-hoodie3" "btncart1 btncart2 btncart3" "hoodie3 hoodie4 hoodie6" "precio-hoodie4 precio-hoodie5 precio-hoodie6" "btncart4 btncart5 btncart6";
-}
-main .gridBuzos .hoodie1 {
-  grid-area: hoodie1;
-}
-main .gridBuzos .precio-hoodie1 {
-  grid-area: precio-hoodie1;
-}
-main .gridBuzos .btncart1 {
-  grid-area: btncart1;
-}
-main .gridBuzos .hoodie2 {
-  grid-area: hoodie2;
-}
-main .gridBuzos .precio-hoodie2 {
-  grid-area: precio-hoodie2;
-}
-main .gridBuzos .btncart2 {
-  grid-area: btncart2;
-}
-main .gridBuzos .hoodie3 {
-  grid-area: hoodie3;
-}
-main .gridBuzos .precio-hoodie3 {
-  grid-area: precio-hoodie3;
-}
-main .gridBuzos .btncart3 {
-  grid-area: btncart3;
-}
-main .gridBuzos .hoodie4 {
-  grid-area: hoodie4;
-}
-main .gridBuzos .precio-hoodie4 {
-  grid-area: precio-hoodie4;
-}
-main .gridBuzos .btncart4 {
-  grid-area: btncart4;
-}
-main .gridBuzos .hoodie5 {
-  grid-area: hoodie5;
-}
-main .gridBuzos .precio-hoodie5 {
-  grid-area: precio-hoodie5;
-}
-main .gridBuzos .btncart5 {
-  grid-area: btncart5;
-}
-main .gridBuzos .hoodie6 {
-  grid-area: hoodie6;
-}
-main .gridBuzos .precio-hoodie6 {
-  grid-area: precio-hoodie6;
-}
-main .gridBuzos .btncart6 {
-  grid-area: btncart6;
-}
-main .gridBuzos .hoodie1, main .gridBuzos .hoodie2, main .gridBuzos .hoodie3, main .gridBuzos .hoodie4, main .gridBuzos .hoodie5, main .gridBuzos .hoodie6 {
-  width: 100%;
-}
-main .gridBuzos .hoodie1:hover, main .gridBuzos .hoodie2:hover, main .gridBuzos .hoodie3:hover, main .gridBuzos .hoodie4:hover, main .gridBuzos .hoodie5:hover, main .gridBuzos .hoodie6:hover {
-  -webkit-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  transform: scale(1.5);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-}
-main .precio-shirt {
-  position: relative;
-  display: block;
-  color: #00f100;
-  font-size: 1rem;
-  z-index: -10;
-}
-@media only screen and (max-width: 481px) {
-  main .precio-shirt {
-    font-size: 0.7rem;
-  }
-}
-
-@media only screen and (max-width: 321px) {
-  .header-home, .header-home-contacto {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: flex-start;
-  }
-  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    display: none;
-  }
-  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
-    display: block;
-    position: relative;
-    margin-right: 60%;
-  }
-  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
-    width: 80%;
-  }
-  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
-    font-family: "Zen Kurenaido", sans-serif;
-    background-color: black;
-    color: #00f100;
-    font-size: 0.7rem;
-  }
-
-  main .presentacion {
-    display: flex;
-    padding: 10px 10px;
-    background-repeat: no-repeat;
-  }
-  main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
-  }
-  main .principal {
-    padding: 10px 0px 10px 0px;
-  }
-  main .principal .ultimos-trabajos {
-    font-size: 1.5rem;
-  }
-  main .galeria-img {
-    padding-bottom: 0px;
-  }
-  main .galeria-img .gombu {
-    margin-left: 26%;
-  }
-  main .galeria-img .mercado {
-    font-size: 0.5rem;
-    padding-bottom: 0px;
-  }
-
-  .footer {
-    background-image: none;
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px 0px;
-    background-size: 50%;
-    background-repeat: no-repeat;
-  }
-  .footer .tiendabtn {
-    font-size: 0.6rem;
-    margin-left: 55px;
-  }
-  .footer .datadesign {
-    padding: 0.3rem;
-    margin: 0rem;
-    display: flex;
-    flex-direction: row;
-    font-size: 0.5rem;
-  }
-  .footer .footerFlex {
-    padding: 0.3rem;
-    margin: 0rem;
-  }
-  .footer .footerFlex .tel {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .insta {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .wpp {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-}
-@media only screen and (max-width: 481px) {
-  .header-home, .header-home-contacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    margin-right: 5px;
-    margin-top: 0px;
-    padding: 0px;
-    font-size: 0.8rem;
-  }
-  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    display: none;
-  }
-  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
-    display: block;
-    position: relative;
-    margin-right: 60%;
-  }
-  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
-    width: 80%;
-  }
-  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
-    font-family: "Zen Kurenaido", sans-serif;
-    background-color: black;
-    color: #00f100;
-    font-size: 0.7rem;
-  }
-
-  main .presentacion {
-    background-repeat: no-repeat;
-    padding: 36px 5px;
-  }
-  main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
-  }
-  main .principal {
-    padding: 10px 0px 10px 0px;
-  }
-  main .principal .ultimos-trabajos {
-    font-size: 2rem;
-  }
-  main .galeria-img {
-    padding-bottom: 0px;
-  }
-  main .galeria-img .gombu {
-    padding-bottom: 0px;
-    margin-left: 26%;
-  }
-  main .galeria-img .mercado {
-    margin: 10px 60px 5px 0px;
-    font-size: 0.5rem;
-  }
-
-  .footer {
-    background-image: none;
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px 0px;
-    background-size: 50%;
-    background-repeat: no-repeat;
-  }
-  .footer .tiendabtn {
-    font-size: 0.6rem;
-    margin-left: 155px;
-  }
-  .footer .datadesign {
-    padding: 0rem;
-    margin: 0rem;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    font-size: 0.5rem;
-  }
-  .footer .datadesign .web {
-    display: block;
-    padding: 0px 40px 0px 40px;
-  }
-  .footer .footerFlex {
-    padding: 0rem;
-    margin: 0rem;
-  }
-  .footer .footerFlex .tel {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .insta {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .wpp {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-}
-@media only screen and (max-width: 580) {
-  .header-home {
-    padding: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  .header-home .menu-inicio .menu {
-    margin-left: 0px;
-  }
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
-    padding: 5px 13px;
-    font-size: 1rem;
-  }
-}
-.header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-main .gridRemeras, main .gridGorras, main .gridBuzos {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  gap: 3%;
-  margin-bottom: 20%;
-  z-index: 10;
-}
-
-main .titleRemera {
-  color: #00f100;
-  font-size: 2.5rem;
-  font-weight: 500;
-  margin-bottom: 10%;
-  margin-left: 30px;
-  text-decoration: underline;
-}
-main .hats {
-  padding-top: 70px;
-}
-main .gridGorras {
-  grid-template-areas: "hat1 hat2 hat3" "precio-hat1 precio-hat2 precio-hat3" "btncart1 btncart2 btncart3" "hat4 hat5 hat6" "precio-hat4 precio-hat5 precio-hat6" "btncart4 btncart5 btncart6";
-  margin-bottom: 20%;
-  margin: 0% 10% 20% 10%;
-}
-@media only screen and (max-width: 481px) {
-  main .gridGorras {
-    margin: 10% 5%;
-  }
-}
-main .gridGorras .hat1 {
-  grid-area: hat1;
-}
-main .gridGorras .precio-hat1 {
-  grid-area: precio-hat1;
-}
-main .gridGorras .btncart1 {
-  grid-area: btncart1;
-}
-main .gridGorras .hat2 {
-  grid-area: hat2;
-}
-main .gridGorras .precio-hat2 {
-  grid-area: precio-hat2;
-}
-main .gridGorras .btncart2 {
-  grid-area: btncart2;
-}
-main .gridGorras .hat3 {
-  grid-area: hat3;
-}
-main .gridGorras .precio-hat3 {
-  grid-area: precio-hat3;
-}
-main .gridGorras .btncart3 {
-  grid-area: btncart3;
-}
-main .gridGorras .hat4 {
-  grid-area: hat4;
-}
-main .gridGorras .precio-hat4 {
-  grid-area: precio-hat4;
-}
-main .gridGorras .btncart4 {
-  grid-area: btncart4;
-}
-main .gridGorras .hat5 {
-  grid-area: hat5;
-}
-main .gridGorras .precio-hat5 {
-  grid-area: precio-hat5;
-}
-main .gridGorras .btncart5 {
-  grid-area: btncart5;
-}
-main .gridGorras .hat6 {
-  grid-area: hat6;
-}
-main .gridGorras .precio-hat6 {
-  grid-area: precio-hat6;
-}
-main .gridGorras .btncart6 {
-  grid-area: btncart6;
-}
-main .gridGorras .hat1, main .gridGorras .hat2, main .gridGorras .hat3, main .gridGorras .hat4, main .gridGorras .hat5, main .gridGorras .hat6 {
-  width: 100%;
-}
-main .gridGorras .hat1:hover, main .gridGorras .hat2:hover, main .gridGorras .hat3:hover, main .gridGorras .hat4:hover, main .gridGorras .hat5:hover, main .gridGorras .hat6:hover {
-  -webkit-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  transform: scale(1.5);
-  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
-}
-@media only screen and (max-width: 481px) {
-  main .gridGorras .hat1, main .gridGorras .hat2, main .gridGorras .hat3, main .gridGorras .hat4, main .gridGorras .hat5, main .gridGorras .hat6 {
-    width: 100%;
-  }
-}
-main .precio-shirt {
-  position: relative;
-  display: block;
-  color: #00f100;
-  font-size: 1rem;
-  z-index: -10;
-}
-@media only screen and (max-width: 481px) {
-  main .precio-shirt {
-    font-size: 0.7rem;
-  }
 }
 
 main .titleRemera {
@@ -1588,11 +1103,6 @@ main .precio-shirt {
   color: #00f100;
   font-size: 1rem;
   z-index: -10;
-}
-@media only screen and (max-width: 481px) {
-  main .precio-shirt {
-    font-size: 0.7rem;
-  }
 }
 
 .contactoAboutMe {
@@ -1711,7 +1221,7 @@ main .precio-shirt {
   }
   .footer .tiendabtn {
     font-size: 0.6rem;
-    margin-left: 55px;
+    margin-left: 26%;
   }
   .footer .datadesign {
     padding: 0.3rem;
@@ -1735,6 +1245,83 @@ main .precio-shirt {
   .footer .footerFlex .wpp {
     font-size: 0.5rem;
     padding: 0px;
+  }
+
+  .gradiente .navEmi {
+    display: none;
+  }
+  .gradiente .tatoo, .gradiente .murales {
+    padding: 3px 10px;
+  }
+  .gradiente .tatoo {
+    margin-bottom: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 3rem;
+    padding-bottom: 0px;
+    margin: 10px;
+  }
+  .gradiente .galeria-tatoo {
+    margin: 0px 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+  }
+  .gradiente .galeria-tatoo .foto-tatoo10 {
+    display: none;
+  }
+  .gradiente .galeria-tatoo .foto-tatoo1, .gradiente .galeria-tatoo .foto-tatoo2, .gradiente .galeria-tatoo .foto-tatoo3, .gradiente .galeria-tatoo .foto-tatoo4, .gradiente .galeria-tatoo .foto-tatoo5, .gradiente .galeria-tatoo .foto-tatoo6, .gradiente .galeria-tatoo .foto-tatoo7, .gradiente .galeria-tatoo .foto-tatoo8, .gradiente .galeria-tatoo .foto-tatoo9, .gradiente .galeria-tatoo .foto-tatoo10 {
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 1rem;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 5px 3px 5px;
+  }
+
+  /*mas-servicios.html*/
+  main .navEmi {
+    display: none;
+  }
+  main .titleRemera, main .titleHat {
+    font-size: 1rem;
+    margin-bottom: 10%;
+    margin-left: 30px;
+  }
+  main .gridRemeras, main .gridGorras {
+    margin: 0% 10% 0% 10%;
+  }
+  main .gridRemeras .precio-shirt, main .gridGorras .precio-shirt {
+    font-size: 0.7rem;
+    padding: 0px;
+    display: block;
+  }
+  main .gridRemeras .btncart1, main .gridRemeras .btncart2, main .gridRemeras .btncart3, main .gridRemeras .btncart4, main .gridRemeras .btncart5, main .gridRemeras .btncart6, main .gridGorras .btncart1, main .gridGorras .btncart2, main .gridGorras .btncart3, main .gridGorras .btncart4, main .gridGorras .btncart5, main .gridGorras .btncart6 {
+    font-size: 0.3rem;
+    padding: 0px 0px 0px 0px;
+    display: block;
+  }
+
+  main .titleHoodie {
+    font-size: 1rem;
+    margin-bottom: 10%;
+    margin-left: 30px;
+  }
+  main .gridBuzos {
+    margin: 0% 10% 0% 10%;
+  }
+  main .gridBuzos .precio-shirt {
+    font-size: 0.7rem;
+    padding: 0px;
+    display: block;
+  }
+  main .gridBuzos .btncart1, main .gridBuzos .btncart2, main .gridBuzos .btncart3, main .gridBuzos .btncart4, main .gridBuzos .btncart5, main .gridBuzos .btncart6 {
+    font-size: 0.3rem;
+    padding: 0px 0px 0px 0px;
+    display: block;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -1765,6 +1352,7 @@ main .precio-shirt {
     font-size: 0.7rem;
   }
 
+  /*index.html*/
   main .presentacion {
     background-repeat: no-repeat;
     padding: 36px 5px;
@@ -1800,7 +1388,7 @@ main .precio-shirt {
   }
   .footer .tiendabtn {
     font-size: 0.6rem;
-    margin-left: 155px;
+    margin-left: 22%;
   }
   .footer .datadesign {
     padding: 0rem;
@@ -1829,6 +1417,36 @@ main .precio-shirt {
   .footer .footerFlex .wpp {
     font-size: 0.5rem;
     padding: 0px;
+  }
+
+  /*Muralesytatoo.html*/
+  .gradiente .tatoo, .gradiente .murales {
+    padding: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 3rem;
+    margin-bottom: 5%;
+  }
+  .gradiente .galeria-tatoo {
+    margin: 0px 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+  }
+  .gradiente .galeria-tatoo .foto-tatoo10 {
+    display: none;
+  }
+  .gradiente .galeria-tatoo .foto-tatoo1, .gradiente .galeria-tatoo .foto-tatoo2, .gradiente .galeria-tatoo .foto-tatoo3, .gradiente .galeria-tatoo .foto-tatoo4, .gradiente .galeria-tatoo .foto-tatoo5, .gradiente .galeria-tatoo .foto-tatoo6, .gradiente .galeria-tatoo .foto-tatoo7, .gradiente .galeria-tatoo .foto-tatoo8, .gradiente .galeria-tatoo .foto-tatoo9, .gradiente .galeria-tatoo .foto-tatoo10 {
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 1rem;
+    margin-top: 5%;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 5px 3px 5px;
   }
 }
 @media only screen and (max-width: 580) {
@@ -1906,7 +1524,7 @@ main .precio-shirt {
   }
   .footer .tiendabtn {
     font-size: 0.6rem;
-    margin-left: 55px;
+    margin-left: 26%;
   }
   .footer .datadesign {
     padding: 0.3rem;
@@ -1930,6 +1548,83 @@ main .precio-shirt {
   .footer .footerFlex .wpp {
     font-size: 0.5rem;
     padding: 0px;
+  }
+
+  .gradiente .navEmi {
+    display: none;
+  }
+  .gradiente .tatoo, .gradiente .murales {
+    padding: 3px 10px;
+  }
+  .gradiente .tatoo {
+    margin-bottom: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 3rem;
+    padding-bottom: 0px;
+    margin: 10px;
+  }
+  .gradiente .galeria-tatoo {
+    margin: 0px 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+  }
+  .gradiente .galeria-tatoo .foto-tatoo10 {
+    display: none;
+  }
+  .gradiente .galeria-tatoo .foto-tatoo1, .gradiente .galeria-tatoo .foto-tatoo2, .gradiente .galeria-tatoo .foto-tatoo3, .gradiente .galeria-tatoo .foto-tatoo4, .gradiente .galeria-tatoo .foto-tatoo5, .gradiente .galeria-tatoo .foto-tatoo6, .gradiente .galeria-tatoo .foto-tatoo7, .gradiente .galeria-tatoo .foto-tatoo8, .gradiente .galeria-tatoo .foto-tatoo9, .gradiente .galeria-tatoo .foto-tatoo10 {
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 1rem;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 5px 3px 5px;
+  }
+
+  /*mas-servicios.html*/
+  main .navEmi {
+    display: none;
+  }
+  main .titleRemera, main .titleHat {
+    font-size: 1rem;
+    margin-bottom: 10%;
+    margin-left: 30px;
+  }
+  main .gridRemeras, main .gridGorras {
+    margin: 0% 10% 0% 10%;
+  }
+  main .gridRemeras .precio-shirt, main .gridGorras .precio-shirt {
+    font-size: 0.7rem;
+    padding: 0px;
+    display: block;
+  }
+  main .gridRemeras .btncart1, main .gridRemeras .btncart2, main .gridRemeras .btncart3, main .gridRemeras .btncart4, main .gridRemeras .btncart5, main .gridRemeras .btncart6, main .gridGorras .btncart1, main .gridGorras .btncart2, main .gridGorras .btncart3, main .gridGorras .btncart4, main .gridGorras .btncart5, main .gridGorras .btncart6 {
+    font-size: 0.3rem;
+    padding: 0px 0px 0px 0px;
+    display: block;
+  }
+
+  main .titleHoodie {
+    font-size: 1rem;
+    margin-bottom: 10%;
+    margin-left: 30px;
+  }
+  main .gridBuzos {
+    margin: 0% 10% 0% 10%;
+  }
+  main .gridBuzos .precio-shirt {
+    font-size: 0.7rem;
+    padding: 0px;
+    display: block;
+  }
+  main .gridBuzos .btncart1, main .gridBuzos .btncart2, main .gridBuzos .btncart3, main .gridBuzos .btncart4, main .gridBuzos .btncart5, main .gridBuzos .btncart6 {
+    font-size: 0.3rem;
+    padding: 0px 0px 0px 0px;
+    display: block;
   }
 }
 @media only screen and (max-width: 481px) {
@@ -1960,6 +1655,7 @@ main .precio-shirt {
     font-size: 0.7rem;
   }
 
+  /*index.html*/
   main .presentacion {
     background-repeat: no-repeat;
     padding: 36px 5px;
@@ -1995,7 +1691,7 @@ main .precio-shirt {
   }
   .footer .tiendabtn {
     font-size: 0.6rem;
-    margin-left: 155px;
+    margin-left: 22%;
   }
   .footer .datadesign {
     padding: 0rem;
@@ -2025,6 +1721,36 @@ main .precio-shirt {
     font-size: 0.5rem;
     padding: 0px;
   }
+
+  /*Muralesytatoo.html*/
+  .gradiente .tatoo, .gradiente .murales {
+    padding: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 3rem;
+    margin-bottom: 5%;
+  }
+  .gradiente .galeria-tatoo {
+    margin: 0px 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "foto-tatoo1 foto-tatoo2 foto-tatoo3" "foto-tatoo4 foto-tatoo5 foto-tatoo6" "foto-tatoo7 foto-tatoo8 foto-tatoo9";
+  }
+  .gradiente .galeria-tatoo .foto-tatoo10 {
+    display: none;
+  }
+  .gradiente .galeria-tatoo .foto-tatoo1, .gradiente .galeria-tatoo .foto-tatoo2, .gradiente .galeria-tatoo .foto-tatoo3, .gradiente .galeria-tatoo .foto-tatoo4, .gradiente .galeria-tatoo .foto-tatoo5, .gradiente .galeria-tatoo .foto-tatoo6, .gradiente .galeria-tatoo .foto-tatoo7, .gradiente .galeria-tatoo .foto-tatoo8, .gradiente .galeria-tatoo .foto-tatoo9, .gradiente .galeria-tatoo .foto-tatoo10 {
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 1rem;
+    margin-top: 5%;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 5px 3px 5px;
+  }
 }
 @media only screen and (max-width: 580) {
   .header-home {
@@ -2048,7 +1774,7 @@ main .precio-shirt {
   flex-wrap: wrap;
 }
 
-main .gridBuzos, main .gridGorras, main .gridRemeras {
+main .gridGorras, main .gridBuzos, main .gridRemeras {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -2058,7 +1784,7 @@ main .gridBuzos, main .gridGorras, main .gridRemeras {
   z-index: 10;
 }
 
-main .titleRemera {
+main .titleHoodie {
   color: #00f100;
   font-size: 2.5rem;
   font-weight: 500;
@@ -2150,201 +1876,6 @@ main .precio-shirt {
   }
 }
 
-@media only screen and (max-width: 321px) {
-  .header-home, .header-home-contacto {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: flex-start;
-  }
-  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    display: none;
-  }
-  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
-    display: block;
-    position: relative;
-    margin-right: 60%;
-  }
-  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
-    width: 80%;
-  }
-  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
-    font-family: "Zen Kurenaido", sans-serif;
-    background-color: black;
-    color: #00f100;
-    font-size: 0.7rem;
-  }
-
-  main .presentacion {
-    display: flex;
-    padding: 10px 10px;
-    background-repeat: no-repeat;
-  }
-  main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
-  }
-  main .principal {
-    padding: 10px 0px 10px 0px;
-  }
-  main .principal .ultimos-trabajos {
-    font-size: 1.5rem;
-  }
-  main .galeria-img {
-    padding-bottom: 0px;
-  }
-  main .galeria-img .gombu {
-    margin-left: 26%;
-  }
-  main .galeria-img .mercado {
-    font-size: 0.5rem;
-    padding-bottom: 0px;
-  }
-
-  .footer {
-    background-image: none;
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px 0px;
-    background-size: 50%;
-    background-repeat: no-repeat;
-  }
-  .footer .tiendabtn {
-    font-size: 0.6rem;
-    margin-left: 55px;
-  }
-  .footer .datadesign {
-    padding: 0.3rem;
-    margin: 0rem;
-    display: flex;
-    flex-direction: row;
-    font-size: 0.5rem;
-  }
-  .footer .footerFlex {
-    padding: 0.3rem;
-    margin: 0rem;
-  }
-  .footer .footerFlex .tel {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .insta {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .wpp {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-}
-@media only screen and (max-width: 481px) {
-  .header-home, .header-home-contacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    margin-right: 5px;
-    margin-top: 0px;
-    padding: 0px;
-    font-size: 0.8rem;
-  }
-  .header-home .menu-inicio, .header-home-contacto .menu-inicio {
-    display: none;
-  }
-  .header-home .menuHamburguesa, .header-home-contacto .menuHamburguesa {
-    display: block;
-    position: relative;
-    margin-right: 60%;
-  }
-  .header-home .menuHamburguesa .drw-emi, .header-home-contacto .menuHamburguesa .drw-emi {
-    width: 80%;
-  }
-  .header-home .menuHamburguesa .drw-emi .tatmh, .header-home .menuHamburguesa .drw-emi .muralesmh, .header-home .menuHamburguesa .drw-emi .tiendamh, .header-home .menuHamburguesa .drw-emi .contactomh, .header-home-contacto .menuHamburguesa .drw-emi .tatmh, .header-home-contacto .menuHamburguesa .drw-emi .muralesmh, .header-home-contacto .menuHamburguesa .drw-emi .tiendamh, .header-home-contacto .menuHamburguesa .drw-emi .contactomh {
-    font-family: "Zen Kurenaido", sans-serif;
-    background-color: black;
-    color: #00f100;
-    font-size: 0.7rem;
-  }
-
-  main .presentacion {
-    background-repeat: no-repeat;
-    padding: 36px 5px;
-  }
-  main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
-  }
-  main .principal {
-    padding: 10px 0px 10px 0px;
-  }
-  main .principal .ultimos-trabajos {
-    font-size: 2rem;
-  }
-  main .galeria-img {
-    padding-bottom: 0px;
-  }
-  main .galeria-img .gombu {
-    padding-bottom: 0px;
-    margin-left: 26%;
-  }
-  main .galeria-img .mercado {
-    margin: 10px 60px 5px 0px;
-    font-size: 0.5rem;
-  }
-
-  .footer {
-    background-image: none;
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px 0px;
-    background-size: 50%;
-    background-repeat: no-repeat;
-  }
-  .footer .tiendabtn {
-    font-size: 0.6rem;
-    margin-left: 155px;
-  }
-  .footer .datadesign {
-    padding: 0rem;
-    margin: 0rem;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    font-size: 0.5rem;
-  }
-  .footer .datadesign .web {
-    display: block;
-    padding: 0px 40px 0px 40px;
-  }
-  .footer .footerFlex {
-    padding: 0rem;
-    margin: 0rem;
-  }
-  .footer .footerFlex .tel {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .insta {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-  .footer .footerFlex .wpp {
-    font-size: 0.5rem;
-    padding: 0px;
-  }
-}
-@media only screen and (max-width: 580) {
-  .header-home {
-    padding: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  .header-home .menu-inicio .menu {
-    margin-left: 0px;
-  }
-  .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
-    padding: 5px 13px;
-    font-size: 1rem;
-  }
-}
 .header-home, .header-home-contacto, .header-home .menu-inicio .menu, .header-home-contacto .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
   display: flex;
   justify-content: space-evenly;
@@ -2352,7 +1883,7 @@ main .precio-shirt {
   flex-wrap: wrap;
 }
 
-main .gridBuzos, main .gridGorras, main .gridRemeras {
+main .gridGorras, main .gridRemeras, main .gridBuzos {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -2362,7 +1893,7 @@ main .gridBuzos, main .gridGorras, main .gridRemeras {
   z-index: 10;
 }
 
-main .titleRemera {
+main .titleHat {
   color: #00f100;
   font-size: 2.5rem;
   font-weight: 500;

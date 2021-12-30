@@ -3,11 +3,10 @@
 @import "../base/mixin";
 @import "../base/variables";
 @import "../base/extends";
-@import "../components/gridhoodies";
-@import "../components/gridHats";
+
 
 main{
-     .titleRemera{
+    .titleRemera{
         color:$color-serv;
         font-size: 2.5rem;
         font-weight: 500;
@@ -97,8 +96,5 @@ main{
         color: $color-serv;
         font-size: 1rem;
         z-index: -10;
-        @media only screen and (max-width:481px){
-            font-size: 0.7rem;
-        }
     }
 }
