@@ -19,8 +19,8 @@
         margin-bottom: 60px;
     }
     .tatooTxt, .muralesTxt{
-        font-size: 10rem;
-        font-family: 'Road Rage';
+        font-size: 6rem;
+        font-family: 'nosifer';
     }
     .galeria-tatoo{
         display: grid;
@@ -77,11 +77,12 @@
         }
     } 
     .diseñosTxt{
-        font-size: 4rem;
+        font-size: 2rem;
         color:$color-murales;
-        font-family: 'Road Rage';
+        font-family: 'nosifer';
         margin-left: 10px;
         padding-bottom: 10px;
+        padding-top: 40px;
 
     }
     .diseños{
@@ -101,17 +102,6 @@
         margin-bottom: 30px;
     }
 
-    .texto-murales{      
-        display: flex;
-        padding: 5px 5px 20px 8px ;
-        font-size: 1rem;
-        text-align: start;
-        color:rgb(255, 255, 255);   
-        @media only screen and (max-width:481px){
-            font-size: 0.5rem;
-        }
-    }
-
     .bar{
         width:30%;
     }
@@ -124,9 +114,6 @@
             @include transforms (scale(1.2));
             @include transitions (cubic-bezier(0.075, 0.82, 0.165, 1) 2s);
         }
-        @media only screen and (max-width:481px){
-            margin-left: 97px;
-        }
     }
 
     .fauna{
@@ -138,23 +125,9 @@
         margin-left: 20px;
         margin-bottom: 10px;
         padding: 20px 10px;
-        @media only screen and (max-width:481px){
-            font-size: 1rem;
-            padding: 0px 0px;
-        }
     }
 
-    @media only screen and (max-width:481px){
-        .slideEmi{
-            width: 100%;
-        }
-        .breadEmi{
-            display: none;
-        }
-    }
-
-
-    .imgMuralPinta{
+   .imgMuralPinta{
         width: 43%;
 
         &:hover{
@@ -170,7 +143,4 @@
         padding-bottom: 100px;
 
     }
-        @media only screen and (max-width:481px){
-            padding-bottom: 0px;
-        }
 }

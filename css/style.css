@@ -31,10 +31,11 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   margin-left: 199px;
 }
 .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
+  font-family: "nosifer";
   display: inline-block;
   text-decoration: none;
   color: #c600e9;
-  padding: 43px 63px;
+  padding: 43px 30px;
   text-align: center;
   position: relative;
   z-index: 10;
@@ -80,7 +81,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     font-family: "Zen Kurenaido", sans-serif;
     background-color: black;
     color: #00f100;
-    font-size: 0.7rem;
+    font-size: 0.4rem;
   }
 
   main .presentacion {
@@ -89,13 +90,16 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     background-repeat: no-repeat;
   }
   main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
+    font-size: 0.6rem;
+  }
+  main .presentacion .text0 {
+    margin: 0px;
   }
   main .principal {
     padding: 10px 0px 10px 0px;
   }
   main .principal .ultimos-trabajos {
-    font-size: 1.5rem;
+    font-size: 0.4rem;
   }
   main .galeria-img {
     padding-bottom: 0px;
@@ -104,7 +108,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     margin-left: 26%;
   }
   main .galeria-img .mercado {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding-bottom: 0px;
   }
 
@@ -116,7 +120,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.6rem;
+    font-size: 0.3rem;
     margin-left: 26%;
   }
   .footer .datadesign {
@@ -124,22 +128,22 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     margin: 0rem;
     display: flex;
     flex-direction: row;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
   }
   .footer .footerFlex {
     padding: 0.3rem;
     margin: 0rem;
   }
   .footer .footerFlex .tel {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
 
@@ -234,25 +238,35 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     background-repeat: no-repeat;
     padding: 36px 5px;
   }
-  main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
+  main .presentacion .texto {
+    font-size: 0.6rem;
+  }
+  main .presentacion .text0 {
+    margin-top: 0px;
+    font-size: 0.6rem;
   }
   main .principal {
     padding: 10px 0px 10px 0px;
   }
   main .principal .ultimos-trabajos {
-    font-size: 2rem;
+    font-size: 0.7rem;
   }
   main .galeria-img {
     padding-bottom: 0px;
   }
+  main .galeria-img .slideEmi .carriconprev {
+    margin: 0px 15px 0px 15px;
+  }
+  main .galeria-img .slideEmi .carriconnext {
+    margin: 0px 30px 0px -40px;
+  }
   main .galeria-img .gombu {
     padding-bottom: 0px;
-    margin-left: 26%;
+    margin-left: 20%;
   }
   main .galeria-img .mercado {
     margin: 10px 60px 5px 0px;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
   }
 
   .footer {
@@ -264,16 +278,16 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.6rem;
+    font-size: 0.4rem;
     margin-left: 22%;
   }
   .footer .datadesign {
     padding: 0px 20px;
-    margin: 0px 84px;
+    margin-right: 3%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
   }
   .footer .datadesign .web {
     display: block;
@@ -284,15 +298,15 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     margin: 0rem;
   }
   .footer .footerFlex .tel {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
 
@@ -301,7 +315,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     padding: 0px;
   }
   .gradiente .tatooTxt, .gradiente .muralesTxt {
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin-bottom: 5%;
   }
   .gradiente .galeria-tatoo {
@@ -319,11 +333,20 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     justify-content: center;
   }
   .gradiente .diseñosTxt {
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-top: 5%;
   }
   .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
     margin: 10px 5px 3px 5px;
+  }
+  .gradiente .fauna {
+    font-size: 1rem;
+  }
+  .gradiente .imgMural {
+    margin-left: 127px;
+  }
+  .gradiente .Bottom {
+    padding-bottom: 20px;
   }
 
   /*mas-servicios.html*/
@@ -388,8 +411,7 @@ main .presentacion .texto {
   display: block;
   color: #85009d;
   font-size: 3rem;
-  font-family: "Road Rage";
-  background-color: black;
+  font-family: "Faster ONe";
   position: relative;
 }
 main .presentacion .text0 {
@@ -397,26 +419,20 @@ main .presentacion .text0 {
   color: #85009d;
   text-align: center;
   font-size: 2.5rem;
-  font-family: "Road Rage";
-  background-color: black;
+  font-family: "Faster One";
   position: relative;
   margin-top: 30px;
 }
 main .principal {
   background-color: black;
   color: #c600e9;
-  font-family: "Road Rage";
+  font-family: "Nosifer";
   padding: 140px 0px 140px 0px;
   flex-wrap: wrap;
   flex-direction: row;
 }
 main .principal .ultimos-trabajos {
-  font-size: 5rem;
-}
-main .principal .ultimos-trabajos .header-divider {
-  border-top: 1px solid;
-  display: block;
-  width: 100%;
+  font-size: 4rem;
 }
 
 main .galeria-img {
@@ -442,7 +458,7 @@ main .galeria-img .gombu:hover {
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
 }
 main .galeria-img .mercado {
-  margin: 0px 50px 80px 0px;
+  margin: 0px 400px 80px 0px;
   font-size: 1.2rem;
   padding-bottom: 10px;
   display: flex;
@@ -473,7 +489,7 @@ main .galeria-img .mercado {
   flex-direction: column;
   list-style-type: none;
   padding: 0px;
-  font-size: 0.9rem;
+  font-size: 0.4rem;
   text-decoration: none;
   color: #c600e9;
   margin-right: 10%;
@@ -541,14 +557,14 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   padding: 50px 10px 10px 90px;
   font-weight: bold;
   margin: 20px 40px;
-  color: #f38825;
+  color: rgba(80, 84, 102, 0.993);
 }
 .gradiente .tatoo {
   margin-bottom: 60px;
 }
 .gradiente .tatooTxt, .gradiente .muralesTxt {
-  font-size: 10rem;
-  font-family: "Road Rage";
+  font-size: 6rem;
+  font-family: "nosifer";
 }
 .gradiente .galeria-tatoo {
   display: grid;
@@ -606,11 +622,12 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 }
 .gradiente .diseñosTxt {
-  font-size: 4rem;
-  color: #f38825;
-  font-family: "Road Rage";
+  font-size: 2rem;
+  color: rgba(80, 84, 102, 0.993);
+  font-family: "nosifer";
   margin-left: 10px;
   padding-bottom: 10px;
+  padding-top: 40px;
 }
 .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
   width: 20%;
@@ -629,18 +646,6 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
 .gradiente .slideEmi {
   margin-bottom: 30px;
 }
-.gradiente .texto-murales {
-  display: flex;
-  padding: 5px 5px 20px 8px;
-  font-size: 1rem;
-  text-align: start;
-  color: white;
-}
-@media only screen and (max-width: 481px) {
-  .gradiente .texto-murales {
-    font-size: 0.5rem;
-  }
-}
 .gradiente .bar {
   width: 30%;
 }
@@ -658,34 +663,15 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   -moz-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
 }
-@media only screen and (max-width: 481px) {
-  .gradiente .imgMural {
-    margin-left: 97px;
-  }
-}
 .gradiente .fauna {
   position: relative;
   display: block;
   font-size: 2rem;
   font-weight: 500;
-  color: #f38825;
+  color: rgba(80, 84, 102, 0.993);
   margin-left: 20px;
   margin-bottom: 10px;
   padding: 20px 10px;
-}
-@media only screen and (max-width: 481px) {
-  .gradiente .fauna {
-    font-size: 1rem;
-    padding: 0px 0px;
-  }
-}
-@media only screen and (max-width: 481px) {
-  .gradiente .slideEmi {
-    width: 100%;
-  }
-  .gradiente .breadEmi {
-    display: none;
-  }
 }
 .gradiente .imgMuralPinta {
   width: 43%;
@@ -704,11 +690,6 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   flex-wrap: wrap;
   flex-direction: row;
   padding-bottom: 100px;
-}
-@media only screen and (max-width: 481px) {
-  .gradiente {
-    padding-bottom: 0px;
-  }
 }
 
 /*Código hecho desde cero en SCSS*/
@@ -910,7 +891,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     font-family: "Zen Kurenaido", sans-serif;
     background-color: black;
     color: #00f100;
-    font-size: 0.7rem;
+    font-size: 0.4rem;
   }
 
   main .presentacion {
@@ -919,13 +900,16 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     background-repeat: no-repeat;
   }
   main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
+    font-size: 0.6rem;
+  }
+  main .presentacion .text0 {
+    margin: 0px;
   }
   main .principal {
     padding: 10px 0px 10px 0px;
   }
   main .principal .ultimos-trabajos {
-    font-size: 1.5rem;
+    font-size: 0.4rem;
   }
   main .galeria-img {
     padding-bottom: 0px;
@@ -934,7 +918,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     margin-left: 26%;
   }
   main .galeria-img .mercado {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding-bottom: 0px;
   }
 
@@ -946,7 +930,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.6rem;
+    font-size: 0.3rem;
     margin-left: 26%;
   }
   .footer .datadesign {
@@ -954,22 +938,22 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     margin: 0rem;
     display: flex;
     flex-direction: row;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
   }
   .footer .footerFlex {
     padding: 0.3rem;
     margin: 0rem;
   }
   .footer .footerFlex .tel {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
 
@@ -1064,25 +1048,35 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     background-repeat: no-repeat;
     padding: 36px 5px;
   }
-  main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
+  main .presentacion .texto {
+    font-size: 0.6rem;
+  }
+  main .presentacion .text0 {
+    margin-top: 0px;
+    font-size: 0.6rem;
   }
   main .principal {
     padding: 10px 0px 10px 0px;
   }
   main .principal .ultimos-trabajos {
-    font-size: 2rem;
+    font-size: 0.7rem;
   }
   main .galeria-img {
     padding-bottom: 0px;
   }
+  main .galeria-img .slideEmi .carriconprev {
+    margin: 0px 15px 0px 15px;
+  }
+  main .galeria-img .slideEmi .carriconnext {
+    margin: 0px 30px 0px -40px;
+  }
   main .galeria-img .gombu {
     padding-bottom: 0px;
-    margin-left: 26%;
+    margin-left: 20%;
   }
   main .galeria-img .mercado {
     margin: 10px 60px 5px 0px;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
   }
 
   .footer {
@@ -1094,16 +1088,16 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.6rem;
+    font-size: 0.4rem;
     margin-left: 22%;
   }
   .footer .datadesign {
     padding: 0px 20px;
-    margin: 0px 84px;
+    margin-right: 3%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
   }
   .footer .datadesign .web {
     display: block;
@@ -1114,15 +1108,15 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     margin: 0rem;
   }
   .footer .footerFlex .tel {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
 
@@ -1131,7 +1125,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     padding: 0px;
   }
   .gradiente .tatooTxt, .gradiente .muralesTxt {
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin-bottom: 5%;
   }
   .gradiente .galeria-tatoo {
@@ -1149,11 +1143,20 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     justify-content: center;
   }
   .gradiente .diseñosTxt {
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-top: 5%;
   }
   .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
     margin: 10px 5px 3px 5px;
+  }
+  .gradiente .fauna {
+    font-size: 1rem;
+  }
+  .gradiente .imgMural {
+    margin-left: 127px;
+  }
+  .gradiente .Bottom {
+    padding-bottom: 20px;
   }
 
   /*mas-servicios.html*/
@@ -1441,7 +1444,7 @@ main .precio-shirt {
     font-family: "Zen Kurenaido", sans-serif;
     background-color: black;
     color: #00f100;
-    font-size: 0.7rem;
+    font-size: 0.4rem;
   }
 
   main .presentacion {
@@ -1450,13 +1453,16 @@ main .precio-shirt {
     background-repeat: no-repeat;
   }
   main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
+    font-size: 0.6rem;
+  }
+  main .presentacion .text0 {
+    margin: 0px;
   }
   main .principal {
     padding: 10px 0px 10px 0px;
   }
   main .principal .ultimos-trabajos {
-    font-size: 1.5rem;
+    font-size: 0.4rem;
   }
   main .galeria-img {
     padding-bottom: 0px;
@@ -1465,7 +1471,7 @@ main .precio-shirt {
     margin-left: 26%;
   }
   main .galeria-img .mercado {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding-bottom: 0px;
   }
 
@@ -1477,7 +1483,7 @@ main .precio-shirt {
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.6rem;
+    font-size: 0.3rem;
     margin-left: 26%;
   }
   .footer .datadesign {
@@ -1485,22 +1491,22 @@ main .precio-shirt {
     margin: 0rem;
     display: flex;
     flex-direction: row;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
   }
   .footer .footerFlex {
     padding: 0.3rem;
     margin: 0rem;
   }
   .footer .footerFlex .tel {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
 
@@ -1595,25 +1601,35 @@ main .precio-shirt {
     background-repeat: no-repeat;
     padding: 36px 5px;
   }
-  main .presentacion .texto, main .presentacion .text0 {
-    font-size: 1rem;
+  main .presentacion .texto {
+    font-size: 0.6rem;
+  }
+  main .presentacion .text0 {
+    margin-top: 0px;
+    font-size: 0.6rem;
   }
   main .principal {
     padding: 10px 0px 10px 0px;
   }
   main .principal .ultimos-trabajos {
-    font-size: 2rem;
+    font-size: 0.7rem;
   }
   main .galeria-img {
     padding-bottom: 0px;
   }
+  main .galeria-img .slideEmi .carriconprev {
+    margin: 0px 15px 0px 15px;
+  }
+  main .galeria-img .slideEmi .carriconnext {
+    margin: 0px 30px 0px -40px;
+  }
   main .galeria-img .gombu {
     padding-bottom: 0px;
-    margin-left: 26%;
+    margin-left: 20%;
   }
   main .galeria-img .mercado {
     margin: 10px 60px 5px 0px;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
   }
 
   .footer {
@@ -1625,16 +1641,16 @@ main .precio-shirt {
     background-repeat: no-repeat;
   }
   .footer .tiendabtn {
-    font-size: 0.6rem;
+    font-size: 0.4rem;
     margin-left: 22%;
   }
   .footer .datadesign {
     padding: 0px 20px;
-    margin: 0px 84px;
+    margin-right: 3%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
   }
   .footer .datadesign .web {
     display: block;
@@ -1645,15 +1661,15 @@ main .precio-shirt {
     margin: 0rem;
   }
   .footer .footerFlex .tel {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .insta {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
   .footer .footerFlex .wpp {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 0px;
   }
 
@@ -1662,7 +1678,7 @@ main .precio-shirt {
     padding: 0px;
   }
   .gradiente .tatooTxt, .gradiente .muralesTxt {
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin-bottom: 5%;
   }
   .gradiente .galeria-tatoo {
@@ -1680,11 +1696,20 @@ main .precio-shirt {
     justify-content: center;
   }
   .gradiente .diseñosTxt {
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-top: 5%;
   }
   .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
     margin: 10px 5px 3px 5px;
+  }
+  .gradiente .fauna {
+    font-size: 1rem;
+  }
+  .gradiente .imgMural {
+    margin-left: 127px;
+  }
+  .gradiente .Bottom {
+    padding-bottom: 20px;
   }
 
   /*mas-servicios.html*/
@@ -1743,14 +1768,14 @@ main .precio-shirt {
 html {
   font-size: 25px;
   font-display: swap;
-  font-family: "Zen Kurenaido", sans-serif;
+  font-family: "Graduate", sans-serif;
   color: #c600e9;
   text-decoration: none;
 }
 
 .fondo {
   background-color: black;
-  font-family: "Zen Kurenaido", sans-serif;
+  font-family: "Graduate", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;

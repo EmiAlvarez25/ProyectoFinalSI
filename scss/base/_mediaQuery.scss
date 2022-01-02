@@ -19,7 +19,7 @@
                     font-family: 'Zen Kurenaido', sans-serif;
                     background-color: $bg-color;
                     color: $color-serv;
-                    font-size: 0.7rem;
+                    font-size: 0.4rem;
                 }
             }
         }
@@ -31,13 +31,16 @@
             background-repeat: no-repeat;
             
             .texto, .text0{
-                font-size: 1rem;
+                font-size: 0.6rem;
+            }
+            .text0{
+                margin:0px;
             }
         }
         .principal{
             padding: 10px 0px 10px 0px;
             .ultimos-trabajos{
-                font-size: 1.5rem;
+                font-size: 0.4rem;
             }
         }
         .galeria-img{
@@ -46,7 +49,7 @@
                margin-left: 26%;
            } 
             .mercado{
-                font-size: 0.5rem;
+                font-size: 0.3rem;
                 padding-bottom: 0px;
             }
         }
@@ -58,7 +61,7 @@
         background-size: 50%;
         background-repeat: no-repeat;
         .tiendabtn{
-            font-size: 0.6rem;
+            font-size: 0.3rem;
             margin-left: 26%;
         }
         .datadesign{
@@ -66,21 +69,21 @@
             margin: 0rem;
             display: flex;
             flex-direction: row;
-            font-size: 0.5rem;
+            font-size: 0.3rem;
         }
         .footerFlex{
             padding: 0.3rem;
             margin: 0rem;
             .tel{
-                font-size: 0.5rem;
+                font-size: 0.3rem;
                 padding: 0px;
             }
             .insta{
-                font-size: 0.5rem;
+                font-size: 0.3rem;
                 padding: 0px;
             }
             .wpp{
-                font-size: 0.5rem;
+                font-size: 0.3rem;
                 padding: 0px;
             }
 
@@ -191,27 +194,39 @@
            background-repeat: no-repeat;
            padding: 36px 5px;
 
-           .texto, .text0{
-            font-size: 1rem;
+           .texto{
+            font-size: 0.6rem;
+           }
+           .text0{
+               margin-top: 0px;
+               font-size: 0.6rem;
            }
         }
 
         .principal{
             padding: 10px 0px 10px 0px;
             .ultimos-trabajos{
-                font-size: 2rem;
+                font-size: 0.7rem;
             }
         }
 
         .galeria-img{
             padding-bottom: 0px;
+            .slideEmi{
+                .carriconprev{
+                    margin: 0px 15px 0px 15px;
+                }
+                .carriconnext{
+                    margin: 0px 30px 0px -40px;
+                }
+            }
             .gombu{
                 padding-bottom: 0px;
-                margin-left: 26%;
+                margin-left: 20%;
             }
             .mercado{
                 margin: 10px 60px 5px 0px;
-                font-size: 0.5rem;
+                font-size: 0.3rem;
 
             }
         
@@ -225,16 +240,16 @@
         background-size: 50%;
         background-repeat: no-repeat;
         .tiendabtn{
-            font-size: 0.6rem;
+            font-size: 0.4rem;
             margin-left: 22%;
         }
         .datadesign{
             padding: 0px 20px;
-            margin: 0px 84px;
+            margin-right: 3%;
             display: flex;
             justify-content: space-between;
             flex-direction: row;
-            font-size: 0.5rem;
+            font-size: 0.3rem;
             .web{
                 display: block;
                 padding: 0px 40px 0px 40px;
@@ -244,15 +259,15 @@
             padding: 0rem;
             margin: 0rem;
             .tel{
-                font-size: 0.5rem;
+                font-size: 0.3rem;
                 padding: 0px;
             }
             .insta{
-                font-size: 0.5rem;
+                font-size: 0.3rem;
                 padding: 0px;
             }
             .wpp{
-                font-size: 0.5rem;
+                font-size: 0.3rem;
                 padding: 0px;
             }
         }
@@ -264,7 +279,7 @@
             padding: 0px;
         }
         .tatooTxt, .muralesTxt{
-            font-size: 3rem;
+            font-size: 1.5rem;
             margin-bottom: 5%;
         }
         .galeria-tatoo{
@@ -285,14 +300,23 @@
             }
         }
         .diseñosTxt{
-            font-size: 1rem;
+            font-size: 0.7rem;
             margin-top: 5%;
         }
         .diseños{
             .diseño5, .diseño9, .diseño10, .diseño6, .diseño7, .diseño8, .diseño2, .diseño3{
                 margin: 10px 5px 3px 5px;
             }
-        }   
+        } 
+        .fauna{
+            font-size: 1rem;
+        }  
+        .imgMural{
+            margin-left: 127px;
+        }
+        .Bottom{
+            padding-bottom: 20px;
+        }
     }
      /*mas-servicios.html*/
      main {
