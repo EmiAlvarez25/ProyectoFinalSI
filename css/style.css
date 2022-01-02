@@ -262,7 +262,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   }
   main .galeria-img .gombu {
     padding-bottom: 0px;
-    margin-left: 20%;
+    margin-left: 12%;
   }
   main .galeria-img .mercado {
     margin: 10px 60px 5px 0px;
@@ -270,6 +270,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   }
   main .imgMural {
     width: 90%;
+    margin-left: 83px;
   }
 
   .fondo .footer {
@@ -346,7 +347,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     font-size: 1rem;
   }
   .fondo .gradiente .imgMural {
-    margin-left: 127px;
+    margin-left: 83px;
   }
   .fondo .gradiente .Bottom {
     padding-bottom: 20px;
@@ -1137,7 +1138,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   }
   main .galeria-img .gombu {
     padding-bottom: 0px;
-    margin-left: 20%;
+    margin-left: 12%;
   }
   main .galeria-img .mercado {
     margin: 10px 60px 5px 0px;
@@ -1145,6 +1146,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   }
   main .imgMural {
     width: 90%;
+    margin-left: 83px;
   }
 
   .fondo .footer {
@@ -1221,7 +1223,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     font-size: 1rem;
   }
   .fondo .gradiente .imgMural {
-    margin-left: 127px;
+    margin-left: 83px;
   }
   .fondo .gradiente .Bottom {
     padding-bottom: 20px;
@@ -1758,7 +1760,7 @@ main .precio-shirt {
   }
   main .galeria-img .gombu {
     padding-bottom: 0px;
-    margin-left: 20%;
+    margin-left: 12%;
   }
   main .galeria-img .mercado {
     margin: 10px 60px 5px 0px;
@@ -1766,6 +1768,7 @@ main .precio-shirt {
   }
   main .imgMural {
     width: 90%;
+    margin-left: 83px;
   }
 
   .fondo .footer {
@@ -1842,7 +1845,7 @@ main .precio-shirt {
     font-size: 1rem;
   }
   .fondo .gradiente .imgMural {
-    margin-left: 127px;
+    margin-left: 83px;
   }
   .fondo .gradiente .Bottom {
     padding-bottom: 20px;
