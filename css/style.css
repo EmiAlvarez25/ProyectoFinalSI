@@ -285,7 +285,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     margin-left: 22%;
   }
   .fondo .footer .datadesign {
-    padding: 0px 20px;
+    padding: 0px 0px;
     margin-right: 3%;
     display: flex;
     justify-content: space-between;
@@ -1160,7 +1160,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     margin-left: 22%;
   }
   .fondo .footer .datadesign {
-    padding: 0px 20px;
+    padding: 0px 0px;
     margin-right: 3%;
     display: flex;
     justify-content: space-between;
@@ -1781,7 +1781,7 @@ main .precio-shirt {
     margin-left: 22%;
   }
   .fondo .footer .datadesign {
-    padding: 0px 20px;
+    padding: 0px 0px;
     margin-right: 3%;
     display: flex;
     justify-content: space-between;
