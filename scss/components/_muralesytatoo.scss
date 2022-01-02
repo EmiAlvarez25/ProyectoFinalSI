@@ -69,7 +69,6 @@
         .foto-tatoo1, .foto-tatoo2, .foto-tatoo3, .foto-tatoo4, .foto-tatoo5, .foto-tatoo6, .foto-tatoo7, .foto-tatoo8, .foto-tatoo9, .foto-tatoo10{
             width: 100%;   
             padding-left: 10px; 
-
             &:hover{
                 @include transforms (scale(1.5));
                 @include transitions (cubic-bezier(0.075, 0.82, 0.165, 1) 1s);
@@ -83,7 +82,6 @@
         margin-left: 10px;
         padding-bottom: 10px;
         padding-top: 40px;
-
     }
     .diseños{
         @extend %dp-flex;
@@ -97,25 +95,20 @@
         }
 
     }
-
     .slideEmi{
         margin-bottom: 30px;
     }
-
     .bar{
         width:30%;
     }
-
     .imgMural{
-        width: 50%;
-        margin-left: 387px;
-
+        width: 70%;
+        margin-left: 230px;
         &:hover{
             @include transforms (scale(1.2));
             @include transitions (cubic-bezier(0.075, 0.82, 0.165, 1) 2s);
         }
     }
-
     .fauna{
         position: relative;
         display: block;
@@ -126,21 +119,17 @@
         margin-bottom: 10px;
         padding: 20px 10px;
     }
-
    .imgMuralPinta{
-        width: 43%;
-
+        width: 40%;
         &:hover{
             @include transforms (scale(1.1));
             @include transitions (cubic-bezier(0.075, 0.82, 0.165, 1) 2s);
         }
     }
-
     .Bottom{
         @extend %dp-flex;
         flex-wrap: wrap;
         flex-direction: row;
         padding-bottom: 100px;
-
     }
 }

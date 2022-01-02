@@ -508,8 +508,8 @@ main .galeria-img {
   padding-bottom: 50px;
 }
 main .galeria-img .gombu {
-  width: 50%;
-  margin-left: 387px;
+  width: 70%;
+  margin-left: 230px;
   justify-items: center;
   padding-bottom: 10px;
 }
@@ -716,8 +716,8 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   width: 30%;
 }
 .gradiente .imgMural {
-  width: 50%;
-  margin-left: 387px;
+  width: 70%;
+  margin-left: 230px;
 }
 .gradiente .imgMural:hover {
   -webkit-transform: scale(1.2);
@@ -740,7 +740,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   padding: 20px 10px;
 }
 .gradiente .imgMuralPinta {
-  width: 43%;
+  width: 40%;
 }
 .gradiente .imgMuralPinta:hover {
   -webkit-transform: scale(1.1);
