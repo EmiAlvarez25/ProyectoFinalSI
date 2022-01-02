@@ -424,7 +424,6 @@ main .presentacion .text0 {
   margin-top: 30px;
 }
 main .principal {
-  background-color: black;
   color: #c600e9;
   font-family: "Nosifer";
   padding: 140px 0px 140px 0px;
@@ -436,7 +435,6 @@ main .principal .ultimos-trabajos {
 }
 
 main .galeria-img {
-  background-color: black;
   justify-items: center;
   align-items: center;
   padding-bottom: 50px;

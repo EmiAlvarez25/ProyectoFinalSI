@@ -33,7 +33,6 @@ main{
     }
     .principal{
             @extend %dp-flex;
-            background-color: $bg-color;
             color: $colortxt;
             font-family: 'Nosifer';
             padding: 140px 0px 140px 0px;
