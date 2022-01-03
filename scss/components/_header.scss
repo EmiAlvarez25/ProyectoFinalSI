@@ -1,21 +1,21 @@
 .header-home{
-            background-color: $bg-color;
             list-style-type: none;
             font-weight: bold;
-            @extend %dp-flex;
-            position: relative;       
+            position: fixed;    
+            z-index: 10;   
     .menu-inicio{
+        background-color: $color-murales;
+        background-size: 100%;
+        display: block;
+        position: relative;
         .menu{
                 @extend %dp-flex;
                 text-decoration: none;
                 list-style-type: none;
-                position: relative;
-                padding: 0px;
-                align-items: center;
-                margin-left: 199px;
-                    
+                position: relative;                   
                 .inicio, .muralesytatoo, .mas-servicios, .contacto{
                     font-family: "nosifer";
+                    font-size: 1rem;
                     display: inline-block;
                     text-decoration: none;
                     color: $colortxt;

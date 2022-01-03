@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, main .principal, .header-home .menu-inicio .menu, .header-home {
+.gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, main .principal, .header-home .menu-inicio .menu {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -17,21 +17,25 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
 }
 
 .header-home {
-  background-color: black;
   list-style-type: none;
   font-weight: bold;
+  position: fixed;
+  z-index: 10;
+}
+.header-home .menu-inicio {
+  background-color: rgba(80, 84, 102, 0.993);
+  background-size: 100%;
+  display: block;
   position: relative;
 }
 .header-home .menu-inicio .menu {
   text-decoration: none;
   list-style-type: none;
   position: relative;
-  padding: 0px;
-  align-items: center;
-  margin-left: 199px;
 }
 .header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
   font-family: "nosifer";
+  font-size: 1rem;
   display: inline-block;
   text-decoration: none;
   color: #c600e9;
@@ -404,6 +408,11 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     width: 80%;
   }
 }
+@media only screen and (max-width: 680px) {
+  .fondo .presentacion {
+    padding: 76px 5px;
+  }
+}
 @media only screen and (max-width: 590px) {
   .fondo .header-home .menu-inicio .menu {
     display: none;
@@ -596,7 +605,7 @@ main .galeria-img .mercado {
   cursor: pointer;
 }
 
-.gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, .header-home, .header-home .menu-inicio .menu, main .principal {
+.gradiente .Bottom, .gradiente .diseños, .gradiente .tatoo, .gradiente .murales, .header-home .menu-inicio .menu, main .principal {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -760,7 +769,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
 }
 
 /*Código hecho desde cero en SCSS*/
-.header-home, .header-home .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
+.header-home .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -918,7 +927,7 @@ main .precio-shirt {
   padding-left: 25px;
 }
 
-.header-home, .header-home .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
+.header-home .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -1280,6 +1289,11 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
     width: 80%;
   }
 }
+@media only screen and (max-width: 680px) {
+  .fondo .presentacion {
+    padding: 76px 5px;
+  }
+}
 @media only screen and (max-width: 590px) {
   .fondo .header-home .menu-inicio .menu {
     display: none;
@@ -1434,7 +1448,7 @@ main .precio-shirt {
   }
 }
 
-.header-home, .header-home .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
+.header-home .menu-inicio .menu, main .principal, .gradiente .tatoo, .gradiente .murales, .gradiente .diseños, .gradiente .Bottom {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -1900,6 +1914,11 @@ main .precio-shirt {
   .fondo .contactoAboutMe .gridContainerEmi .aboutMe .foto {
     padding-left: 0px;
     width: 80%;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .fondo .presentacion {
+    padding: 76px 5px;
   }
 }
 @media only screen and (max-width: 590px) {
