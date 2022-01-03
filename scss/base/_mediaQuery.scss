@@ -398,7 +398,7 @@
         .titleRemera, .titleHoodie, .titleHat{
             font-size: 1rem;
             margin:10% 10%;
-            padding: 0px;
+            padding: 10px 0px;
         }
         .gridRemeras, .gridBuzos, .gridGorras{
             margin: 0% 10% 0% 10%;
@@ -572,6 +572,42 @@
         }
         .imgMural{
             margin-left: 80px;
+        }
+    }
+    /*contacto-aboutme.html*/
+    .contactoAboutMe{
+        font-size: 0.7rem;
+        .gridContainerEmi{
+            display: grid;
+            grid-template-columns: 90% 10%;
+            grid-gap: 5%;
+            .contactoForm{
+                margin-top: 17%;
+                .TxtContacto{
+                    font-size: 1rem;
+                }
+                .formEmi{
+                    margin-left: 10%;
+                    font-size: 0.6rem;
+                }
+                .bt-enviar{
+                    margin-left: 50px;
+                    font-size: 0.7rem;
+                }
+            }
+            .aboutMe{
+                .title{
+                    font-size: 1rem;
+                }
+                .descripcion{
+                    font-size: 0.6rem;
+                    text-align: start;
+                    margin-left: 5%;
+                }
+                .foto{
+                    width: 80%;
+                }
+            }
         }
     }
     

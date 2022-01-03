@@ -421,7 +421,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   main .titleRemera, main .titleHoodie, main .titleHat {
     font-size: 1rem;
     margin: 10% 10%;
-    padding: 0px;
+    padding: 10px 0px;
   }
   main .gridRemeras, main .gridBuzos, main .gridGorras {
     margin: 0% 10% 0% 10%;
@@ -574,6 +574,41 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   }
   .gradiente .imgMural {
     margin-left: 80px;
+  }
+
+  /*contacto-aboutme.html*/
+  .contactoAboutMe {
+    font-size: 0.7rem;
+  }
+  .contactoAboutMe .gridContainerEmi {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-gap: 5%;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm {
+    margin-top: 17%;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .TxtContacto {
+    font-size: 1rem;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .formEmi {
+    margin-left: 10%;
+    font-size: 0.6rem;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .bt-enviar {
+    margin-left: 50px;
+    font-size: 0.7rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .title {
+    font-size: 1rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .descripcion {
+    font-size: 0.6rem;
+    text-align: start;
+    margin-left: 5%;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .foto {
+    width: 80%;
   }
 }
 main .presentacion {
@@ -1421,7 +1456,7 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   main .titleRemera, main .titleHoodie, main .titleHat {
     font-size: 1rem;
     margin: 10% 10%;
-    padding: 0px;
+    padding: 10px 0px;
   }
   main .gridRemeras, main .gridBuzos, main .gridGorras {
     margin: 0% 10% 0% 10%;
@@ -1574,6 +1609,41 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   }
   .gradiente .imgMural {
     margin-left: 80px;
+  }
+
+  /*contacto-aboutme.html*/
+  .contactoAboutMe {
+    font-size: 0.7rem;
+  }
+  .contactoAboutMe .gridContainerEmi {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-gap: 5%;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm {
+    margin-top: 17%;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .TxtContacto {
+    font-size: 1rem;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .formEmi {
+    margin-left: 10%;
+    font-size: 0.6rem;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .bt-enviar {
+    margin-left: 50px;
+    font-size: 0.7rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .title {
+    font-size: 1rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .descripcion {
+    font-size: 0.6rem;
+    text-align: start;
+    margin-left: 5%;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .foto {
+    width: 80%;
   }
 }
 main .titleHoodie {
@@ -2153,7 +2223,7 @@ main .precio-shirt {
   main .titleRemera, main .titleHoodie, main .titleHat {
     font-size: 1rem;
     margin: 10% 10%;
-    padding: 0px;
+    padding: 10px 0px;
   }
   main .gridRemeras, main .gridBuzos, main .gridGorras {
     margin: 0% 10% 0% 10%;
@@ -2306,6 +2376,41 @@ main .precio-shirt {
   }
   .gradiente .imgMural {
     margin-left: 80px;
+  }
+
+  /*contacto-aboutme.html*/
+  .contactoAboutMe {
+    font-size: 0.7rem;
+  }
+  .contactoAboutMe .gridContainerEmi {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-gap: 5%;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm {
+    margin-top: 17%;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .TxtContacto {
+    font-size: 1rem;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .formEmi {
+    margin-left: 10%;
+    font-size: 0.6rem;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .bt-enviar {
+    margin-left: 50px;
+    font-size: 0.7rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .title {
+    font-size: 1rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .descripcion {
+    font-size: 0.6rem;
+    text-align: start;
+    margin-left: 5%;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .foto {
+    width: 80%;
   }
 }
 * {
