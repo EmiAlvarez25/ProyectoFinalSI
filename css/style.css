@@ -243,33 +243,33 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   .contactoAboutMe, .fondo {
     font-size: 0.5rem;
   }
-  .contactoAboutMe .gridConteinerEmi, .fondo .gridConteinerEmi {
+  .contactoAboutMe .gridContainerEmi, .fondo .gridContainerEmi {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 90% 10%;
     grid-gap: 4%;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .TxtContacto, .fondo .gridConteinerEmi .contactoForm .TxtContacto {
+  .contactoAboutMe .gridContainerEmi .contactoForm .TxtContacto, .fondo .gridContainerEmi .contactoForm .TxtContacto {
     font-size: 1rem;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .formEmi, .fondo .gridConteinerEmi .contactoForm .formEmi {
-    font-size: 0.9rem;
+  .contactoAboutMe .gridContainerEmi .contactoForm .formEmi, .fondo .gridContainerEmi .contactoForm .formEmi {
+    font-size: 0.7rem;
     margin-left: 10%;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .bt-enviar, .fondo .gridConteinerEmi .contactoForm .bt-enviar {
+  .contactoAboutMe .gridContainerEmi .contactoForm .bt-enviar, .fondo .gridContainerEmi .contactoForm .bt-enviar {
     margin-left: 100px;
     font-size: 0.7rem;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .title, .fondo .gridConteinerEmi .aboutMe .title {
+  .contactoAboutMe .gridContainerEmi .aboutMe .title, .fondo .gridContainerEmi .aboutMe .title {
     font-size: 1rem;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .descripcion, .fondo .gridConteinerEmi .aboutMe .descripcion {
-    font-size: 0.3rem;
+  .contactoAboutMe .gridContainerEmi .aboutMe .descripcion, .fondo .gridContainerEmi .aboutMe .descripcion {
+    font-size: 0.6rem;
     text-align: start;
-    margin-left: 7%;
+    margin-left: 5%;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .foto, .fondo .gridConteinerEmi .aboutMe .foto {
+  .contactoAboutMe .gridContainerEmi .aboutMe .foto, .fondo .gridContainerEmi .aboutMe .foto {
     padding-left: 0px;
-    width: 80%;
+    width: 70%;
   }
 }
 @media only screen and (min-width: 322px) and (max-width: 482px) {
@@ -441,25 +441,139 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   .contactoAboutMe {
     font-size: 0.7rem;
   }
-  .contactoAboutMe .gridConteinerEmi {
+  .contactoAboutMe .gridContainerEmi {
     display: grid;
     grid-template-columns: 90% 10%;
     grid-gap: 5%;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .TxtContacto {
-    font-size: 0.8rem;
-  }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .formEmi {
-    margin-left: 10%;
-  }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .bt-enviar {
-    margin-left: 500px;
-  }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .title {
+  .contactoAboutMe .gridContainerEmi .contactoForm .TxtContacto {
     font-size: 1rem;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .descripcion {
+  .contactoAboutMe .gridContainerEmi .contactoForm .formEmi {
+    margin-left: 10%;
+    font-size: 0.6rem;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .bt-enviar {
+    margin-left: 50px;
     font-size: 0.7rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .title {
+    font-size: 1rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .descripcion {
+    font-size: 0.6rem;
+    text-align: start;
+    margin-left: 5%;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .foto {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 483px) and (max-width: 590px) {
+  .fondo .header-home {
+    margin-left: 5px;
+    background-color: rgba(93, 94, 100, 0.486);
+  }
+  .fondo .header-home .menu-inicio .menu {
+    display: none;
+  }
+  .fondo .header-home .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
+  }
+  .fondo .header-home .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .fondo .header-home .menuHamburguesa .drw-emi .tatmh, .fondo .header-home .menuHamburguesa .drw-emi .muralesmh, .fondo .header-home .menuHamburguesa .drw-emi .tiendamh, .fondo .header-home .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
+  }
+  .fondo main .presentacion {
+    background-repeat: no-repeat;
+    padding: 118px 5px;
+  }
+  .fondo main .presentacion .texto {
+    font-size: 1rem;
+  }
+  .fondo main .presentacion .text0 {
+    margin-top: 0px;
+    font-size: 1rem;
+  }
+  .fondo main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  .fondo main .principal .ultimos-trabajos {
+    font-size: 1.2rem;
+  }
+  .fondo main .galeria-img {
+    padding-bottom: 0px;
+  }
+  .fondo main .galeria-img .slideEmi .carriconprev {
+    margin: 0px 15px 0px 15px;
+  }
+  .fondo main .galeria-img .slideEmi .carriconnext {
+    margin: 0px 30px 0px -40px;
+  }
+  .fondo main .galeria-img .gombu {
+    padding-bottom: 0px;
+    margin-left: 10%;
+  }
+  .fondo main .galeria-img .mercado {
+    margin: 10px 60px 5px 0px;
+    font-size: 0.3rem;
+  }
+  .fondo .footer {
+    background-repeat: no-repeat;
+  }
+  .fondo .footer .tiendabtn {
+    font-size: 0.8rem;
+  }
+  .fondo .footer .footerFlex {
+    padding-left: 208px;
+  }
+  .fondo .footer .footerFlex .tel {
+    font-size: 0.5rem;
+  }
+  .fondo .footer .footerFlex .insta, .fondo .footer .footerFlex .wpp {
+    font-size: 0.5rem;
+  }
+  .fondo .footer .datadesign {
+    display: flex;
+    margin: 0px;
+  }
+  .fondo .footer .datadesign .web {
+    display: block;
+    margin: 0px;
+  }
+
+  /*muralesytatoo.html*/
+  .gradiente .breadEmi {
+    padding-top: 60px;
+  }
+  .gradiente .tatoo, .gradiente .murales {
+    margin: 3px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  .gradiente .tatoo {
+    margin-bottom: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 2rem;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 0.8rem;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 3px 1px 3px;
+  }
+  .gradiente .fauna {
+    font-size: 1rem;
+  }
+  .gradiente .imgMural {
+    margin-left: 80px;
   }
 }
 main .presentacion {
@@ -1129,33 +1243,33 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   .contactoAboutMe, .fondo {
     font-size: 0.5rem;
   }
-  .contactoAboutMe .gridConteinerEmi, .fondo .gridConteinerEmi {
+  .contactoAboutMe .gridContainerEmi, .fondo .gridContainerEmi {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 90% 10%;
     grid-gap: 4%;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .TxtContacto, .fondo .gridConteinerEmi .contactoForm .TxtContacto {
+  .contactoAboutMe .gridContainerEmi .contactoForm .TxtContacto, .fondo .gridContainerEmi .contactoForm .TxtContacto {
     font-size: 1rem;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .formEmi, .fondo .gridConteinerEmi .contactoForm .formEmi {
-    font-size: 0.9rem;
+  .contactoAboutMe .gridContainerEmi .contactoForm .formEmi, .fondo .gridContainerEmi .contactoForm .formEmi {
+    font-size: 0.7rem;
     margin-left: 10%;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .bt-enviar, .fondo .gridConteinerEmi .contactoForm .bt-enviar {
+  .contactoAboutMe .gridContainerEmi .contactoForm .bt-enviar, .fondo .gridContainerEmi .contactoForm .bt-enviar {
     margin-left: 100px;
     font-size: 0.7rem;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .title, .fondo .gridConteinerEmi .aboutMe .title {
+  .contactoAboutMe .gridContainerEmi .aboutMe .title, .fondo .gridContainerEmi .aboutMe .title {
     font-size: 1rem;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .descripcion, .fondo .gridConteinerEmi .aboutMe .descripcion {
-    font-size: 0.3rem;
+  .contactoAboutMe .gridContainerEmi .aboutMe .descripcion, .fondo .gridContainerEmi .aboutMe .descripcion {
+    font-size: 0.6rem;
     text-align: start;
-    margin-left: 7%;
+    margin-left: 5%;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .foto, .fondo .gridConteinerEmi .aboutMe .foto {
+  .contactoAboutMe .gridContainerEmi .aboutMe .foto, .fondo .gridContainerEmi .aboutMe .foto {
     padding-left: 0px;
-    width: 80%;
+    width: 70%;
   }
 }
 @media only screen and (min-width: 322px) and (max-width: 482px) {
@@ -1327,25 +1441,139 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   .contactoAboutMe {
     font-size: 0.7rem;
   }
-  .contactoAboutMe .gridConteinerEmi {
+  .contactoAboutMe .gridContainerEmi {
     display: grid;
     grid-template-columns: 90% 10%;
     grid-gap: 5%;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .TxtContacto {
-    font-size: 0.8rem;
-  }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .formEmi {
-    margin-left: 10%;
-  }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .bt-enviar {
-    margin-left: 500px;
-  }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .title {
+  .contactoAboutMe .gridContainerEmi .contactoForm .TxtContacto {
     font-size: 1rem;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .descripcion {
+  .contactoAboutMe .gridContainerEmi .contactoForm .formEmi {
+    margin-left: 10%;
+    font-size: 0.6rem;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .bt-enviar {
+    margin-left: 50px;
     font-size: 0.7rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .title {
+    font-size: 1rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .descripcion {
+    font-size: 0.6rem;
+    text-align: start;
+    margin-left: 5%;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .foto {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 483px) and (max-width: 590px) {
+  .fondo .header-home {
+    margin-left: 5px;
+    background-color: rgba(93, 94, 100, 0.486);
+  }
+  .fondo .header-home .menu-inicio .menu {
+    display: none;
+  }
+  .fondo .header-home .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
+  }
+  .fondo .header-home .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .fondo .header-home .menuHamburguesa .drw-emi .tatmh, .fondo .header-home .menuHamburguesa .drw-emi .muralesmh, .fondo .header-home .menuHamburguesa .drw-emi .tiendamh, .fondo .header-home .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
+  }
+  .fondo main .presentacion {
+    background-repeat: no-repeat;
+    padding: 118px 5px;
+  }
+  .fondo main .presentacion .texto {
+    font-size: 1rem;
+  }
+  .fondo main .presentacion .text0 {
+    margin-top: 0px;
+    font-size: 1rem;
+  }
+  .fondo main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  .fondo main .principal .ultimos-trabajos {
+    font-size: 1.2rem;
+  }
+  .fondo main .galeria-img {
+    padding-bottom: 0px;
+  }
+  .fondo main .galeria-img .slideEmi .carriconprev {
+    margin: 0px 15px 0px 15px;
+  }
+  .fondo main .galeria-img .slideEmi .carriconnext {
+    margin: 0px 30px 0px -40px;
+  }
+  .fondo main .galeria-img .gombu {
+    padding-bottom: 0px;
+    margin-left: 10%;
+  }
+  .fondo main .galeria-img .mercado {
+    margin: 10px 60px 5px 0px;
+    font-size: 0.3rem;
+  }
+  .fondo .footer {
+    background-repeat: no-repeat;
+  }
+  .fondo .footer .tiendabtn {
+    font-size: 0.8rem;
+  }
+  .fondo .footer .footerFlex {
+    padding-left: 208px;
+  }
+  .fondo .footer .footerFlex .tel {
+    font-size: 0.5rem;
+  }
+  .fondo .footer .footerFlex .insta, .fondo .footer .footerFlex .wpp {
+    font-size: 0.5rem;
+  }
+  .fondo .footer .datadesign {
+    display: flex;
+    margin: 0px;
+  }
+  .fondo .footer .datadesign .web {
+    display: block;
+    margin: 0px;
+  }
+
+  /*muralesytatoo.html*/
+  .gradiente .breadEmi {
+    padding-top: 60px;
+  }
+  .gradiente .tatoo, .gradiente .murales {
+    margin: 3px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  .gradiente .tatoo {
+    margin-bottom: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 2rem;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 0.8rem;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 3px 1px 3px;
+  }
+  .gradiente .fauna {
+    font-size: 1rem;
+  }
+  .gradiente .imgMural {
+    margin-left: 80px;
   }
 }
 main .titleHoodie {
@@ -1747,33 +1975,33 @@ main .precio-shirt {
   .contactoAboutMe, .fondo {
     font-size: 0.5rem;
   }
-  .contactoAboutMe .gridConteinerEmi, .fondo .gridConteinerEmi {
+  .contactoAboutMe .gridContainerEmi, .fondo .gridContainerEmi {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 90% 10%;
     grid-gap: 4%;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .TxtContacto, .fondo .gridConteinerEmi .contactoForm .TxtContacto {
+  .contactoAboutMe .gridContainerEmi .contactoForm .TxtContacto, .fondo .gridContainerEmi .contactoForm .TxtContacto {
     font-size: 1rem;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .formEmi, .fondo .gridConteinerEmi .contactoForm .formEmi {
-    font-size: 0.9rem;
+  .contactoAboutMe .gridContainerEmi .contactoForm .formEmi, .fondo .gridContainerEmi .contactoForm .formEmi {
+    font-size: 0.7rem;
     margin-left: 10%;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .bt-enviar, .fondo .gridConteinerEmi .contactoForm .bt-enviar {
+  .contactoAboutMe .gridContainerEmi .contactoForm .bt-enviar, .fondo .gridContainerEmi .contactoForm .bt-enviar {
     margin-left: 100px;
     font-size: 0.7rem;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .title, .fondo .gridConteinerEmi .aboutMe .title {
+  .contactoAboutMe .gridContainerEmi .aboutMe .title, .fondo .gridContainerEmi .aboutMe .title {
     font-size: 1rem;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .descripcion, .fondo .gridConteinerEmi .aboutMe .descripcion {
-    font-size: 0.3rem;
+  .contactoAboutMe .gridContainerEmi .aboutMe .descripcion, .fondo .gridContainerEmi .aboutMe .descripcion {
+    font-size: 0.6rem;
     text-align: start;
-    margin-left: 7%;
+    margin-left: 5%;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .foto, .fondo .gridConteinerEmi .aboutMe .foto {
+  .contactoAboutMe .gridContainerEmi .aboutMe .foto, .fondo .gridContainerEmi .aboutMe .foto {
     padding-left: 0px;
-    width: 80%;
+    width: 70%;
   }
 }
 @media only screen and (min-width: 322px) and (max-width: 482px) {
@@ -1945,25 +2173,139 @@ main .precio-shirt {
   .contactoAboutMe {
     font-size: 0.7rem;
   }
-  .contactoAboutMe .gridConteinerEmi {
+  .contactoAboutMe .gridContainerEmi {
     display: grid;
     grid-template-columns: 90% 10%;
     grid-gap: 5%;
   }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .TxtContacto {
-    font-size: 0.8rem;
-  }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .formEmi {
-    margin-left: 10%;
-  }
-  .contactoAboutMe .gridConteinerEmi .contactoForm .bt-enviar {
-    margin-left: 500px;
-  }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .title {
+  .contactoAboutMe .gridContainerEmi .contactoForm .TxtContacto {
     font-size: 1rem;
   }
-  .contactoAboutMe .gridConteinerEmi .aboutMe .descripcion {
+  .contactoAboutMe .gridContainerEmi .contactoForm .formEmi {
+    margin-left: 10%;
+    font-size: 0.6rem;
+  }
+  .contactoAboutMe .gridContainerEmi .contactoForm .bt-enviar {
+    margin-left: 50px;
     font-size: 0.7rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .title {
+    font-size: 1rem;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .descripcion {
+    font-size: 0.6rem;
+    text-align: start;
+    margin-left: 5%;
+  }
+  .contactoAboutMe .gridContainerEmi .aboutMe .foto {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 483px) and (max-width: 590px) {
+  .fondo .header-home {
+    margin-left: 5px;
+    background-color: rgba(93, 94, 100, 0.486);
+  }
+  .fondo .header-home .menu-inicio .menu {
+    display: none;
+  }
+  .fondo .header-home .menuHamburguesa {
+    display: block;
+    position: relative;
+    margin-right: 60%;
+  }
+  .fondo .header-home .menuHamburguesa .drw-emi {
+    width: 80%;
+  }
+  .fondo .header-home .menuHamburguesa .drw-emi .tatmh, .fondo .header-home .menuHamburguesa .drw-emi .muralesmh, .fondo .header-home .menuHamburguesa .drw-emi .tiendamh, .fondo .header-home .menuHamburguesa .drw-emi .contactomh {
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: black;
+    color: #00f100;
+    font-size: 0.7rem;
+  }
+  .fondo main .presentacion {
+    background-repeat: no-repeat;
+    padding: 118px 5px;
+  }
+  .fondo main .presentacion .texto {
+    font-size: 1rem;
+  }
+  .fondo main .presentacion .text0 {
+    margin-top: 0px;
+    font-size: 1rem;
+  }
+  .fondo main .principal {
+    padding: 10px 0px 10px 0px;
+  }
+  .fondo main .principal .ultimos-trabajos {
+    font-size: 1.2rem;
+  }
+  .fondo main .galeria-img {
+    padding-bottom: 0px;
+  }
+  .fondo main .galeria-img .slideEmi .carriconprev {
+    margin: 0px 15px 0px 15px;
+  }
+  .fondo main .galeria-img .slideEmi .carriconnext {
+    margin: 0px 30px 0px -40px;
+  }
+  .fondo main .galeria-img .gombu {
+    padding-bottom: 0px;
+    margin-left: 10%;
+  }
+  .fondo main .galeria-img .mercado {
+    margin: 10px 60px 5px 0px;
+    font-size: 0.3rem;
+  }
+  .fondo .footer {
+    background-repeat: no-repeat;
+  }
+  .fondo .footer .tiendabtn {
+    font-size: 0.8rem;
+  }
+  .fondo .footer .footerFlex {
+    padding-left: 208px;
+  }
+  .fondo .footer .footerFlex .tel {
+    font-size: 0.5rem;
+  }
+  .fondo .footer .footerFlex .insta, .fondo .footer .footerFlex .wpp {
+    font-size: 0.5rem;
+  }
+  .fondo .footer .datadesign {
+    display: flex;
+    margin: 0px;
+  }
+  .fondo .footer .datadesign .web {
+    display: block;
+    margin: 0px;
+  }
+
+  /*muralesytatoo.html*/
+  .gradiente .breadEmi {
+    padding-top: 60px;
+  }
+  .gradiente .tatoo, .gradiente .murales {
+    margin: 3px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  .gradiente .tatoo {
+    margin-bottom: 0px;
+  }
+  .gradiente .tatooTxt, .gradiente .muralesTxt {
+    font-size: 2rem;
+  }
+  .gradiente .diseñosTxt {
+    font-size: 0.8rem;
+  }
+  .gradiente .diseños .diseño5, .gradiente .diseños .diseño9, .gradiente .diseños .diseño10, .gradiente .diseños .diseño6, .gradiente .diseños .diseño7, .gradiente .diseños .diseño8, .gradiente .diseños .diseño2, .gradiente .diseños .diseño3 {
+    margin: 10px 3px 1px 3px;
+  }
+  .gradiente .fauna {
+    font-size: 1rem;
+  }
+  .gradiente .imgMural {
+    margin-left: 80px;
   }
 }
 * {

@@ -199,16 +199,16 @@
     /*contacto-aboutme.html*/
         .contactoAboutMe, .fondo{
             font-size: 0.5rem;
-            .gridConteinerEmi{
+            .gridContainerEmi{
                 display: grid;
-                grid-template-columns: 80% 20%;
+                grid-template-columns: 90% 10%;
                 grid-gap: 4%;
                 .contactoForm{
                     .TxtContacto{
                         font-size: 1rem;
                     }
                     .formEmi{
-                        font-size: 0.9rem;
+                        font-size: 0.7rem;
                         margin-left: 10%;
                     }
                     .bt-enviar{
@@ -221,13 +221,13 @@
                         font-size: 1rem;
                     }
                     .descripcion{
-                        font-size: 0.3rem;
+                        font-size: 0.6rem;
                         text-align: start;
-                        margin-left: 7%;
+                        margin-left: 5%;
                     }
                     .foto{
                         padding-left: 0px;
-                        width: 80%;
+                        width: 70%;
                     }
             }
         }
@@ -418,19 +418,21 @@
     /*contacto-aboutme.html*/
     .contactoAboutMe{
         font-size: 0.7rem;
-        .gridConteinerEmi{
+        .gridContainerEmi{
             display: grid;
             grid-template-columns: 90% 10%;
             grid-gap: 5%;
             .contactoForm{
                 .TxtContacto{
-                    font-size: 0.8rem;
+                    font-size: 1rem;
                 }
                 .formEmi{
                     margin-left: 10%;
+                    font-size: 0.6rem;
                 }
                 .bt-enviar{
-                    margin-left: 500px;
+                    margin-left: 50px;
+                    font-size: 0.7rem;
                 }
             }
             .aboutMe{
@@ -438,11 +440,141 @@
                     font-size: 1rem;
                 }
                 .descripcion{
-                    font-size: 0.7rem;
+                    font-size: 0.6rem;
+                    text-align: start;
+                    margin-left: 5%;
+                }
+                .foto{
+                    width: 80%;
                 }
             }
         }
     }
+}
+
+@media only screen and (min-width: 483px) and (max-width:590px){
+    .fondo{
+        .header-home{
+            margin-left: 5px;
+            background-color: $bg-header;
+            .menu-inicio{
+                .menu{
+                    display: none;
+                }
+            }
+            .menuHamburguesa{
+                display: block;
+                position: relative;
+                margin-right: 60%;
+                .drw-emi{
+                    width: 80%;
+                    .tatmh, .muralesmh, .tiendamh, .contactomh{
+                        font-family: 'Zen Kurenaido', sans-serif;
+                        background-color: $bg-color;
+                        color: $color-serv;
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+    
+        main{
+            .presentacion{
+                background-repeat: no-repeat;
+                padding: 118px 5px;
+     
+                .texto{
+                 font-size: 1rem;
+                }
+                .text0{
+                    margin-top: 0px;
+                    font-size: 1rem;
+                }
+             }
+     
+             .principal{
+                 padding: 10px 0px 10px 0px;
+                 .ultimos-trabajos{
+                     font-size: 1.2rem;
+                 }
+             }
+             .galeria-img{
+                 padding-bottom: 0px;
+                 .slideEmi{
+                     .carriconprev{
+                         margin: 0px 15px 0px 15px;
+                     }
+                     .carriconnext{
+                         margin: 0px 30px 0px -40px;
+                     }
+                 }
+                 .gombu{
+                     padding-bottom: 0px;
+                     margin-left: 10%;
+                 }
+                 .mercado{
+                     margin: 10px 60px 5px 0px;
+                     font-size: 0.3rem;
+     
+                 }             
+            }
+        }
+        .footer{
+            background-repeat: no-repeat;
+            .tiendabtn{
+                font-size: 0.8rem;
+            }
+            .footerFlex{
+                padding-left: 208px;
+                .tel{
+                    font-size: 0.5rem;
+                }
+               .insta, .wpp{
+                   font-size: 0.5rem;
+               } 
+            }
+            .datadesign{
+                display: flex;
+                margin: 0px;
+                .web{
+                    display: block;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+
+    /*muralesytatoo.html*/
+    .gradiente{
+        .breadEmi{
+            padding-top: 60px;
+        }
+        .tatoo, .murales{
+            margin: 3px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+        .tatoo{
+            margin-bottom: 0px;
+        }
+        .tatooTxt, .muralesTxt{
+            font-size: 2rem;
+        }
+        .diseñosTxt{
+            font-size: 0.8rem;
+        }
+        .diseños{
+            .diseño5, .diseño9, .diseño10, .diseño6, .diseño7, .diseño8, .diseño2, .diseño3{
+                margin: 10px 3px 1px 3px;
+            } 
+        }
+        .fauna{
+            font-size: 1rem;
+        }
+        .imgMural{
+            margin-left: 80px;
+        }
+    }
+    
 }
 
 
