@@ -197,39 +197,38 @@
     }
 
     /*contacto-aboutme.html*/
-    .fondo{
-        main{
-            .contactoAboutMe{
-                .gridContainerEmi{
-                    grid-template-columns: 80% 20%;
-                    .contactoForm{
-                        .TxtContacto{
-                            font-size: 1rem;
-                        }
-                        .formEmi{
-                            font-size: 0.9rem;
-                            margin-left: 10%;
-                        }
-                        .bt-enviar{
-                            margin-left: 100px;
-                            font-size: 0.7rem;
-                        }
+        .contactoAboutMe, .fondo{
+            font-size: 0.5rem;
+            .gridConteinerEmi{
+                display: grid;
+                grid-template-columns: 80% 20%;
+                grid-gap: 4%;
+                .contactoForm{
+                    .TxtContacto{
+                        font-size: 1rem;
                     }
-                    .aboutMe{
-                        .title{
-                            font-size: 1rem;
-                        }
-                        .descripcion{
-                            font-size: 0.3rem;
-                            text-align: start;
-                            margin-left: 7%;
-                        }
-                        .foto{
-                            padding-left: 0px;
-                            width: 80%;
-                        }
+                    .formEmi{
+                        font-size: 0.9rem;
+                        margin-left: 10%;
+                    }
+                    .bt-enviar{
+                        margin-left: 100px;
+                        font-size: 0.7rem;
                     }
                 }
+                .aboutMe{
+                    .title{
+                        font-size: 1rem;
+                    }
+                    .descripcion{
+                        font-size: 0.3rem;
+                        text-align: start;
+                        margin-left: 7%;
+                    }
+                    .foto{
+                        padding-left: 0px;
+                        width: 80%;
+                    }
             }
         }
     }
@@ -251,6 +250,7 @@
             display: block;
             position: relative;
             margin-right: 60%;
+            font-size: 0.8rem;
             .drw-emi{
                 width: 80%;
                 .tatmh, .muralesmh, .tiendamh, .contactomh{
@@ -265,11 +265,11 @@
     main{
         .presentacion{
             display: flex;
-            padding: 10px 10px;
+            padding: 112px 10px;
             background-repeat: no-repeat;
             
             .texto, .text0{
-                font-size: 0.6rem;
+                font-size: 0.8rem;
             }
             .text0{
                 margin:0px;
@@ -278,59 +278,65 @@
         .principal{
             padding: 10px 0px 10px 0px;
             .ultimos-trabajos{
-                font-size: 0.4rem;
+                font-size: 0.8rem;
             }
         }
         .galeria-img{
             padding-bottom: 0px;
            .gombu{
-               margin-left: 8%;
+               margin-left: 15%;
            } 
             .mercado{
                 font-size: 0.3rem;
                 padding-bottom: 0px;
+                margin: 0px 65px 80px 0px;
             }
         }
     }
-    .footer{
-        background-image: none;
-        display: flex;
-        justify-content: flex-start;
-        background-size: 50%;
-        background-repeat: no-repeat;
-        .tiendabtn{
-            font-size: 0.3rem;
-            margin-left: 26%;
-        }
-        .datadesign{
-            padding: 0.3rem;
-            margin: 0rem;
+    .fondo{
+        .footer{
+            background-image: none;
             display: flex;
-            flex-direction: row;
-            font-size: 0.3rem;
-        }
-        .footerFlex{
-            padding: 0.3rem;
-            margin: 0rem;
-            .tel{
+            justify-content: flex-start;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            .tiendabtn{
                 font-size: 0.3rem;
-                padding: 0px;
+                margin-left: 33%;
             }
-            .insta{
+            .datadesign{
+                padding: 0.3rem;
+                margin: 0rem;
+                display: flex;
+                flex-direction: row;
                 font-size: 0.3rem;
-                padding: 0px;
             }
-            .wpp{
-                font-size: 0.3rem;
-                padding: 0px;
+            .footerFlex{
+                padding: 0.3rem;
+                margin: 0rem;
+                .tel{
+                    font-size: 0.3rem;
+                    padding: 0px;
+                }
+                .insta{
+                    font-size: 0.3rem;
+                    padding: 0px;
+                }
+                .wpp{
+                    font-size: 0.3rem;
+                    padding: 0px;
+                }
+    
             }
-
         }
     }
 
     .gradiente{
-        .navEmi{
-            display: none;
+        .breadEmi{
+            padding-top: 36px;
+            .navEmi{
+                display: none;
+            }
         }
 
         .tatoo, .murales{
@@ -340,7 +346,7 @@
             margin-bottom: 0px;
         }
         .tatooTxt, .muralesTxt{
-            font-size: 3rem;
+            font-size: 1rem;
             padding-bottom: 0px;
             margin: 10px;
         }
@@ -363,20 +369,31 @@
         }
 
         .diseñosTxt{
-            font-size: 1rem;
+            font-size: 0.6rem;
         }
         .diseños{
             .diseño5, .diseño9, .diseño10, .diseño6, .diseño7, .diseño8, .diseño2, .diseño3{
                 margin: 10px 5px 3px 5px;
-                
             }
-
+        }
+        .fauna{
+            font-size: 0.5rem;
+        }  
+        .imgMural{
+            margin-left: 50px;
+        }
+        .Bottom{
+            padding-bottom: 20px;
         }
     }
-     /*mas-servicios.html*/
+    
+    /*mas-servicios.html*/
     main {
-        .navEmi{
-            display: none;
+        .breadEmi{
+            padding-top: 36px;
+            .navEmi{
+                display: none;
+            }
         }
         .titleRemera, .titleHoodie, .titleHat{
             font-size: 1rem;
@@ -394,6 +411,35 @@
                 font-size: 0.3rem;
                 padding: 0px 0px 0px 0px;
                 display: block;
+            }
+        }
+    }
+
+    /*contacto-aboutme.html*/
+    .contactoAboutMe{
+        font-size: 0.7rem;
+        .gridConteinerEmi{
+            display: grid;
+            grid-template-columns: 90% 10%;
+            grid-gap: 5%;
+            .contactoForm{
+                .TxtContacto{
+                    font-size: 0.8rem;
+                }
+                .formEmi{
+                    margin-left: 10%;
+                }
+                .bt-enviar{
+                    margin-left: 500px;
+                }
+            }
+            .aboutMe{
+                .title{
+                    font-size: 1rem;
+                }
+                .descripcion{
+                    font-size: 0.7rem;
+                }
             }
         }
     }
