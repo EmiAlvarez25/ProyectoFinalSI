@@ -7,8 +7,8 @@
                                 "descripcion foto";
         grid-template-columns: 50% 50%;
         grid-gap: 10%;
-        margin-top: 10%;
         .contactoForm{
+            margin-top: 30%;
             .TxtContacto{
                 font-size: 2rem;
                 color: darken($colortxt, 10%);

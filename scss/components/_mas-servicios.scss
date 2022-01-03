@@ -6,6 +6,15 @@
 
 
 main{
+    .breadEmi{
+        padding-top: 120px;
+        .navEmi{
+            font-size: 0.6rem;
+            color:$colortxt;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+    }
     .titleRemera{
         color:$color-serv;
         font-size: 2.5rem;
