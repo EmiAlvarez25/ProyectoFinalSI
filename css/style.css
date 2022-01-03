@@ -18,46 +18,42 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
 
 .header-home {
   list-style-type: none;
-  font-weight: bold;
   position: fixed;
   z-index: 10;
+  margin-left: 268px;
+  margin-top: 5px;
 }
 .header-home .menu-inicio {
-  background-color: rgba(80, 84, 102, 0.993);
-  background-size: 100%;
   display: block;
   position: relative;
+  background-color: rgba(93, 94, 100, 0.486);
 }
 .header-home .menu-inicio .menu {
   text-decoration: none;
   list-style-type: none;
   position: relative;
 }
-.header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto {
+.header-home .menu-inicio .menu .inicio, .header-home .menu-inicio .menu .muralesytatoo, .header-home .menu-inicio .menu .mas-servicios, .header-home .menu-inicio .menu .contacto, .header-home .menu-inicio .menu .tienda {
   font-family: "nosifer";
-  font-size: 1rem;
+  font-size: 0.7rem;
   display: inline-block;
   text-decoration: none;
   color: #c600e9;
-  padding: 43px 30px;
+  padding: 0px 30px;
   text-align: center;
   position: relative;
   z-index: 10;
 }
-.header-home .menu-inicio .menu .inicio:hover, .header-home .menu-inicio .menu .muralesytatoo:hover, .header-home .menu-inicio .menu .mas-servicios:hover, .header-home .menu-inicio .menu .contacto:hover {
+.header-home .menu-inicio .menu .inicio:hover, .header-home .menu-inicio .menu .muralesytatoo:hover, .header-home .menu-inicio .menu .mas-servicios:hover, .header-home .menu-inicio .menu .contacto:hover, .header-home .menu-inicio .menu .tienda:hover {
   background-color: black;
   color: blanchedalmond;
   cursor: pointer;
 }
-.header-home .menu-inicio .menu .navcarrito {
-  display: block;
-  position: relative;
-}
-.header-home .menu-inicio .menu .navcarrito .carrito {
+.header-home .menu-inicio .menu .tienda .carrito {
   display: inline-block;
-  width: 25%;
-  padding-right: 10px;
-  z-index: -10;
+  width: 20%;
+  margin-top: 20px;
+  z-index: 10;
 }
 .header-home .menuHamburguesa {
   display: none;

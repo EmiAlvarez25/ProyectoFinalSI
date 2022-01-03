@@ -1,25 +1,26 @@
 .header-home{
             list-style-type: none;
-            font-weight: bold;
             position: fixed;    
-            z-index: 10;   
+            z-index: 10;
+            margin-left: 268px; 
+            margin-top: 5px;
+            
     .menu-inicio{
-        background-color: $color-murales;
-        background-size: 100%;
         display: block;
         position: relative;
+        background-color: $bg-header;
         .menu{
                 @extend %dp-flex;
                 text-decoration: none;
                 list-style-type: none;
                 position: relative;                   
-                .inicio, .muralesytatoo, .mas-servicios, .contacto{
+                .inicio, .muralesytatoo, .mas-servicios, .contacto, .tienda{
                     font-family: "nosifer";
-                    font-size: 1rem;
+                    font-size: 0.7rem;
                     display: inline-block;
                     text-decoration: none;
                     color: $colortxt;
-                    padding: 43px 30px;
+                    padding: 0px 30px;
                     text-align: center;
                     position:relative;
                     z-index: 10;
@@ -30,18 +31,16 @@
                         cursor: pointer;
         
                     }
-            }
-        
-            .navcarrito{
-                display: block;
-                position: relative;
-                .carrito{
-                    display: inline-block;
-                    width: 25%;
-                    padding-right: 10px; 
-                    z-index: -10;
-                }
-            }
+                }  
+            
+                .tienda{
+                    .carrito{
+                        display: inline-block;
+                        width: 20%; 
+                        margin-top: 20px;
+                        z-index: 10;
+                    }
+                }         
         }    
 
     }
