@@ -421,7 +421,10 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   main .titleRemera, main .titleHoodie, main .titleHat {
     font-size: 1rem;
     margin: 10% 10%;
-    padding: 10px 0px;
+    padding: 20px 0px 10px 0px;
+  }
+  main .titleRemera .product, main .titleHoodie .product, main .titleHat .product {
+    margin: 0rem;
   }
   main .gridRemeras, main .gridBuzos, main .gridGorras {
     margin: 0% 10% 0% 10%;
@@ -1456,7 +1459,10 @@ main .gridGorras, main .gridBuzos, main .gridRemeras {
   main .titleRemera, main .titleHoodie, main .titleHat {
     font-size: 1rem;
     margin: 10% 10%;
-    padding: 10px 0px;
+    padding: 20px 0px 10px 0px;
+  }
+  main .titleRemera .product, main .titleHoodie .product, main .titleHat .product {
+    margin: 0rem;
   }
   main .gridRemeras, main .gridBuzos, main .gridGorras {
     margin: 0% 10% 0% 10%;
@@ -2223,7 +2229,10 @@ main .precio-shirt {
   main .titleRemera, main .titleHoodie, main .titleHat {
     font-size: 1rem;
     margin: 10% 10%;
-    padding: 10px 0px;
+    padding: 20px 0px 10px 0px;
+  }
+  main .titleRemera .product, main .titleHoodie .product, main .titleHat .product {
+    margin: 0rem;
   }
   main .gridRemeras, main .gridBuzos, main .gridGorras {
     margin: 0% 10% 0% 10%;

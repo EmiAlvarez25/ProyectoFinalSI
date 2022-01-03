@@ -398,7 +398,10 @@
         .titleRemera, .titleHoodie, .titleHat{
             font-size: 1rem;
             margin:10% 10%;
-            padding: 10px 0px;
+            padding: 20px 0px 10px 0px;
+            .product{
+                margin: 0rem;
+            }
         }
         .gridRemeras, .gridBuzos, .gridGorras{
             margin: 0% 10% 0% 10%;
